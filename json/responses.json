@@ -463,7 +463,7 @@
     "pasos": [
         "Para indicarte el precio, necesito que me envíes una foto del material o instalación."
     ]
-}
+},
 "filtro_caldera_sucio": {
     "pasos": ["Limpia o sustituye el filtro de la caldera según el manual. Si el flujo de agua sigue bajo, llama a un técnico."]
   }
