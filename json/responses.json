@@ -1,470 +1,839 @@
 {
   "termo": {
-    "pasos": ["Disponemos de termos de 50L y termos digitales con control de temperatura."]
+    "pasos": [
+      "Disponemos de termos de 50L y termos digitales con control de temperatura."
+    ]
   },
   "fuga": {
-    "pasos": ["Cierra la llave de paso.", "Revisa juntas, válvulas y tuberías.", "Si es PVC, asegúrate de que la unión esté limpia y seca antes de aplicar adhesivo."]
+    "pasos": [
+      "Cierra la llave de paso.",
+      "Revisa juntas, válvulas y tuberías.",
+      "Si es PVC, asegúrate de que la unión esté limpia y seca antes de aplicar adhesivo."
+    ]
   },
   "grifo": {
-    "pasos": ["Los grifos de cocina incluyen monomando y bimando.", "Para instalación, usa cinta de teflón en roscas y aprieta con llave ajustable sin dañar la pieza."]
+    "pasos": [
+      "Los grifos de cocina incluyen monomando y bimando.",
+      "Para instalación, usa cinta de teflón en roscas y aprieta con llave ajustable sin dañar la pieza."
+    ]
   },
   "bañera": {
-    "pasos": ["Disponemos de bañeras y duchas modernas.", "Para instalación, verifica que la salida de desagüe esté alineada y que la pendiente permita evacuación correcta del agua."]
+    "pasos": [
+      "Disponemos de bañeras y duchas modernas.",
+      "Para instalación, verifica que la salida de desagüe esté alineada y que la pendiente permita evacuación correcta del agua."
+    ]
   },
   "precio": {
-    "pasos": ["Los precios dependen del producto.", "Consulta la sección de productos o contáctanos por WhatsApp para recibir un presupuesto personalizado."]
+    "pasos": [
+      "Los precios dependen del producto.",
+      "Consulta la sección de productos o contáctanos por WhatsApp para recibir un presupuesto personalizado."
+    ]
   },
   "reparación": {
-    "pasos": ["Ofrecemos servicios de reparación de fontanería a domicilio, incluyendo grifos, termos, duchas y desagües."]
+    "pasos": [
+      "Ofrecemos servicios de reparación de fontanería a domicilio, incluyendo grifos, termos, duchas y desagües."
+    ]
   },
   "calefacción": {
-    "pasos": ["Podemos instalar y reparar sistemas de calefacción central y radiadores.", "Verifica la presión de agua y purga los radiadores antes de ponerlo en marcha."]
+    "pasos": [
+      "Podemos instalar y reparar sistemas de calefacción central y radiadores.",
+      "Verifica la presión de agua y purga los radiadores antes de ponerlo en marcha."
+    ]
   },
   "cisterna": {
-    "pasos": ["Para problemas con cisternas, revisa el mecanismo de flotador y la válvula de entrada.", "Sustituye piezas desgastadas si el agua no para de correr."]
+    "pasos": [
+      "Para problemas con cisternas, revisa el mecanismo de flotador y la válvula de entrada.",
+      "Sustituye piezas desgastadas si el agua no para de correr."
+    ]
   },
   "desagüe": {
-    "pasos": ["Si el desagüe está atascado, utiliza un desatascador manual o químico adecuado.", "Evita introducir objetos sólidos que puedan causar bloqueo permanente."]
+    "pasos": [
+      "Si el desagüe está atascado, utiliza un desatascador manual o químico adecuado.",
+      "Evita introducir objetos sólidos que puedan causar bloqueo permanente."
+    ]
   },
   "mantenimiento": {
-    "pasos": ["Recomendamos mantenimiento preventivo anual: revisión de juntas, limpieza de filtros, purga de radiadores y comprobación de válvulas y grifos."]
+    "pasos": [
+      "Recomendamos mantenimiento preventivo anual: revisión de juntas, limpieza de filtros, purga de radiadores y comprobación de válvulas y grifos."
+    ]
   },
   "agua caliente": {
-    "pasos": ["Si el agua caliente falla, verifica la resistencia del termo, la presión de entrada y el termostato.", "Asegúrate de que el enchufe esté conectado correctamente."]
+    "pasos": [
+      "Si el agua caliente falla, verifica la resistencia del termo, la presión de entrada y el termostato.",
+      "Asegúrate de que el enchufe esté conectado correctamente."
+    ]
   },
   "instalación": {
-    "pasos": ["Para instalación de cualquier equipo, sigue las instrucciones del fabricante.", "Utiliza herramientas adecuadas y precaución con la presión de agua."]
+    "pasos": [
+      "Para instalación de cualquier equipo, sigue las instrucciones del fabricante.",
+      "Utiliza herramientas adecuadas y precaución con la presión de agua."
+    ]
   },
   "tubería": {
-    "pasos": ["Para tuberías de cobre, utiliza soldadura con estaño y flux.", "Para PVC, usa adhesivo especial y respeta el tiempo de secado antes de llenar con agua."]
+    "pasos": [
+      "Para tuberías de cobre, utiliza soldadura con estaño y flux.",
+      "Para PVC, usa adhesivo especial y respeta el tiempo de secado antes de llenar con agua."
+    ]
   },
   "manguera": {
-    "pasos": ["Al instalar mangueras flexibles, evita torsiones y asegúrate de que los racores estén bien apretados para evitar fugas."]
+    "pasos": [
+      "Al instalar mangueras flexibles, evita torsiones y asegúrate de que los racores estén bien apretados para evitar fugas."
+    ]
   },
   "problema": {
-    "pasos": ["Explícanos tu problema con detalle y te indicaremos la mejor solución técnica."]
+    "pasos": [
+      "Explícanos tu problema con detalle y te indicaremos la mejor solución técnica."
+    ]
   },
   "ayuda": {
-    "pasos": ["Puedes contactarnos por WhatsApp para recibir soporte en tiempo real y resolver cualquier incidencia."]
+    "pasos": [
+      "Puedes contactarnos por WhatsApp para recibir soporte en tiempo real y resolver cualquier incidencia."
+    ]
   },
-"tuberiasObstruidas": {
-  "pasos": ["Si las tuberías están obstruidas, utiliza un desatascador o un limpiador químico seguro.", "Si el problema persiste, contacta con nuestro fontanero vía WhatsApp para una intervención profesional."]
-},
-"grifoGotea": {
-  "pasos": ["Un grifo que gotea suele necesitar cambiar la arandela o el cartucho.", "Si no estás seguro de cómo hacerlo, llámanos para recibir asistencia técnica."]
-},
-"calefaccionNoCalienta": {
-  "pasos": ["Verifica que el sistema de calefacción tenga agua y presión suficiente.", "Si sigue sin funcionar, un fontanero profesional puede revisar válvulas y radiadores. Contacta por WhatsApp."]
-},
-"termoNoEnciende": {
-  "pasos": ["Comprueba que el termo esté enchufado y que el interruptor esté activo.", "Para problemas eléctricos o de resistencia, contacta con nuestro fontanero especializado."]
-},
-"fugaAguaSotano": {
-  "pasos": ["Cierra la llave de paso principal inmediatamente.", "Evita usar aparatos eléctricos en la zona y contacta con nuestro fontanero para una revisión urgente."]
-},
-"bañeraAtascada": {
-  "pasos": ["Usa un desatascador o serpiente de fontanero para eliminar obstrucciones.", "Si no se resuelve, llama a nuestro fontanero para evitar daños mayores."]
-},
-"cisternaGotea": {
-  "pasos": ["Revisa el mecanismo de flotador y la válvula de entrada.", "Si persiste la fuga, contacta con nuestro fontanero vía WhatsApp para reparación profesional."]
-},
-"instalacionGrifo": {
-  "pasos": ["Sigue las instrucciones del fabricante y usa cinta de teflón en roscas.", "Para instalación segura y evitar fugas, un fontanero profesional puede ayudarte."]
-},
-"mantenimientoAnual": {
-  "pasos": ["Realiza revisión de juntas, limpieza de filtros, purga de radiadores y comprobación de válvulas y grifos cada año.", "Si necesitas asistencia, contacta con nuestro equipo especializado."]
-},
-"problemaGeneral": {
-  "pasos": ["Explícanos tu problema con detalle.", "Nuestro fontanero te indicará la mejor solución técnica y te guiará a través de WhatsApp."]
-},
-"fugaCaldera": {
-  "pasos": ["Si detectas una fuga en la caldera, cierra la llave de paso del agua y apaga el aparato.", "Contacta inmediatamente con nuestro fontanero certificado para revisión y reparación."]
-},
-"grifoFrio": {
-  "pasos": ["Si el agua sale fría, verifica la temperatura del termo o calentador.", "Para ajustes seguros y revisiones técnicas, nuestro fontanero puede ayudarte vía WhatsApp."]
-},
-"duchaNoSaleAgua": {
-  "pasos": ["Comprueba que la llave de paso de la ducha esté abierta y que no haya obstrucciones.", "Si el problema persiste, contacta con nuestro fontanero profesional."]
-},
-"radiadorFrio": {
-  "pasos": ["Purgar los radiadores puede eliminar aire atrapado y mejorar el calor.", "Si no mejora, nuestro fontanero puede revisar válvulas y el sistema de calefacción central."]
-},
-"tuberiaRota": {
-  "pasos": ["Cierra la llave de paso y seca la zona afectada para evitar daños mayores.", "Contacta con nuestro fontanero urgente para reparación profesional."]
-},
-"termoGotea": {
-  "pasos": ["Si el termo tiene fugas, revisa conexiones y válvula de seguridad.", "Si persiste, llama a nuestro fontanero especializado para una solución segura."]
-},
-"desagueLento": {
-  "pasos": ["Limpia el sifón y usa un desatascador manual.", "Para desagües rebeldes, nuestro fontanero puede intervenir y evitar problemas mayores."]
-},
-"grifoNoCierra": {
-  "pasos": ["Suele requerir cambio de arandela o cartucho.", "Para evitar daños y fugas, contacta con nuestro fontanero vía WhatsApp."]
-},
-"duchaAtascada": {
-  "pasos": ["Retira la alcachofa y limpia posibles residuos de cal o sedimentos.", "Si no mejora, llama a nuestro fontanero para mantenimiento especializado."]
-},
-"calefaccionFugas": {
-  "pasos": ["Localiza la fuga y cierra la llave de paso del circuito.", "Contacta con nuestro fontanero profesional para reparación segura y rápida."]
-},
-"filtro": {
-  "pasos": ["Si el filtro está obstruido, límpialo o sustitúyelo según el tipo de instalación.", "Para casos complejos, contacta con nuestro fontanero a domicilio."]
-},
-"caldera": {
-  "pasos": ["Verifica el encendido y la presión del agua.", "Si persiste el fallo, no manipules la caldera y llama a un profesional."]
-},
-"radiador": {
-  "pasos": ["Purgar radiadores puede mejorar el flujo de agua y el calor.", "Si el radiador sigue frío, revisa la válvula de entrada y contacta a un fontanero."]
-},
-"tubo roto": {
-  "pasos": ["Cierra la llave de paso inmediatamente.", "Evita usar la instalación hasta que un técnico lo repare."]
-},
-"inodoro": {
-  "pasos": ["Si el inodoro no descarga, revisa que la cisterna esté llena y que el mecanismo funcione correctamente.", "Para problemas persistentes, llama a nuestro servicio de fontanería."]
-},
-"descalcificador": {
-  "pasos": ["Revisa el nivel de sal y la configuración del descalcificador.", "Si el equipo no funciona, nuestro fontanero puede ayudarte a calibrarlo."]
-},
-"reparar fuga": {
-  "pasos": ["Localiza la fuga y cierra la llave de paso.", "Aplica cinta de reparación temporal y contacta a un profesional para una solución definitiva."]
-},
-"tapa wc": {
-  "pasos": ["Para reemplazar la tapa, asegúrate de que los tornillos coincidan con el modelo.", "Si hay dudas, nuestro fontanero puede instalarla de manera segura."]
-},
-"lavabo": {
-  "pasos": ["Si el lavabo gotea, revisa la arandela del grifo o junta de sellado.", "Para reparaciones complejas, llama a nuestro fontanero para evitar daños mayores."]
-},
-"ducha": {
-  "pasos": ["Comprueba la presión y las conexiones de la ducha.", "Si el flujo de agua es irregular o hay fugas, contacta con nuestro servicio profesional."]
-},
-"lavadora": {
-  "pasos": ["Si la lavadora no desagua, revisa la manguera de desagüe y el filtro.", "Si el problema persiste, nuestro fontanero puede revisarla y evitar daños mayores."]
-},
-"secadora": {
-  "pasos": ["Verifica que el conducto de salida de aire no esté obstruido.", "Para problemas internos, contacta a un técnico especializado."]
-},
-"tubería goteando": {
-  "pasos": ["Cierra la llave de paso inmediatamente.", "Identifica la fuga y aplica una reparación temporal si es posible.", "Llama a un fontanero para la reparación definitiva."]
-},
-"agua turbia": {
-  "pasos": ["Comprueba la fuente del suministro y los filtros.", "Si el agua sigue turbia, contacta con nuestro fontanero para inspección profesional."]
-},
-"fregadero": {
-  "pasos": ["Si el fregadero se atasca, usa un desatascador o limpia el sifón.", "Para bloqueos persistentes, nuestro fontanero puede resolverlo de manera segura."]
-},
-"llave rota": {
-  "pasos": ["Cierra la llave de paso antes de intentar cualquier reparación.", "Para reemplazo seguro, contacta a un fontanero."]
-},
-"tubería congelada": {
-  "pasos": ["Descongela la tubería con precaución usando agua tibia o calefactor.", "Evita usar llamas directas y llama a un profesional si hay riesgo de rotura."]
-},
-"agua con mal olor": {
-  "pasos": ["Limpia filtros y desagües.", "Si el olor persiste, nuestro fontanero puede inspeccionar la instalación y resolverlo."]
-},
-"instalación nueva": {
-  "pasos": ["Sigue las instrucciones del fabricante y utiliza herramientas adecuadas.", "Para instalaciones complejas, es recomendable contar con un fontanero profesional."]
-},
-"emergencia 24h": {
-  "pasos": ["Si ocurre una emergencia de fontanería, cierra la llave general de paso.", "Contacta inmediatamente a nuestro servicio de fontanería 24 horas para asistencia rápida."]
-},
-"ducha": {
-  "pasos": ["Si la ducha pierde presión, revisa el cabezal y el filtro.", "Si el problema persiste, llama a un fontanero para una inspección profesional."]
-},
-"reparación termo": {
-  "pasos": ["Si el termo eléctrico no calienta correctamente, revisa la resistencia y el termostato.", "Para seguridad y reparación definitiva, contacta a un fontanero especializado."]
-},
-"grifos que gotean": {
-  "pasos": ["Cierra la llave de paso y revisa arandelas y juntas.", "Si el goteo continúa, nuestro fontanero puede reemplazar las piezas correctamente."]
-},
-"tubería rota": {
-  "pasos": ["Cierra inmediatamente la llave de paso.", "Llama a un fontanero para reemplazo seguro y evitar daños mayores."]
-},
-"cisterna fugas": {
-  "pasos": ["Revisa el mecanismo del flotador y la válvula de entrada.", "Si el problema persiste, contacta a un fontanero para reparación definitiva."]
-},
-"desagüe lento": {
-  "pasos": ["Utiliza un desatascador o limpiador químico seguro.", "Para bloqueos recurrentes, un fontanero puede limpiar y prevenir futuros problemas."]
-},
-"problema calefacción": {
-  "pasos": ["Verifica la presión de agua y purga los radiadores.", "Si no funciona correctamente, contacta a un fontanero especializado en calefacción."]
-},
-"mantenimiento anual": {
-  "pasos": ["Revisa juntas, limpieza de filtros, purga de radiadores y válvulas.", "Nuestro fontanero puede realizar un mantenimiento preventivo completo."]
-},
-"fuga gas": {
-  "pasos": ["Si detectas olor a gas, ventila el área inmediatamente y no enciendas llamas.", "Contacta a un técnico autorizado y a un fontanero de confianza para revisión."]
-},
-"emergencia agua": {
-  "pasos": ["Cierra la llave general de paso inmediatamente.", "Llama a nuestro servicio de fontanería 24h para asistencia urgente."]
-},
-"shower": {
-  "steps": ["If the shower pressure is low, check the showerhead and filter.", "If the problem persists, call a plumber for a professional inspection."]
-},
-"water heater repair": {
-  "steps": ["If the electric water heater isn't heating properly, check the heating element and thermostat.", "For safety and proper repair, contact a specialized plumber."]
-},
-"leaky faucets": {
-  "steps": ["Turn off the main valve and check washers and seals.", "If dripping continues, our plumber can replace the parts correctly."]
-},
-"broken pipe": {
-  "steps": ["Immediately turn off the main valve.", "Call a plumber for a safe replacement and to prevent further damage."]
-},
-"toilet leaks": {
-  "steps": ["Check the float mechanism and inlet valve.", "If the issue continues, contact a plumber for a permanent fix."]
-},
-"slow drain": {
-  "steps": ["Use a plunger or safe chemical cleaner.", "For recurring clogs, a plumber can clean and prevent future issues."]
-},
-"heating problem": {
-  "steps": ["Check water pressure and bleed radiators.", "If it still doesn’t work properly, contact a heating-specialized plumber."]
-},
-"annual maintenance": {
-  "steps": ["Check seals, clean filters, bleed radiators and valves.", "Our plumber can perform a complete preventive maintenance."]
-},
-"gas leak": {
-  "steps": ["If you smell gas, ventilate the area immediately and do not ignite flames.", "Contact a certified technician and a trusted plumber for inspection."]
-},
-"water emergency": {
-  "steps": ["Turn off the main water valve immediately.", "Call our 24-hour plumbing service for urgent assistance."]
-},
-"calentador de agua averiado": {
-  "pasos": ["Si el agua caliente no funciona, revisa la alimentación eléctrica y los fusibles.", "Para una reparación segura y rápida, contacta a un fontanero certificado."]
-},
-"filtro de agua obstruido": {
-  "pasos": ["Revisa y limpia los filtros del sistema de agua.", "Si el flujo no mejora, un fontanero puede reemplazar filtros de forma profesional."]
-},
-"ruptura de válvula": {
-  "pasos": ["Cierra la llave general de agua inmediatamente.", "Un fontanero puede instalar una nueva válvula sin riesgos."]
-},
-"revisión de bomba": {
-  "pasos": ["Si la presión de agua es baja, verifica la bomba de presión.", "Para ajustar o reemplazar la bomba, llama a un fontanero especializado."]
-},
-"humedad en tuberías": {
-  "pasos": ["Si notas humedad alrededor de tuberías visibles, revisa posibles fugas.", "Un fontanero puede localizar y reparar fugas ocultas."]
-},
-"grifo bloqueado": {
-  "pasos": ["Si el grifo no abre o cierra correctamente, revisa el cartucho o la maneta.", "Si persiste, un fontanero puede hacer un reemplazo seguro."]
-},
-"cisterna con goteo": {
-  "pasos": ["Verifica que el mecanismo de llenado y la válvula funcionen.", "Si el goteo continúa, contacta a un fontanero para evitar desperdicio de agua."]
-},
-"radiador frío": {
-  "pasos": ["Purge el radiador para liberar aire atrapado.", "Si sigue frío, llama a un fontanero especializado en calefacción."]
-},
-"atasco de fregadero": {
-  "pasos": ["Usa un desatascador o un limpiador seguro.", "Para problemas persistentes, un fontanero puede desatascar y limpiar la tubería completamente."]
-},
-"tubería corroída": {
-  "pasos": ["Si observas corrosión, evita usar la tubería intensamente.", "Un fontanero puede reemplazar la sección afectada y prevenir fugas futuras."]
-},
-"aerotermia": {
-  "pasos": ["Si tu sistema de aerotermia no calienta o enfría correctamente, revisa la alimentación eléctrica y la presión del circuito.", "Para un diagnóstico preciso y seguro, contacta a un fontanero o técnico certificado en aerotermia."]
-},
-"aerotermia_ariston_A2": {
-  "pasos": ["Código de error A2: indica fallo en el sensor de temperatura del evaporador.", "Verifica que no haya obstrucciones en la unidad exterior y que las conexiones del sensor estén firmes.", "Si el problema persiste, contacta a un técnico certificado de Ariston."]
-},
-"aerotermia_ariston_A3": {
-  "pasos": ["Código de error A3: fallo en la presión del refrigerante.", "Comprueba que no haya fugas y que el sistema tenga la carga correcta de refrigerante.", "Llama a un profesional especializado en aerotermia para realizar la intervención segura."]
-},
-"caldera_junkers_F0": {
-  "pasos": ["Código de error F0: fallo en la llama o encendido.", "Asegúrate de que la alimentación de gas esté abierta y que no haya obstrucciones en los conductos.", "Si el error persiste, contacta a un instalador autorizado de Junkers."]
-},
-"caldera_junkers_F3": {
-  "pasos": ["Código de error F3: fallo en el termostato de seguridad.", "Revisa la conexión del termostato y su correcto funcionamiento.", "Para seguridad y reparación, llama a un técnico certificado."]
-},
-"aerotermia_ariston_A2": {
-  "pasos": ["Código A2: fallo en el sensor de temperatura del evaporador.", "Verifica conexiones y que no haya obstrucciones en la unidad exterior.", "Si persiste, contacta a un técnico certificado de Ariston."]
-},
-"aerotermia_ariston_A3": {
-  "pasos": ["Código A3: fallo en la presión del refrigerante.", "Comprueba fugas y carga correcta de refrigerante.", "Contacta a un profesional especializado en aerotermia."]
-},
-"aerotermia_ariston_A4": {
-  "pasos": ["Código A4: fallo en el compresor.", "No intente reparar el compresor usted mismo.", "Llame a un técnico certificado inmediatamente."]
-},
-"aerotermia_ariston_A5": {
-  "pasos": ["Código A5: sobrecalentamiento de la unidad interior.", "Revise que los filtros estén limpios y la ventilación libre.", "Si continúa, contacte a un técnico."]
-},
-"aerotermia_ariston_A6": {
-  "pasos": ["Código A6: fallo de comunicación entre unidad interior y exterior.", "Verifique los cables y conexiones.", "Llame a un técnico si el problema persiste."]
-},
-"aerotermia_ariston_A7": {
-  "pasos": ["Código A7: detección de hielo en el evaporador.", "Espere a que el ciclo de deshielo termine.", "Si el error sigue apareciendo, contacte a un especialista."]
-},
-"caldera_junkers_F0": {
-  "pasos": ["Código F0: fallo en la llama o encendido.", "Asegúrese de que la alimentación de gas esté abierta y conductos libres.", "Llame a un instalador autorizado de Junkers."]
-},
-"caldera_junkers_F1": {
-  "pasos": ["Código F1: fallo en el encendido de la bomba.", "Revise la alimentación eléctrica y la bomba.", "Contacte a un técnico certificado si persiste."]
-},
-"caldera_junkers_F2": {
-  "pasos": ["Código F2: fallo de presión de agua.", "Compruebe la presión en el manómetro y rellene si es necesario.", "Si el problema continúa, llame a un profesional."]
-},
-"caldera_junkers_F3": {
-  "pasos": ["Código F3: fallo en el termostato de seguridad.", "Verifique conexiones y termostato.", "Para seguridad y reparación, contacte a un técnico certificado."]
-},
-"caldera_junkers_F4": {
-  "pasos": ["Código F4: fallo en el sensor de temperatura de ida.", "Compruebe cableado y sensores.", "Contacte a un técnico para reemplazo si es necesario."]
-},
-"caldera_junkers_F5": {
-  "pasos": ["Código F5: bloqueo por falta de circulación.", "Verifique que la bomba circule correctamente y no haya aire en el circuito.", "Llame a un especialista si no se resuelve."]
-},
-"caldera_junkers_F6": {
-  "pasos": ["Código F6: fallo en la válvula de gas.", "No intente abrirla usted mismo.", "Contacte a un técnico certificado de inmediato."]
-},
-"caldera_junkers_F7": {
-  "pasos": ["Código F7: sobrecalentamiento por acumulación de cal.", "Revise limpieza y mantenimiento del intercambiador.", "Llame a un profesional si el error continúa."]
-},
-"caldera_junkers_F8": {
-  "pasos": ["Código F8: fallo en el sensor de humos.", "Verifique que la salida de gases esté libre.", "Contacte a un técnico si persiste."]
-},
-"caldera_junkers_F9": {
-  "pasos": ["Código F9: fallo de comunicación interna.", "Reinicie la caldera y revise conexiones.", "Si continúa, llame a un especialista."]
-},
-"aerotermia_ariston_E1": {
-  "pasos": ["Código E1: fallo en la alimentación eléctrica.", "Compruebe fusibles y tensión de red.", "Contacte a un técnico si el error sigue."]
-},
-"aerotermia_ariston_E2": {
-  "pasos": ["Código E2: fallo del ventilador exterior.", "Verifique que no haya obstrucciones y que el ventilador gire libremente.", "Llame a un profesional si persiste."]
-},
-"aerotermia_ariston_E3": {
-  "pasos": ["Código E3: detección de fuga de refrigerante.", "No manipule el refrigerante usted mismo.", "Contacte a un técnico certificado para recarga o reparación."]
-},
-"aerotermia_ariston_E4": {
-  "pasos": ["Código E4: error en el sensor de temperatura de la unidad interior.", "Revise conexiones y cableado.", "Si el problema continúa, contacte a un técnico."]
-},
-"pregunta_novia": {
-  "pasos": ["Pablo, ¿eres tú?", "Sí, cariño. Sí, Candela. Soy yo. Y te puedo hacer el la la la la."]
-},
-"cómeme": {
-  "pasos": [
-    "😏 Vaya… veo que alguien tiene hambre de atención.",
-    "Si quieres que te 'coma', primero tendrás que invitarme a un café ☕😉",
-    "Recuerda: ¡el Fontanero Virtual solo arregla tuberías, pero puede arreglar tu humor también! 😎"
-  ]
-},
-"pablo": {
-  "pasos": [
-    "Sí, cariño. Sí, Candela. Soy yo.",
-    "Y te puedo hacer la la la la 🎵😉"
-  ]
-},
-"atrevido": {
-  "pasos": [
-    "Vaya, alguien está probando límites… 😏",
-    "Recuerda que el Fontanero Virtual solo repara tuberías… y tal vez corazones 💌"
-  ]
-},
-"cariño": {
-  "pasos": [
-    "Siempre aquí para ti ❤️",
-    "Con un abrazo virtual que vale por mil reales 🤗"
-  ]
-},
-"coquetería": {
-  "pasos": [
-    "😉 Vaya, parece que hoy toca coquetear un poco…",
-    "Si sigues así, voy a tener que pasar al modo enamorado 💌"
-  ]
-},
-"travieso": {
-  "pasos": [
-    "😏 Alguien está de travesuras hoy…",
-    "El Fontanero Virtual aprueba, pero con moderación 😎"
-  ]
-},
-"bañador": {
-  "pasos": [
-    "😏 Vaya, alguien quiere presumir su bañador…",
-    "Fontanero Virtual dice: Me encanta tu culo gordo 🍑🔥",
-    "Recuerda, siempre con humor y respeto 😉"
-  ]
-},
-"aerotermia_A4": {
-  "pasos": [
-    "Error A4 en aerotermia NUOS/EVO: fallo en el ventilador interno.",
-    "Apaga el sistema, comprueba que no haya obstrucciones y reinicia. Si persiste, contacta con servicio técnico."
-  ]
-},
-"aerotermia_A5": {
-  "pasos": [
-    "Error A5: sobretemperatura del acumulador.",
-    "Comprueba la válvula de seguridad y el termostato. Llama a un técnico si no se soluciona."
-  ]
-},
-"caldera_Junkers_E2": {
-  "pasos": [
-    "Error E2: fallo en el encendido de llama piloto.",
-    "Asegúrate de que hay gas y la válvula esté abierta. Contacta con técnico autorizado si el error persiste."
-  ]
-},
-"caldera_Junkers_E3": {
-  "pasos": [
-    "Error E3: fallo en el encendido del quemador principal.",
-    "Revisa la presión de gas y las conexiones eléctricas. Llama a un profesional certificado."
-  ]
-},
-"placa_solar_baja_producción": {
-  "pasos": [
-    "Si la placa solar genera poca energía, revisa la orientación y limpieza de los paneles.",
-    "Comprueba el regulador y los cables de conexión. Contacta con un instalador certificado si el problema continúa."
-  ]
-},
-"termo_fuga_agua": {
-  "pasos": [
-    "Si el termo presenta fuga de agua, cierra la llave de paso inmediatamente.",
-    "Verifica juntas, racores y válvula de seguridad. Para reparaciones internas, llama a un técnico."
-  ]
-},
-"tuberia_obstruida": {
-  "pasos": [
-    "Para tuberías obstruidas, utiliza desatascador o productos adecuados.",
-    "Evita usar objetos sólidos que puedan dañar la tubería. Si el problema persiste, consulta con un fontanero."
-  ]
-},
-"grifo_gotea": {
-  "pasos": [
-    "Si el grifo gotea, revisa la junta y aprieta la tuerca sin dañar la pieza.",
-    "Si la fuga continúa, reemplaza la arandela o llama a un técnico."
-  ]
-},
-"cisterna_no_cierra": {
-  "pasos": [
-    "Si la cisterna no cierra, revisa flotador y válvula de entrada.",
-    "Sustituye piezas desgastadas y prueba el mecanismo. Si no se soluciona, contacta a un fontanero."
-  ]
-},
-"calefaccion_no_calienta": {
-  "pasos": [
-    "Si la calefacción no calienta, revisa presión y purga de radiadores.",
-    "Comprueba termostatos y conexiones. Llama a un profesional si sigue sin funcionar."
-  ]
-},
-"hola": {
+  "tuberiasObstruidas": {
     "pasos": [
-        "¡Hola! 👋 Soy tu Fontanero Virtual. ¿En qué puedo ayudarte hoy?"
+      "Si las tuberías están obstruidas, utiliza un desatascador o un limpiador químico seguro.",
+      "Si el problema persiste, contacta con nuestro fontanero vía WhatsApp para una intervención profesional."
     ]
-},
-"presupuesto": {
+  },
+  "grifoGotea": {
     "pasos": [
-        "Para darte un presupuesto exacto, por favor envíame una foto del trabajo o equipo a revisar."
+      "Un grifo que gotea suele necesitar cambiar la arandela o el cartucho.",
+      "Si no estás seguro de cómo hacerlo, llámanos para recibir asistencia técnica."
     ]
-},
-"necesito un presupuesto": {
+  },
+  "calefaccionNoCalienta": {
     "pasos": [
-        "Perfecto, envíame una foto del trabajo o equipo y te daré un presupuesto estimado."
+      "Verifica que el sistema de calefacción tenga agua y presión suficiente.",
+      "Si sigue sin funcionar, un fontanero profesional puede revisar válvulas y radiadores. Contacta por WhatsApp."
     ]
-},
-"necesito una valoración": {
+  },
+  "termoNoEnciende": {
     "pasos": [
-        "Claro, envíame una foto para que pueda valorar el trabajo correctamente."
+      "Comprueba que el termo esté enchufado y que el interruptor esté activo.",
+      "Para problemas eléctricos o de resistencia, contacta con nuestro fontanero especializado."
     ]
-},
-"necesito el precio": {
+  },
+  "fugaAguaSotano": {
     "pasos": [
-        "Para indicarte el precio, necesito que me envíes una foto del material o instalación."
+      "Cierra la llave de paso principal inmediatamente.",
+      "Evita usar aparatos eléctricos en la zona y contacta con nuestro fontanero para una revisión urgente."
     ]
-},
-"filtro_caldera_sucio": {
-    "pasos": ["Limpia o sustituye el filtro de la caldera según el manual. Si el flujo de agua sigue bajo, llama a un técnico."]
+  },
+  "bañeraAtascada": {
+    "pasos": [
+      "Usa un desatascador o serpiente de fontanero para eliminar obstrucciones.",
+      "Si no se resuelve, llama a nuestro fontanero para evitar daños mayores."
+    ]
+  },
+  "cisternaGotea": {
+    "pasos": [
+      "Revisa el mecanismo de flotador y la válvula de entrada.",
+      "Si persiste la fuga, contacta con nuestro fontanero vía WhatsApp para reparación profesional."
+    ]
+  },
+  "instalacionGrifo": {
+    "pasos": [
+      "Sigue las instrucciones del fabricante y usa cinta de teflón en roscas.",
+      "Para instalación segura y evitar fugas, un fontanero profesional puede ayudarte."
+    ]
+  },
+  "mantenimientoAnual": {
+    "pasos": [
+      "Realiza revisión de juntas, limpieza de filtros, purga de radiadores y comprobación de válvulas y grifos cada año.",
+      "Si necesitas asistencia, contacta con nuestro equipo especializado."
+    ]
+  },
+  "problemaGeneral": {
+    "pasos": [
+      "Explícanos tu problema con detalle.",
+      "Nuestro fontanero te indicará la mejor solución técnica y te guiará a través de WhatsApp."
+    ]
+  },
+  "fugaCaldera": {
+    "pasos": [
+      "Si detectas una fuga en la caldera, cierra la llave de paso del agua y apaga el aparato.",
+      "Contacta inmediatamente con nuestro fontanero certificado para revisión y reparación."
+    ]
+  },
+  "grifoFrio": {
+    "pasos": [
+      "Si el agua sale fría, verifica la temperatura del termo o calentador.",
+      "Para ajustes seguros y revisiones técnicas, nuestro fontanero puede ayudarte vía WhatsApp."
+    ]
+  },
+  "duchaNoSaleAgua": {
+    "pasos": [
+      "Comprueba que la llave de paso de la ducha esté abierta y que no haya obstrucciones.",
+      "Si el problema persiste, contacta con nuestro fontanero profesional."
+    ]
+  },
+  "radiadorFrio": {
+    "pasos": [
+      "Purgar los radiadores puede eliminar aire atrapado y mejorar el calor.",
+      "Si no mejora, nuestro fontanero puede revisar válvulas y el sistema de calefacción central."
+    ]
+  },
+  "tuberiaRota": {
+    "pasos": [
+      "Cierra la llave de paso y seca la zona afectada para evitar daños mayores.",
+      "Contacta con nuestro fontanero urgente para reparación profesional."
+    ]
+  },
+  "termoGotea": {
+    "pasos": [
+      "Si el termo tiene fugas, revisa conexiones y válvula de seguridad.",
+      "Si persiste, llama a nuestro fontanero especializado para una solución segura."
+    ]
+  },
+  "desagueLento": {
+    "pasos": [
+      "Limpia el sifón y usa un desatascador manual.",
+      "Para desagües rebeldes, nuestro fontanero puede intervenir y evitar problemas mayores."
+    ]
+  },
+  "grifoNoCierra": {
+    "pasos": [
+      "Suele requerir cambio de arandela o cartucho.",
+      "Para evitar daños y fugas, contacta con nuestro fontanero vía WhatsApp."
+    ]
+  },
+  "duchaAtascada": {
+    "pasos": [
+      "Retira la alcachofa y limpia posibles residuos de cal o sedimentos.",
+      "Si no mejora, llama a nuestro fontanero para mantenimiento especializado."
+    ]
+  },
+  "calefaccionFugas": {
+    "pasos": [
+      "Localiza la fuga y cierra la llave de paso del circuito.",
+      "Contacta con nuestro fontanero profesional para reparación segura y rápida."
+    ]
+  },
+  "filtro": {
+    "pasos": [
+      "Si el filtro está obstruido, límpialo o sustitúyelo según el tipo de instalación.",
+      "Para casos complejos, contacta con nuestro fontanero a domicilio."
+    ]
+  },
+  "caldera": {
+    "pasos": [
+      "Verifica el encendido y la presión del agua.",
+      "Si persiste el fallo, no manipules la caldera y llama a un profesional."
+    ]
+  },
+  "radiador": {
+    "pasos": [
+      "Purgar radiadores puede mejorar el flujo de agua y el calor.",
+      "Si el radiador sigue frío, revisa la válvula de entrada y contacta a un fontanero."
+    ]
+  },
+  "tubo roto": {
+    "pasos": [
+      "Cierra la llave de paso inmediatamente.",
+      "Evita usar la instalación hasta que un técnico lo repare."
+    ]
+  },
+  "inodoro": {
+    "pasos": [
+      "Si el inodoro no descarga, revisa que la cisterna esté llena y que el mecanismo funcione correctamente.",
+      "Para problemas persistentes, llama a nuestro servicio de fontanería."
+    ]
+  },
+  "descalcificador": {
+    "pasos": [
+      "Revisa el nivel de sal y la configuración del descalcificador.",
+      "Si el equipo no funciona, nuestro fontanero puede ayudarte a calibrarlo."
+    ]
+  },
+  "reparar fuga": {
+    "pasos": [
+      "Localiza la fuga y cierra la llave de paso.",
+      "Aplica cinta de reparación temporal y contacta a un profesional para una solución definitiva."
+    ]
+  },
+  "tapa wc": {
+    "pasos": [
+      "Para reemplazar la tapa, asegúrate de que los tornillos coincidan con el modelo.",
+      "Si hay dudas, nuestro fontanero puede instalarla de manera segura."
+    ]
+  },
+  "lavabo": {
+    "pasos": [
+      "Si el lavabo gotea, revisa la arandela del grifo o junta de sellado.",
+      "Para reparaciones complejas, llama a nuestro fontanero para evitar daños mayores."
+    ]
+  },
+  "ducha": {
+    "pasos": [
+      "Si la ducha pierde presión, revisa el cabezal y el filtro.",
+      "Si el problema persiste, llama a un fontanero para una inspección profesional."
+    ]
+  },
+  "lavadora": {
+    "pasos": [
+      "Si la lavadora no desagua, revisa la manguera de desagüe y el filtro.",
+      "Si el problema persiste, nuestro fontanero puede revisarla y evitar daños mayores."
+    ]
+  },
+  "secadora": {
+    "pasos": [
+      "Verifica que el conducto de salida de aire no esté obstruido.",
+      "Para problemas internos, contacta a un técnico especializado."
+    ]
+  },
+  "tubería goteando": {
+    "pasos": [
+      "Cierra la llave de paso inmediatamente.",
+      "Identifica la fuga y aplica una reparación temporal si es posible.",
+      "Llama a un fontanero para la reparación definitiva."
+    ]
+  },
+  "agua turbia": {
+    "pasos": [
+      "Comprueba la fuente del suministro y los filtros.",
+      "Si el agua sigue turbia, contacta con nuestro fontanero para inspección profesional."
+    ]
+  },
+  "fregadero": {
+    "pasos": [
+      "Si el fregadero se atasca, usa un desatascador o limpia el sifón.",
+      "Para bloqueos persistentes, nuestro fontanero puede resolverlo de manera segura."
+    ]
+  },
+  "llave rota": {
+    "pasos": [
+      "Cierra la llave de paso antes de intentar cualquier reparación.",
+      "Para reemplazo seguro, contacta a un fontanero."
+    ]
+  },
+  "tubería congelada": {
+    "pasos": [
+      "Descongela la tubería con precaución usando agua tibia o calefactor.",
+      "Evita usar llamas directas y llama a un profesional si hay riesgo de rotura."
+    ]
+  },
+  "agua con mal olor": {
+    "pasos": [
+      "Limpia filtros y desagües.",
+      "Si el olor persiste, nuestro fontanero puede inspeccionar la instalación y resolverlo."
+    ]
+  },
+  "instalación nueva": {
+    "pasos": [
+      "Sigue las instrucciones del fabricante y utiliza herramientas adecuadas.",
+      "Para instalaciones complejas, es recomendable contar con un fontanero profesional."
+    ]
+  },
+  "emergencia 24h": {
+    "pasos": [
+      "Si ocurre una emergencia de fontanería, cierra la llave general de paso.",
+      "Contacta inmediatamente a nuestro servicio de fontanería 24 horas para asistencia rápida."
+    ]
+  },
+  "reparación termo": {
+    "pasos": [
+      "Si el termo eléctrico no calienta correctamente, revisa la resistencia y el termostato.",
+      "Para seguridad y reparación definitiva, contacta a un fontanero especializado."
+    ]
+  },
+  "grifos que gotean": {
+    "pasos": [
+      "Cierra la llave de paso y revisa arandelas y juntas.",
+      "Si el goteo continúa, nuestro fontanero puede reemplazar las piezas correctamente."
+    ]
+  },
+  "tubería rota": {
+    "pasos": [
+      "Cierra inmediatamente la llave de paso.",
+      "Llama a un fontanero para reemplazo seguro y evitar daños mayores."
+    ]
+  },
+  "cisterna fugas": {
+    "pasos": [
+      "Revisa el mecanismo del flotador y la válvula de entrada.",
+      "Si el problema persiste, contacta a un fontanero para reparación definitiva."
+    ]
+  },
+  "desagüe lento": {
+    "pasos": [
+      "Utiliza un desatascador o limpiador químico seguro.",
+      "Para bloqueos recurrentes, un fontanero puede limpiar y prevenir futuros problemas."
+    ]
+  },
+  "problema calefacción": {
+    "pasos": [
+      "Verifica la presión de agua y purga los radiadores.",
+      "Si no funciona correctamente, contacta a un fontanero especializado en calefacción."
+    ]
+  },
+  "mantenimiento anual": {
+    "pasos": [
+      "Revisa juntas, limpieza de filtros, purga de radiadores y válvulas.",
+      "Nuestro fontanero puede realizar un mantenimiento preventivo completo."
+    ]
+  },
+  "fuga gas": {
+    "pasos": [
+      "Si detectas olor a gas, ventila el área inmediatamente y no enciendas llamas.",
+      "Contacta a un técnico autorizado y a un fontanero de confianza para revisión."
+    ]
+  },
+  "emergencia agua": {
+    "pasos": [
+      "Cierra la llave general de paso inmediatamente.",
+      "Llama a nuestro servicio de fontanería 24h para asistencia urgente."
+    ]
+  },
+  "shower": {
+    "steps": [
+      "If the shower pressure is low, check the showerhead and filter.",
+      "If the problem persists, call a plumber for a professional inspection."
+    ]
+  },
+  "water heater repair": {
+    "steps": [
+      "If the electric water heater isn't heating properly, check the heating element and thermostat.",
+      "For safety and proper repair, contact a specialized plumber."
+    ]
+  },
+  "leaky faucets": {
+    "steps": [
+      "Turn off the main valve and check washers and seals.",
+      "If dripping continues, our plumber can replace the parts correctly."
+    ]
+  },
+  "broken pipe": {
+    "steps": [
+      "Immediately turn off the main valve.",
+      "Call a plumber for a safe replacement and to prevent further damage."
+    ]
+  },
+  "toilet leaks": {
+    "steps": [
+      "Check the float mechanism and inlet valve.",
+      "If the issue continues, contact a plumber for a permanent fix."
+    ]
+  },
+  "slow drain": {
+    "steps": [
+      "Use a plunger or safe chemical cleaner.",
+      "For recurring clogs, a plumber can clean and prevent future issues."
+    ]
+  },
+  "heating problem": {
+    "steps": [
+      "Check water pressure and bleed radiators.",
+      "If it still doesn’t work properly, contact a heating-specialized plumber."
+    ]
+  },
+  "annual maintenance": {
+    "steps": [
+      "Check seals, clean filters, bleed radiators and valves.",
+      "Our plumber can perform a complete preventive maintenance."
+    ]
+  },
+  "gas leak": {
+    "steps": [
+      "If you smell gas, ventilate the area immediately and do not ignite flames.",
+      "Contact a certified technician and a trusted plumber for inspection."
+    ]
+  },
+  "water emergency": {
+    "steps": [
+      "Turn off the main water valve immediately.",
+      "Call our 24-hour plumbing service for urgent assistance."
+    ]
+  },
+  "calentador de agua averiado": {
+    "pasos": [
+      "Si el agua caliente no funciona, revisa la alimentación eléctrica y los fusibles.",
+      "Para una reparación segura y rápida, contacta a un fontanero certificado."
+    ]
+  },
+  "filtro de agua obstruido": {
+    "pasos": [
+      "Revisa y limpia los filtros del sistema de agua.",
+      "Si el flujo no mejora, un fontanero puede reemplazar filtros de forma profesional."
+    ]
+  },
+  "ruptura de válvula": {
+    "pasos": [
+      "Cierra la llave general de agua inmediatamente.",
+      "Un fontanero puede instalar una nueva válvula sin riesgos."
+    ]
+  },
+  "revisión de bomba": {
+    "pasos": [
+      "Si la presión de agua es baja, verifica la bomba de presión.",
+      "Para ajustar o reemplazar la bomba, llama a un fontanero especializado."
+    ]
+  },
+  "humedad en tuberías": {
+    "pasos": [
+      "Si notas humedad alrededor de tuberías visibles, revisa posibles fugas.",
+      "Un fontanero puede localizar y reparar fugas ocultas."
+    ]
+  },
+  "grifo bloqueado": {
+    "pasos": [
+      "Si el grifo no abre o cierra correctamente, revisa el cartucho o la maneta.",
+      "Si persiste, un fontanero puede hacer un reemplazo seguro."
+    ]
+  },
+  "cisterna con goteo": {
+    "pasos": [
+      "Verifica que el mecanismo de llenado y la válvula funcionen.",
+      "Si el goteo continúa, contacta a un fontanero para evitar desperdicio de agua."
+    ]
+  },
+  "radiador frío": {
+    "pasos": [
+      "Purge el radiador para liberar aire atrapado.",
+      "Si sigue frío, llama a un fontanero especializado en calefacción."
+    ]
+  },
+  "atasco de fregadero": {
+    "pasos": [
+      "Usa un desatascador o un limpiador seguro.",
+      "Para problemas persistentes, un fontanero puede desatascar y limpiar la tubería completamente."
+    ]
+  },
+  "tubería corroída": {
+    "pasos": [
+      "Si observas corrosión, evita usar la tubería intensamente.",
+      "Un fontanero puede reemplazar la sección afectada y prevenir fugas futuras."
+    ]
+  },
+  "aerotermia": {
+    "pasos": [
+      "Si tu sistema de aerotermia no calienta o enfría correctamente, revisa la alimentación eléctrica y la presión del circuito.",
+      "Para un diagnóstico preciso y seguro, contacta a un fontanero o técnico certificado en aerotermia."
+    ]
+  },
+  "aerotermia_ariston_A2": {
+    "pasos": [
+      "Código A2: fallo en el sensor de temperatura del evaporador.",
+      "Verifica conexiones y que no haya obstrucciones en la unidad exterior.",
+      "Si persiste, contacta a un técnico certificado de Ariston."
+    ]
+  },
+  "aerotermia_ariston_A3": {
+    "pasos": [
+      "Código A3: fallo en la presión del refrigerante.",
+      "Comprueba fugas y carga correcta de refrigerante.",
+      "Contacta a un profesional especializado en aerotermia."
+    ]
+  },
+  "caldera_junkers_F0": {
+    "pasos": [
+      "Código F0: fallo en la llama o encendido.",
+      "Asegúrese de que la alimentación de gas esté abierta y conductos libres.",
+      "Llame a un instalador autorizado de Junkers."
+    ]
+  },
+  "caldera_junkers_F3": {
+    "pasos": [
+      "Código F3: fallo en el termostato de seguridad.",
+      "Verifique conexiones y termostato.",
+      "Para seguridad y reparación, contacte a un técnico certificado."
+    ]
+  },
+  "aerotermia_ariston_A4": {
+    "pasos": [
+      "Código A4: fallo en el compresor.",
+      "No intente reparar el compresor usted mismo.",
+      "Llame a un técnico certificado inmediatamente."
+    ]
+  },
+  "aerotermia_ariston_A5": {
+    "pasos": [
+      "Código A5: sobrecalentamiento de la unidad interior.",
+      "Revise que los filtros estén limpios y la ventilación libre.",
+      "Si continúa, contacte a un técnico."
+    ]
+  },
+  "aerotermia_ariston_A6": {
+    "pasos": [
+      "Código A6: fallo de comunicación entre unidad interior y exterior.",
+      "Verifique los cables y conexiones.",
+      "Llame a un técnico si el problema persiste."
+    ]
+  },
+  "aerotermia_ariston_A7": {
+    "pasos": [
+      "Código A7: detección de hielo en el evaporador.",
+      "Espere a que el ciclo de deshielo termine.",
+      "Si el error sigue apareciendo, contacte a un especialista."
+    ]
+  },
+  "caldera_junkers_F1": {
+    "pasos": [
+      "Código F1: fallo en el encendido de la bomba.",
+      "Revise la alimentación eléctrica y la bomba.",
+      "Contacte a un técnico certificado si persiste."
+    ]
+  },
+  "caldera_junkers_F2": {
+    "pasos": [
+      "Código F2: fallo de presión de agua.",
+      "Compruebe la presión en el manómetro y rellene si es necesario.",
+      "Si el problema continúa, llame a un profesional."
+    ]
+  },
+  "caldera_junkers_F4": {
+    "pasos": [
+      "Código F4: fallo en el sensor de temperatura de ida.",
+      "Compruebe cableado y sensores.",
+      "Contacte a un técnico para reemplazo si es necesario."
+    ]
+  },
+  "caldera_junkers_F5": {
+    "pasos": [
+      "Código F5: bloqueo por falta de circulación.",
+      "Verifique que la bomba circule correctamente y no haya aire en el circuito.",
+      "Llame a un especialista si no se resuelve."
+    ]
+  },
+  "caldera_junkers_F6": {
+    "pasos": [
+      "Código F6: fallo en la válvula de gas.",
+      "No intente abrirla usted mismo.",
+      "Contacte a un técnico certificado de inmediato."
+    ]
+  },
+  "caldera_junkers_F7": {
+    "pasos": [
+      "Código F7: sobrecalentamiento por acumulación de cal.",
+      "Revise limpieza y mantenimiento del intercambiador.",
+      "Llame a un profesional si el error continúa."
+    ]
+  },
+  "caldera_junkers_F8": {
+    "pasos": [
+      "Código F8: fallo en el sensor de humos.",
+      "Verifique que la salida de gases esté libre.",
+      "Contacte a un técnico si persiste."
+    ]
+  },
+  "caldera_junkers_F9": {
+    "pasos": [
+      "Código F9: fallo de comunicación interna.",
+      "Reinicie la caldera y revise conexiones.",
+      "Si continúa, llame a un especialista."
+    ]
+  },
+  "aerotermia_ariston_E1": {
+    "pasos": [
+      "Código E1: fallo en la alimentación eléctrica.",
+      "Compruebe fusibles y tensión de red.",
+      "Contacte a un técnico si el error sigue."
+    ]
+  },
+  "aerotermia_ariston_E2": {
+    "pasos": [
+      "Código E2: fallo del ventilador exterior.",
+      "Verifique que no haya obstrucciones y que el ventilador gire libremente.",
+      "Llame a un profesional si persiste."
+    ]
+  },
+  "aerotermia_ariston_E3": {
+    "pasos": [
+      "Código E3: detección de fuga de refrigerante.",
+      "No manipule el refrigerante usted mismo.",
+      "Contacte a un técnico certificado para recarga o reparación."
+    ]
+  },
+  "aerotermia_ariston_E4": {
+    "pasos": [
+      "Código E4: error en el sensor de temperatura de la unidad interior.",
+      "Revise conexiones y cableado.",
+      "Si el problema continúa, contacte a un técnico."
+    ]
+  },
+  "pregunta_novia": {
+    "pasos": [
+      "Pablo, ¿eres tú?",
+      "Sí, cariño. Sí, Candela. Soy yo. Y te puedo hacer el la la la la."
+    ]
+  },
+  "cómeme": {
+    "pasos": [
+      "😏 Vaya… veo que alguien tiene hambre de atención.",
+      "Si quieres que te 'coma', primero tendrás que invitarme a un café ☕😉",
+      "Recuerda: ¡el Fontanero Virtual solo arregla tuberías, pero puede arreglar tu humor también! 😎"
+    ]
+  },
+  "pablo": {
+    "pasos": [
+      "Sí, cariño. Sí, Candela. Soy yo.",
+      "Y te puedo hacer la la la la 🎵😉"
+    ]
+  },
+  "atrevido": {
+    "pasos": [
+      "Vaya, alguien está probando límites… 😏",
+      "Recuerda que el Fontanero Virtual solo repara tuberías… y tal vez corazones 💌"
+    ]
+  },
+  "cariño": {
+    "pasos": [
+      "Siempre aquí para ti ❤️",
+      "Con un abrazo virtual que vale por mil reales 🤗"
+    ]
+  },
+  "coquetería": {
+    "pasos": [
+      "😉 Vaya, parece que hoy toca coquetear un poco…",
+      "Si sigues así, voy a tener que pasar al modo enamorado 💌"
+    ]
+  },
+  "travieso": {
+    "pasos": [
+      "😏 Alguien está de travesuras hoy…",
+      "El Fontanero Virtual aprueba, pero con moderación 😎"
+    ]
+  },
+  "bañador": {
+    "pasos": [
+      "😏 Vaya, alguien quiere presumir su bañador…",
+      "Fontanero Virtual dice: Me encanta tu culo gordo 🍑🔥",
+      "Recuerda, siempre con humor y respeto 😉"
+    ]
+  },
+  "aerotermia_A4": {
+    "pasos": [
+      "Error A4 en aerotermia NUOS/EVO: fallo en el ventilador interno.",
+      "Apaga el sistema, comprueba que no haya obstrucciones y reinicia. Si persiste, contacta con servicio técnico."
+    ]
+  },
+  "aerotermia_A5": {
+    "pasos": [
+      "Error A5: sobretemperatura del acumulador.",
+      "Comprueba la válvula de seguridad y el termostato. Llama a un técnico si no se soluciona."
+    ]
+  },
+  "caldera_Junkers_E2": {
+    "pasos": [
+      "Error E2: fallo en el encendido de llama piloto.",
+      "Asegúrate de que hay gas y la válvula esté abierta. Contacta con técnico autorizado si el error persiste."
+    ]
+  },
+  "caldera_Junkers_E3": {
+    "pasos": [
+      "Error E3: fallo en el encendido del quemador principal.",
+      "Revisa la presión de gas y las conexiones eléctricas. Llama a un profesional certificado."
+    ]
+  },
+  "placa_solar_baja_producción": {
+    "pasos": [
+      "Si la placa solar genera poca energía, revisa la orientación y limpieza de los paneles.",
+      "Comprueba el regulador y los cables de conexión. Contacta con un instalador certificado si el problema continúa."
+    ]
+  },
+  "termo_fuga_agua": {
+    "pasos": [
+      "Si el termo presenta fuga de agua, cierra la llave de paso inmediatamente.",
+      "Verifica juntas, racores y válvula de seguridad. Para reparaciones internas, llama a un técnico."
+    ]
+  },
+  "tuberia_obstruida": {
+    "pasos": [
+      "Para tuberías obstruidas, utiliza desatascador o productos adecuados.",
+      "Evita usar objetos sólidos que puedan dañar la tubería. Si el problema persiste, consulta con un fontanero."
+    ]
+  },
+  "grifo_gotea": {
+    "pasos": [
+      "Si el grifo gotea, revisa la junta y aprieta la tuerca sin dañar la pieza.",
+      "Si la fuga continúa, reemplaza la arandela o llama a un técnico."
+    ]
+  },
+  "cisterna_no_cierra": {
+    "pasos": [
+      "Si la cisterna no cierra, revisa flotador y válvula de entrada.",
+      "Sustituye piezas desgastadas y prueba el mecanismo. Si no se soluciona, contacta a un fontanero."
+    ]
+  },
+  "calefaccion_no_calienta": {
+    "pasos": [
+      "Si la calefacción no calienta, revisa presión y purga de radiadores.",
+      "Comprueba termostatos y conexiones. Llama a un profesional si sigue sin funcionar."
+    ]
+  },
+  "hola": {
+    "pasos": [
+      "¡Hola! 👋 Soy tu Fontanero Virtual. ¿En qué puedo ayudarte hoy?"
+    ]
+  },
+  "presupuesto": {
+    "pasos": [
+      "Para darte un presupuesto exacto, por favor envíame una foto del trabajo o equipo a revisar."
+    ]
+  },
+  "necesito un presupuesto": {
+    "pasos": [
+      "Perfecto, envíame una foto del trabajo o equipo y te daré un presupuesto estimado."
+    ]
+  },
+  "necesito una valoración": {
+    "pasos": [
+      "Claro, envíame una foto para que pueda valorar el trabajo correctamente."
+    ]
+  },
+  "necesito el precio": {
+    "pasos": [
+      "Para indicarte el precio, necesito que me envíes una foto del material o instalación."
+    ]
+  },
+  "filtro_caldera_sucio": {
+    "pasos": [
+      "Limpia o sustituye el filtro de la caldera según el manual. Si el flujo de agua sigue bajo, llama a un técnico."
+    ]
+  },
+  "grifos": {
+    "alias": [
+      "grifo",
+      "grifería",
+      "grifos de cocina",
+      "grifos de baño"
+    ],
+    "pasos": [
+      "Los grifos pueden ser monomando (una palanca) o bimando (dos mandos).",
+      "Para instalación, usa cinta de teflón en las roscas.",
+      "Aprieta con llave ajustable sin dañar el acabado.",
+      "Si gotea, probablemente necesite cambiar la arandela o cartucho.",
+      "Para una valoración exacta, envíame una foto por WhatsApp 📸"
+    ]
+  },
+  "fontanero": {
+    "alias": [
+      "necesito fontanero",
+      "buscar fontanero",
+      "fontanero urgente",
+      "fontanero cerca"
+    ],
+    "pasos": [
+      "¡Hola! Soy Eduardo Quiroz, fontanero profesional en Torrevieja.",
+      "Atiendo urgencias y trabajos programados.",
+      "Para darte presupuesto exacto, necesito ver el trabajo.",
+      "Envíame una foto por WhatsApp y te respondo rápido 📸",
+      "📱 WhatsApp: +34 603 39 89 60"
+    ]
+  },
+  "atasco_cocina": {
+    "alias": [
+      "atasco cocina",
+      "atasco fregadero",
+      "cocina atascada",
+      "fregadero atascado cocina"
+    ],
+    "pasos": [
+      "Retira los restos de comida visibles del fregadero.",
+      "Usa un desatascador manual o producto específico.",
+      "Si el agua no baja, puede haber grasa acumulada en las tuberías.",
+      "Para desatascos profesionales, contáctanos por WhatsApp 📸",
+      "💰 Presupuesto orientativo: 60-100€ estimado"
+    ]
   }
 }
