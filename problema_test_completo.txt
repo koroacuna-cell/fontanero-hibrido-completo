@@ -1,0 +1,24 @@
+grifo_goteando
+grifo de lavabo gotea
+grifo pierde agua
+grifo fugando
+ducha_pierde_agua
+ducha con fuga
+ducha mojada
+ducha pierde agua
+ducha_fria
+agua fría en ducha
+ducha sin caliente
+caldera_no_enciende
+caldera apagada
+caldera no funciona
+lavadora_no_enciende
+lavadora apagada
+lavadora no funciona
+cisterna_pierde
+cisterna con fuga
+cisterna pierde agua
+tuberia_rota
+tubería rota
+cañería rota
+tubo roto

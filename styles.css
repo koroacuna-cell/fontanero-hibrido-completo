@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+#app {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-box {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    background: #e9ecef;
+    border-radius: 8px;
+}
+
+.message {
+    margin-bottom: 8px;
+}
+
+#user-input {
+    width: calc(100% - 90px);
+    padding: 8px;
+    font-size: 16px;
+}
+
+#send-btn {
+    width: 70px;
+    padding: 8px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#productos-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.producto {
+    width: 100px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #fdfdfd;
+}
+
+.producto img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+#whatsapp-container {
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#whatsapp-container img {
+    width: 40px;
+    height: 40px;
+}
+
+#whatsapp-btn {
+    display: inline-block;
+    margin-top: 5px;
+    background: #25D366;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}

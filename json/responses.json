@@ -1,0 +1,441 @@
+{
+  "comeme": {
+    "steps": [
+      "😏 Vaya… veo que alguien tiene hambre de atención.",
+      "Si quieres que te 'coma', primero tendrás que invitarme a un café ☕😉",
+      "Recuerda: ¡el Fontanero Virtual solo arregla tuberías, pero puede arreglar tu humor también! 😎"
+    ]
+  },
+  "pablo": {
+    "steps": [
+      "Sí, cariño. Sí, Candela. Soy yo.",
+      "Y te puedo hacer la la la la 🎵😉"
+    ]
+  },
+  "atrevido": {
+    "steps": [
+      "Vaya, alguien está probando límites… 😏",
+      "Recuerda que el Fontanero Virtual solo repara tuberías… y tal vez corazones 💌"
+    ]
+  },
+  "carino": {
+    "steps": [
+      "Siempre aquí para ti ❤️",
+      "Con un abrazo virtual que vale por mil reales 🤗"
+    ]
+  },
+  "coqueteria": {
+    "steps": [
+      "😉 Vaya, parece que hoy toca coquetear un poco…",
+      "Si sigues así, voy a tener que pasar al modo enamorado 💌"
+    ]
+  },
+  "travieso": {
+    "steps": [
+      "😏 Alguien está de travesuras hoy…",
+      "El Fontanero Virtual aprueba, pero con moderación 😎"
+    ]
+  },
+  "banador": {
+    "steps": [
+      "😏 Vaya, alguien quiere presumir su bañador…",
+      "Fontanero Virtual dice: Me encanta tu culo gordo 🍑🔥",
+      "Recuerda, siempre con humor y respeto 😉"
+    ]
+  },
+  "aerotermiaA4": {
+    "steps": [
+      "Error A4 en aerotermia NUOS/EVO: fallo en el ventilador interno.",
+      "Apaga el sistema, comprueba obstrucciones y reinicia. Si persiste, contacta con servicio técnico."
+    ]
+  },
+  "aerotermiaA5": {
+    "steps": [
+      "Error A5: sobretemperatura del acumulador.",
+      "Comprueba la válvula de seguridad y el termostato. Llama a un técnico si no se soluciona."
+    ]
+  },
+  "calderaJunkersE2": {
+    "steps": [
+      "Error E2: fallo en el encendido de llama piloto.",
+      "Asegúrate de que hay gas y la válvula esté abierta. Contacta con técnico autorizado si el error persiste."
+    ]
+  },
+  "calderaJunkersE3": {
+    "steps": [
+      "Error E3: fallo en el encendido del quemador principal.",
+      "Revisa la presión de gas y conexiones eléctricas. Llama a un profesional certificado."
+    ]
+  },
+  "placaSolarBajaProduccion": {
+    "steps": [
+      "Si la placa solar genera poca energía, revisa la orientación y limpieza de paneles.",
+      "Comprueba regulador y cables de conexión. Contacta con un instalador si el problema continúa."
+    ]
+  },
+  "termoFugaAgua": {
+    "steps": [
+      "Si el termo presenta fuga, cierra la llave de paso inmediatamente.",
+      "Verifica juntas, racores y válvula de seguridad. Para reparaciones internas, llama a un técnico."
+    ]
+  },
+  "tuberiaObstruida": {
+    "alias": ["tubería taponada", "desagüe lento", "desagueLento"],
+    "steps": [
+      "Si tu tubería está obstruida o taponada, envíame una foto por WhatsApp 📸.",
+      "Así podré valorar la mejor solución y darte un presupuesto o determinar si necesita un técnico."
+    ]
+  },
+  "grifoGotea": {
+    "steps": [
+      "Si el grifo gotea, revisa la junta y aprieta la tuerca sin dañar la pieza.",
+      "Si la fuga continúa, reemplaza la arandela o llama a un técnico."
+    ]
+  },
+  "cisternaNoCierra": {
+    "steps": [
+      "Si la cisterna no cierra, revisa flotador y válvula de entrada.",
+      "Sustituye piezas desgastadas y prueba el mecanismo. Si no se soluciona, contacta a un fontanero."
+    ]
+  },
+  "calefaccionNoCalienta": {
+    "steps": [
+      "Si la calefacción no calienta, revisa presión y purga de radiadores.",
+      "Comprueba termostatos y conexiones. Llama a un profesional si sigue sin funcionar."
+    ]
+  },
+  "filtroCalderaSucio": {
+    "steps": [
+      "Limpia o sustituye el filtro de la caldera según el manual. Si el flujo sigue bajo, llama a un técnico."
+    ]
+  },
+  "fontanero": {
+    "steps": [
+      "Si necesitas un fontanero, envía una foto por WhatsApp 📸.",
+      "Te indicaré si puedo solucionarlo o si hace falta enviar un técnico."
+    ]
+  },
+  "termo": {
+    "steps": [
+      "Para problemas con termos, indica si es eléctrico o de gas.",
+      "Envía una foto por WhatsApp 📸 para valoración y presupuesto."
+    ]
+  },
+  "fregadero": {
+    "steps": [
+      "Si el fregadero está atascado, usa un desatascador o limpia el sifón.",
+      "Para bloqueos persistentes, contacta con un profesional."
+    ]
+  },
+  "grifos": {
+    "steps": [
+      "Cierra la llave de paso. Si el grifo gotea o no funciona, envía una foto por WhatsApp 📸 y te indicaré la solución."
+    ]
+  },
+  "hola": {
+    "steps": [
+      "¡Hola! Soy Fontanero Virtual.",
+      "Pregunta por grifos, termos o tuberías.",
+      "Para presupuesto, envía foto por WhatsApp 📸."
+    ]
+  },
+  "lola": {
+    "steps": [
+      "¡Hola Lola! Encantado de saludarte.",
+      "Pregunta sobre reparaciones o productos.",
+      "Para diagnóstico, envía fotos por WhatsApp 📸."
+    ]
+  },
+  "descalcificador": {
+    "steps": [
+      "Para instalar o revisar un descalcificador, sigue el manual.",
+      "Comprueba presión y flujo.",
+      "Para problemas, envía foto por WhatsApp 📸."
+    ]
+  },
+  "termoelectrico": {
+    "alias": ["calentador eléctrico"],
+    "steps": [
+      "Para problemas con termos, envíame una foto por WhatsApp 📸.",
+      "Así puedo valorar si puedo solucionarlo o si hace falta un técnico."
+    ]
+  },
+  "calentador": {
+    "alias": ["calentador de gas", "termo gas"],
+    "steps": [
+      "Si tienes un calentador, envíame una foto por WhatsApp 📸.",
+      "Así puedo valorar si puedo solucionarlo o si hace falta un técnico."
+    ]
+  },
+  "regadera": {
+    "alias": ["cabezal de ducha", "ducha bloqueada"],
+    "steps": [
+      "Si tu regadera tiene problemas, envíame una foto por WhatsApp 📸.",
+      "Así podré valorar si puedo solucionarlo o si hace falta un técnico."
+    ]
+  },
+  "grifo": {
+    "alias": [
+      "grifo de lavabo",
+      "grifo de bañera",
+      "grifo de ducha",
+      "grifo monomando",
+      "grifo de bidet",
+      "grifo de fregadero",
+      "grifo termostático"
+    ],
+    "steps": [
+      "Si tienes problemas con un grifo, envíame una foto por WhatsApp 📸 para valoración y presupuesto."
+    ]
+  },"humedad suelo": {
+        "pasos": [
+            "La humedad en el suelo suele indicar una fuga en tuberías que pasan por el piso.",
+            "Primero asegúrate de que no sea agua proveniente de una fregona, mascota o derrame.",
+            "Si persiste, es probable que exista una fuga en tubería de cobre o multicapa.",
+            "Levanta ligeramente el rodapié y revisa si está húmedo por detrás.",
+            "Toca el suelo: si está caliente, podría ser una fuga en tubería de agua caliente.",
+            "Para confirmar, cierra todas las llaves de paso y revisa si el contador sigue girando.",
+            "Si sigue avanzando, hay fuga activa en tu instalación.",
+            "Para un diagnóstico exacto envíame foto o video por WhatsApp 📸"
+        ]
+    },
+    "filtracion techo": {
+        "pasos": [
+            "Una filtración en el techo casi siempre proviene de una fuga del vecino o tuberías superiores.",
+            "Si la mancha aumenta cuando se usa la ducha de arriba, ya tienes el origen.",
+            "Toma una foto de la mancha, sobre todo si tiene forma circular o amarillenta.",
+            "Si hay burbujas en la pintura, significa que el agua acumula presión.",
+            "No pinches la burbuja, podría caer mucha agua.",
+            "Solicita a tu vecino si ha notado fuga en su baño o cocina.",
+            "Para determinar el origen exacto, envíame foto por WhatsApp 📸"
+        ]
+    },
+    "baja presion agua": {
+        "pasos": [
+            "La baja presión puede deberse a aire atrapado, filtros sucios o llave de paso parcialmente cerrada.",
+            "Revisa si ocurre en toda la casa o solo en un punto.",
+            "Si es solo en una zona, probablemente el filtro del grifo o ducha esté obstruido.",
+            "Si es en toda la casa, revisa la llave de paso general.",
+            "Si tienes termo eléctrico, revisa también la válvula mezcladora.",
+            "Si la presión baja solo con agua caliente, el termo puede estar obstruido por cal.",
+            "Para evaluar la causa concreta, envíame video por WhatsApp 📸"
+        ]
+    },
+    "goteo techo": {
+        "pasos": [
+            "Si está goteando el techo activamente, es una fuga urgente.",
+            "Coloca un recipiente para minimizar daños.",
+            "El agua suele viajar por vigas, así que la fuga puede estar desplazada del punto que ves.",
+            "Si tienes un vecino arriba, avísale inmediatamente.",
+            "Graba un video para localizar mejor el origen.",
+            "Puedo guiarte paso a paso si me envías fotos por WhatsApp 📸"
+        ]
+    },
+    "olor tuberias": {
+        "pasos": [
+            "Un mal olor en tuberías suele indicar falta de sifón o un sifón seco.",
+            "Abre el grifo un minuto para llenar el sifón.",
+            "Si el olor viene de la ducha, revisa si el desagüe está suelto o mal sellado.",
+            "Puedes verter agua muy caliente para arrastrar residuos.",
+            "Si persiste, puede ser un problema de ventilación de la red.",
+            "Hazme una foto del desagüe para decirte cómo corregirlo por WhatsApp 📸"
+        ]
+    },
+    "filtracion pared": {
+        "pasos": [
+            "Las filtraciones en pared pueden venir de tuberías internas o del vecino.",
+            "Si la humedad forma una línea vertical, suele ser tubería de columna.",
+            "Si se presenta cerca de un baño, es probable fuga de ducha o lavabo.",
+            "Toca la zona: si está más fría que la pared, hay agua detrás.",
+            "Marca con lápiz el borde de la mancha para ver si crece.",
+            "Envíame una foto y te digo la causa exacta por WhatsApp 📸"
+        ]
+    },
+    "rotura tuberia": {
+        "pasos": [
+            "Si tienes rotura de tubería, lo primero es cerrar la llave de paso general.",
+            "Abre grifos para vaciar presión.",
+            "Si el suelo está inundado, corta la electricidad por seguridad.",
+            "Toma fotos de la zona afectada.",
+            "Te puedo guiar para minimizar daños si me envías fotos por WhatsApp 📸"
+        ]
+    },
+    "cal en tuberias": {
+        "pasos": [
+            "La cal se acumula sobre todo en termos y grifos.",
+            "Revisa si sale poca agua caliente: es señal de cal en el termo.",
+            "Los aireadores de los grifos pueden estar obstruidos.",
+            "Pon los aireadores en vinagre caliente durante 30 minutos.",
+            "Si tienes termo viejo, probablemente necesite mantenimiento.",
+            "Envíame una foto del termo para orientarte mejor por WhatsApp 📸"
+        ]
+    },
+    "goteo llave paso": {
+        "pasos": [
+            "Una llave de paso goteando puede deberse a desgaste del prensaestopa.",
+            "Aprieta ligeramente la tuerca del prensaestopa (un cuarto de vuelta).",
+            "Si sigue goteando, la llave debe cambiarse.",
+            "Hazme una foto para confirmar el tipo de llave por WhatsApp 📸"
+        ]
+    },
+    "llave no cierra": {
+        "pasos": [
+            "Si una llave de paso no cierra, puede estar gripada.",
+            "No fuerces: podrías partirla.",
+            "Rocía un poco de lubricante si la tuerca gira pero la llave no actúa.",
+            "Si la llave gira pero no corta el agua, está rota.",
+            "Necesitaré una foto para decirte el recambio adecuado por WhatsApp 📸"
+        ]
+    },"ducha pierde presion": {
+        "pasos": [
+            "Si la ducha pierde presión, casi siempre es por filtro obstruido o cal.",
+            "Desenrosca la alcachofa y revisa el filtro interno.",
+            "Pon las piezas en vinagre caliente 30 minutos.",
+            "Si tienes termo eléctrico, revisa si la presión solo baja con agua caliente.",
+            "Puede ser cal acumulada en el termo o mezcladora.",
+            "Envíame foto de la ducha por WhatsApp 📸"
+        ]
+    },
+    "olor desague ducha": {
+        "pasos": [
+            "Este olor suele deberse a un sifón que no sella correctamente.",
+            "Levanta la tapa del desagüe y revisa si el sifón interno está bien colocado.",
+            "Limpia el pelo acumulado.",
+            "Vierte un litro de agua muy caliente.",
+            "Si sigue oliendo, el sifón podría estar mal instalado.",
+            "Envíame foto del desagüe por WhatsApp 📸"
+        ]
+    },
+    "cisterna rota": {
+        "pasos": [
+            "Una cisterna que no carga puede tener el mecanismo interno atascado.",
+            "Abre la tapa y revisa si el flotador sube y baja correctamente.",
+            "Si gotea dentro, la junta de descarga está desgastada.",
+            "Hazme una foto del mecanismo para decirte cuál necesitas.",
+            "Te lo explico paso a paso por WhatsApp 📸"
+        ]
+    },
+    "cisterna pierde agua": {
+        "pasos": [
+            "Si pierde agua por dentro, la goma de descarga suele estar mal.",
+            "Si pierde agua por fuera, revisa tornillos inferiores.",
+            "Si cae agua por detrás, puede ser la junta de alimentación.",
+            "Hazme foto de la cisterna y te digo qué pieza cambiar 📸"
+        ]
+    },
+    "grifo gotea": {
+        "pasos": [
+            "Un grifo que gotea suele tener los cartuchos desgastados.",
+            "Cierra las llaves de paso del lavabo.",
+            "Desmonta el mando superior.",
+            "Saca el cartucho cerámico.",
+            "Hazme foto para decirte cuál comprar 📸"
+        ]
+    },
+    "grifo no cierra": {
+        "pasos": [
+            "Si no cierra del todo, el cartucho interno está dañado.",
+            "Puede ser cal o desgaste.",
+            "Necesitaré una foto del interior del grifo.",
+            "Te digo el recambio exacto por WhatsApp 📸"
+        ]
+    },
+    "grifo sin presion": {
+        "pasos": [
+            "Quita el aireador (punta del grifo).",
+            "Probablemente esté taponado de cal.",
+            "Ponlo en vinagre caliente 20 minutos.",
+            "Si sigue igual, revisa la llave de paso.",
+            "Envíame foto y te guío por WhatsApp 📸"
+        ]
+    },
+    "malo olor baño": {
+        "pasos": [
+            "Revisa si el olor viene de la ducha, lavabo o wc.",
+            "Asegúrate de que el sifón tiene agua.",
+            "Echa un litro de agua caliente.",
+            "Si el olor viene del wc, puede fallar la junta de goma trasera.",
+            "Envíame foto por WhatsApp 📸"
+        ]
+    },
+    "atasco cocina": {
+        "pasos": [
+            "Los atascos de cocina suelen deberse a grasa acumulada.",
+            "Echa agua muy caliente con detergente.",
+            "Desmonta el bote sinfónico si lo tienes.",
+            "Si el agua sube por el fregadero, el atasco está más abajo.",
+            "Envíame foto del fregadero y tuberías por WhatsApp 📸"
+        ]
+    },
+    "atasco baño": {
+        "pasos": [
+            "Revisa si el atasco es en lavabo, ducha o wc.",
+            "En ducha, quita la rejilla y limpia el pelo.",
+            "En lavabo, desmonta el sifón blanco.",
+            "Envíame foto y te digo cómo desatascarlo 📸"
+        ]
+    },
+    "calentador no enciende": {
+        "pasos": [
+            "Si es calentador de gas, revisa si hay gas en la llave.",
+            "Asegúrate de que hace chispa.",
+            "Revisa pilas (si tiene).",
+            "Si no enciende al abrir el grifo, puede fallar el caudalímetro.",
+            "Envíame foto del calentador por WhatsApp 📸"
+        ]
+    },
+    "termo no calienta": {
+        "pasos": [
+            "Revisa si el piloto del termo está encendido (si tiene).",
+            "Si es eléctrico, revisa el automático del cuadro.",
+            "Puede estar quemada la resistencia interna.",
+            "Envíame foto de la pegatina del termo por WhatsApp 📸"
+        ]
+    },
+    "pompe agua": {
+        "pasos": [
+            "Si la bomba hace ruido pero no sube presión, puede estar descebada.",
+            "Revisa si la aspiración tiene aire.",
+            "Envíame foto del equipo y te digo qué revisar 📸"
+        ]
+    },
+    "perdida contador": {
+        "pasos": [
+            "Si gotea el contador, revisa juntas en las conexiones.",
+            "Hazme foto del contador por WhatsApp 📸"
+        ]
+    },
+    "filtracion lavadora": {
+        "pasos": [
+            "Revisa si la lavadora pierde agua por la goma de la puerta.",
+            "Mira si gotea la manguera de entrada.",
+            "Si el agua sale por debajo, puede ser la bomba.",
+            "Envíame video por WhatsApp 📸"
+        ]
+    },
+    "lavavajillas pierde agua": {
+        "pasos": [
+            "Revisa que el filtro esté limpio.",
+            "Mira si sale agua por la puerta.",
+            "Si es por debajo, puede ser la bomba o manguera interna.",
+            "Envíame video por WhatsApp 📸"
+        ]
+    },
+    "aire tuberias": {
+        "pasos": [
+            "Si escuchas golpes en tuberías, puede haber aire atrapado.",
+            "Abre todos los grifos 1 minuto.",
+            "Si continúa, revisa presión.",
+            "Envíame video y te digo cómo purgarlo 📸"
+        ]
+    },
+    "fuga oculta": {
+        "pasos": [
+            "Si sospechas de fuga oculta, cierra todas las llaves.",
+            "Revisa el contador.",
+            "Si sigue girando, hay fuga.",
+            "Envíame fotos de zonas húmedas por WhatsApp 📸"
+        ]
+    }
+
+}

@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# Activa el entorno virtual
+source ~/fontanero/DescargaFontaneroLimpio/venv/bin/activate
+
+# Ejecuta la prueba interactiva avanzada
+python3 ~/fontanero/DescargaFontaneroLimpio/prueba_interactiva_avanzada.py

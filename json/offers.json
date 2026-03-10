@@ -1,0 +1,9 @@
+{
+  "termoDigital": {
+    "name": "Termo Digital 50L",
+    "price": "€135,00",
+    "description": "Termo eléctrico con display digital, control de temperatura.",
+    "image": "img/ofertas/termoDigital.png",
+    "reference": "TD50"
+  }
+}

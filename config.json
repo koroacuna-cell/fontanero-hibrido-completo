@@ -1,0 +1,8 @@
+{
+  "version": "2.0",
+  "lenguaje": "es",
+  "modo_debug": false,
+  "log_respuestas": true,
+  "archivo_problemas": "problemas_v2.json",
+  "archivo_preguntas": "preguntas_20.json"
+}

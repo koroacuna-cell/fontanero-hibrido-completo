@@ -1,0 +1,123 @@
+===== Informe de Evaluación Top-N =====
+Total consultas: 6
+Top 1 correcto: 2 (33.33%)
+Top 2 correcto: 2 (33.33%)
+Top 3 correcto: 2 (33.33%)
+=====================================
+
+Consulta: mi ducha pierde agua
+   Esperado: ducha_pierde_agua
+   Top 1: cisterna_pierde | Correcto: False
+      - cisterna pierde agua: 0.7
+      - cisterna_pierde: 0.514
+      - ducha con fuga: 0.471
+      - ducha pierde agua: 0.919
+      - ducha_pierde_agua: 0.919
+      - grifo pierde agua: 0.703
+   Top 2: ducha_fria | Correcto: False
+      - ducha con fuga: 0.471
+      - ducha mojada: 0.5
+      - ducha sin caliente: 0.474
+      - ducha_fria: 0.533
+      - ducha_pierde_agua: 0.919
+   Top 3: ducha_pierde_agua | Correcto: True
+      - cisterna pierde agua: 0.7
+      - cisterna_pierde: 0.514
+      - ducha con fuga: 0.471
+      - ducha mojada: 0.5
+      - ducha pierde agua: 0.919
+      - ducha sin caliente: 0.474
+      - ducha_fria: 0.533
+      - ducha_pierde_agua: 0.919
+      - grifo pierde agua: 0.703
+--------------------------------------------------
+
+Consulta: la cisterna está goteando
+   Esperado: cisterna_pierde
+   Top 1: cisterna_pierde | Correcto: True
+      - cisterna con fuga: 0.476
+      - cisterna pierde agua: 0.578
+      - cisterna_pierde: 0.55
+   Top 2: ducha_pierde_agua | Correcto: False
+      - cisterna con fuga: 0.476
+      - cisterna pierde agua: 0.578
+      - cisterna_pierde: 0.55
+   Top 3: grifo_goteando | Correcto: False
+      - cisterna pierde agua: 0.578
+      - grifo_goteando: 0.513
+      - lavadora apagada: 0.439
+--------------------------------------------------
+
+Consulta: no enciende la caldera
+   Esperado: caldera_no_enciende
+   Top 1: caldera_no_enciende | Correcto: True
+      - caldera_no_enciende: 0.537
+      - cisterna con fuga: 0.41
+      - lavadora_no_enciende: 0.524
+   Top 2: ducha_pierde_agua | Correcto: False
+      - caldera_no_enciende: 0.537
+      - cisterna con fuga: 0.41
+      - cisterna pierde agua: 0.429
+      - ducha pierde agua: 0.41
+      - ducha_pierde_agua: 0.41
+      - grifo pierde agua: 0.462
+      - lavadora_no_enciende: 0.524
+   Top 3: lavadora_no_enciende | Correcto: False
+      - caldera_no_enciende: 0.537
+      - grifo de lavabo gotea: 0.419
+      - lavadora_no_enciende: 0.524
+--------------------------------------------------
+
+Consulta: la lavadora no arranca
+   Esperado: lavadora_no_enciende
+   Top 1: caldera_no_enciende | Correcto: False
+      - agua fría en ducha: 0.4
+      - caldera apagada: 0.432
+      - caldera no funciona: 0.537
+      - caldera_no_enciende: 0.488
+      - lavadora apagada: 0.632
+      - lavadora no funciona: 0.714
+      - lavadora_no_enciende: 0.667
+   Top 2: ducha_pierde_agua | Correcto: False
+      - caldera_no_enciende: 0.488
+      - lavadora no funciona: 0.714
+      - lavadora_no_enciende: 0.667
+   Top 3: lavadora_no_enciende | Correcto: True
+      - agua fría en ducha: 0.4
+      - caldera apagada: 0.432
+      - caldera no funciona: 0.537
+      - caldera_no_enciende: 0.488
+      - lavadora apagada: 0.632
+      - lavadora no funciona: 0.714
+      - lavadora_no_enciende: 0.667
+--------------------------------------------------
+
+Consulta: hay agua fría en la ducha
+   Esperado: ducha_fria
+   Top 1: caldera_no_enciende | Correcto: False
+      - agua fría en ducha: 0.837
+   Top 2: ducha_fria | Correcto: True
+      - agua fría en ducha: 0.837
+      - ducha_fria: 0.4
+   Top 3: lavadora_no_enciende | Correcto: False
+      - agua fría en ducha: 0.837
+      - grifo de lavabo gotea: 0.435
+--------------------------------------------------
+
+Consulta: gotea el grifo del baño
+   Esperado: grifo_goteando
+   Top 1: ducha_fria | Correcto: False
+      - ducha_pierde_agua: 0.4
+      - grifo_goteando: 0.541
+   Top 2: grifo_goteando | Correcto: True
+      - cisterna pierde agua: 0.465
+      - ducha pierde agua: 0.4
+      - grifo de lavabo gotea: 0.5
+      - grifo fugando: 0.5
+      - grifo pierde agua: 0.5
+      - grifo_goteando: 0.541
+   Top 3: tuberia_rota | Correcto: False
+      - cisterna_pierde: 0.421
+      - grifo de lavabo gotea: 0.5
+      - grifo_goteando: 0.541
+--------------------------------------------------

@@ -1,0 +1,9 @@
+🔧 grifo_goteando
+- cisterna pierde agua
+- ducha pierde agua
+- grifo de lavabo gotea
+- grifo fugando
+- grifo pierde agua
+- grifo_goteando
+- lavadora apagada
+- tuberia_rota

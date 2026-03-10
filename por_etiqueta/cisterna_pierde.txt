@@ -1,0 +1,13 @@
+🔧 cisterna_pierde
+- caldera no funciona
+- cañería rota
+- cisterna con fuga
+- cisterna pierde agua
+- cisterna_pierde
+- ducha con fuga
+- ducha pierde agua
+- ducha_pierde_agua
+- grifo fugando
+- grifo pierde agua
+- tuberia_rota
+- tubería rota

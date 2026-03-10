@@ -1,0 +1,138 @@
+{
+  "cisterna": {
+    "lenta": {
+      "descripcion": "La cisterna tarda mucho en llenarse",
+      "solucion": "Revisa la llave de paso, limpia la membrana de la válvula de entrada y retira sedimentos del mecanismo."
+    },
+    "ruidosa": {
+      "descripcion": "La cisterna hace ruido al llenar",
+      "solucion": "Ajusta el flotador, limpia la toma de agua y revisa que no haya vibraciones en el latiguillo."
+    },
+    "pierde_agua": {
+      "descripcion": "La cisterna pierde agua constantemente",
+      "solucion": "Cambia la junta del descargador y ajusta el cierre para evitar fugas internas."
+    },
+    "rellena_rapido": {
+      "descripcion": "La cisterna se llena demasiado rápido",
+      "solucion": "Reduce el caudal en la válvula de entrada y revisa el filtro del latiguillo."
+    },
+    "obstruida": {
+      "descripcion": "La cisterna no descarga bien",
+      "solucion": "Limpia el descargador, revisa obstrucciones en el conducto y asegúrate de que la boya suba correctamente."
+    }
+  },
+  "ducha": {
+    "fria": {
+      "descripcion": 'La ducha solo suelta agua fría',
+      "solucion": "Comprueba el calentador, revisa la llave de paso del agua caliente y limpia filtros del mezclador."
+    },
+    "intermitente": {
+      "descripcion": "La ducha cambia de temperatura sola",
+      "solucion": "Limpia los filtros, revisa el cartucho del monomando y verifica presión equilibrada entre caliente y fría."
+    },
+    "presion_baja": {
+      "descripcion": "La ducha tiene poca presión",
+      "solucion": "Limpia el rociador, revisa filtros, verifica llaves de paso y sedimentos en tuberías."
+    },
+    "temperatura_irregular": {
+      "descripcion": "El agua cambia entre caliente y fría de forma aleatoria",
+      "solucion": "Probablemente un fallo en el calentador o desbalance entre presiones. Revisa filtros y cartucho."
+    },
+    "tuberia_sedimentada": {
+      "descripcion": "La ducha pierde flujo por depósitos de cal",
+      "solucion": "Limpia filtros, desmonta rociador y usa antical en las tuberías si es posible."
+    }
+  },{
+  "cisterna": {
+    "lenta": {
+      "solucion": "Ajusta la válvula de entrada y limpia el filtro del latiguillo de la cisterna."
+    },
+    "ruidosa": {
+      "solucion": "Reemplaza el mecanismo de llenado o ajusta el flotador para evitar vibraciones."
+    },
+    "pierde_agua": {
+      "solucion": "Cambia la junta del mecanismo de descarga o revisa la goma del fondo de la cisterna."
+    },
+    "rellena_rapido": {
+      "solucion": "Regula la entrada de agua y verifica que el flotador no esté trabado."
+    }
+  },
+
+  "ducha": {
+    "fria": {
+      "solucion": "Revisa el calentador y verifica si llega agua caliente a otras partes de la casa."
+    },
+    "intermitente": {
+      "solucion": "Limpia los aireadores, revisa mezclador y comprueba presión general."
+    },
+    "presion_baja": {
+      "solucion": "Limpia los filtros del grifo de ducha y revisa si hay obstrucciones por cal."
+    },
+    "temperatura_irregular": {
+      "solucion": "Revisa el mezclador termostático o ajusta la presión de entrada."
+    }
+  },
+
+  "grifo": {
+    "gotea": {
+      "solucion": "Cambia el cartucho o las juntas del grifo."
+    },
+    "base_fuga": {
+      "solucion": "Aprieta la tuerca inferior y revisa la junta de la base."
+    },
+    "flujo_bajo": {
+      "solucion": "Limpia el aireador y elimina cal acumulada."
+    },
+    "caliente_no_sale": {
+      "solucion": "Comprueba la llave del agua caliente y revisa el calentador."
+    }
+  },
+
+  "tuberia": {
+    "filtrando": {
+      "solucion": "Asegura la conexión o sustituye la junta afectada."
+    },
+    "goteando": {
+      "solucion": "Cierra la llave general y usa cinta de teflón o cambia el tramo dañado."
+    },
+    "obstruida": {
+      "solucion": "Utiliza un desatascador o desmonta el sifón para limpiarlo."
+    },
+    "sedimentada": {
+      "solucion": "Haz circulación de agua caliente con presión o revisa por acumulación de cal."
+    }
+  },
+
+  "calentador_caldera": {
+    "no_enciende": {
+      "solucion": "Verifica gas, pilas, encendido y caudal mínimo."
+    },
+    "no_calienta": {
+      "solucion": "Revisa el intercambiador o regula el caudal de entrada."
+    },
+    "temperatura_irregular": {
+      "solucion": "Comprueba sensores y filtros del calentador."
+    },
+    "ruidosa": {
+      "solucion": "Puede haber aire o suciedad en el intercambiador; limpieza recomendada."
+    }
+  },
+
+  "presion_general": {
+    "baja": {
+      "solucion": "Revisa la llave de paso, filtros y posibles fugas en la instalación."
+    }
+  },
+
+  "fuga_general": {
+    "agua": {
+      "solucion": "Cierra la llave de paso y localiza la fuga antes de que cause daños mayores."
+    }
+  },
+
+  "bomba_agua": {
+    "falla": {
+      "solucion": "Comprueba alimentación eléctrica, cebado y presión mínima de arranque."
+    }
+  }
+}

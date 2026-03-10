@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontanero Virtual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <img src="img/logo-fq.png" alt="Logo Fontanero Eduardo Quiroz" class="logo-main"><div class="viñetas">
+  <div class="viñeta" data-screen="chat">
+    <img src="img/logo-fq.png" alt="Fontanero">
+    Fontanero Virtual
+  </div>
+  <div class="viñeta" data-screen="products">
+    <img src="img/productos/termo50.png" alt="Productos">
+    Productos
+  </div>
+  <div class="viñeta" data-screen="offers">
+    <img src="img/productos/termoDigital.png" alt="Ofertas">
+    Ofertas
+  </div>
+  <div class="viñeta" data-screen="novelties">
+    <img src="img/productos/novedad.png" alt="Novedades">
+    Novedades
+  </div>
+</div>
+
+<!-- Chat -->
+<div id="chat" class="screen">
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>Fontanero Virtual</h2>
+      <button id="reset-chat" class="reset-btn" title="Reiniciar chat">×</button>
+    </div>
+    <div id="chat-box" class="chat-box" aria-live="polite"></div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Escribe tu pregunta aquí..." autocomplete="off">
+      <button id="send-btn">Enviar</button>
+      <a href="https://wa.me/34611844783" target="_blank" class="whatsapp-btn">WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<!-- Productos -->
+<div id="products" class="screen">
+  <h2>Productos</h2>
+  <ul class="item-list" id="productos-list"></ul>
+</div>
+
+<!-- Ofertas -->
+<div id="offers" class="screen">
+  <h2>Ofertas</h2>
+  <ul class="item-list" id="ofertas-list"></ul>
+</div>
+
+<!-- Novedades -->
+<div id="novelties" class="screen">
+  <h2>Novedades</h2>
+  <ul class="item-list" id="novedades-list"></ul>
+</div>
+
+  </div>  <!-- Scripts principales -->  <script src="productos.js"></script>  <script src="scripts.js"></script></body>
+</html>

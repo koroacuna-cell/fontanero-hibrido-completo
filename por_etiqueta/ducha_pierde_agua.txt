@@ -1,0 +1,16 @@
+🔧 ducha_pierde_agua
+- caldera_no_enciende
+- cisterna con fuga
+- cisterna pierde agua
+- cisterna_pierde
+- ducha con fuga
+- ducha mojada
+- ducha pierde agua
+- ducha sin caliente
+- ducha_fria
+- ducha_pierde_agua
+- grifo fugando
+- grifo pierde agua
+- lavadora no funciona
+- lavadora_no_enciende
+- tubería rota

@@ -1,0 +1,48 @@
+[
+    {
+        "etiqueta": "grifo_roto",
+        "palabras": [
+            "grifo roto",
+            "goteo",
+            "me gotea el grifo",
+            "sale agua del grifo",
+            "tengo un grifo roto"
+        ],
+        "respuesta": [
+            "Cierra el paso de agua del lavabo o cocina.",
+            "Revisa si el goteo viene del cartucho interior.",
+            "Si puedes, manda una foto por WhatsApp 📸 para confirmar el tipo de grifo.",
+            "El cambio de cartucho suele costar menos que cambiar el grifo entero."
+        ]
+    },
+    {
+        "etiqueta": "pierde_agua",
+        "palabras": [
+            "pierde agua",
+            "se sale el agua",
+            "fuga de agua",
+            "gotea por abajo",
+            "chorrea"
+        ],
+        "respuesta": [
+            "Localiza si la fuga viene de una junta, tubería o desagüe.",
+            "Si puedes, manda una foto por WhatsApp para ver si es reparación o cambio.",
+            "Si es en pared, toca alrededor para ver si está húmedo.",
+            "Cierra el paso general si la fuga es fuerte."
+        ]
+    },
+    {
+        "etiqueta": "cisterna_pierde",
+        "palabras": [
+            "cisterna pierde",
+            "cisterna rota",
+            "bota agua",
+            "entra agua sin parar"
+        ],
+        "respuesta": [
+            "Levanta la tapa y revisa si flota bien el mecanismo.",
+            "Muchas veces se arregla cambiando la boya.",
+            "Envíame foto del interior para decirte si vale reparar o toca cambiar."
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+🔧 caldera_no_enciende
+- agua fría en ducha
+- caldera apagada
+- caldera no funciona
+- caldera_no_enciende
+- cañería rota
+- cisterna con fuga
+- ducha mojada
+- ducha sin caliente
+- lavadora apagada
+- lavadora no funciona
+- lavadora_no_enciende

@@ -1,0 +1,84 @@
+🔧 caldera_no_enciende
+- agua fría en ducha
+- caldera apagada
+- caldera no funciona
+- caldera_no_enciende
+- cañería rota
+- cisterna con fuga
+- ducha mojada
+- ducha sin caliente
+- lavadora apagada
+- lavadora no funciona
+- lavadora_no_enciende
+
+🔧 cisterna_pierde
+- caldera no funciona
+- cañería rota
+- cisterna con fuga
+- cisterna pierde agua
+- cisterna_pierde
+- ducha con fuga
+- ducha pierde agua
+- ducha_pierde_agua
+- grifo fugando
+- grifo pierde agua
+- tuberia_rota
+- tubería rota
+
+🔧 ducha_fria
+- agua fría en ducha
+- ducha con fuga
+- ducha mojada
+- ducha sin caliente
+- ducha_fria
+- ducha_pierde_agua
+- grifo_goteando
+
+🔧 ducha_pierde_agua
+- caldera_no_enciende
+- cisterna con fuga
+- cisterna pierde agua
+- cisterna_pierde
+- ducha con fuga
+- ducha mojada
+- ducha pierde agua
+- ducha sin caliente
+- ducha_fria
+- ducha_pierde_agua
+- grifo fugando
+- grifo pierde agua
+- lavadora no funciona
+- lavadora_no_enciende
+- tubería rota
+
+🔧 grifo_goteando
+- cisterna pierde agua
+- ducha pierde agua
+- grifo de lavabo gotea
+- grifo fugando
+- grifo pierde agua
+- grifo_goteando
+- lavadora apagada
+- tuberia_rota
+
+🔧 lavadora_no_enciende
+- agua fría en ducha
+- caldera apagada
+- caldera no funciona
+- caldera_no_enciende
+- grifo de lavabo gotea
+- lavadora apagada
+- lavadora no funciona
+- lavadora_no_enciende
+
+🔧 tuberia_rota
+- caldera apagada
+- cañería rota
+- cisterna_pierde
+- ducha_fria
+- grifo de lavabo gotea
+- grifo_goteando
+- tuberia_rota
+- tubería rota
+- tubo roto
+

@@ -1,0 +1,201 @@
+[
+    {
+        "etiqueta": "grifo_goteando",
+        "palabras": [
+            "grifo goteando grifo roto me gotea el grifo"
+        ],
+        "respuesta": [
+            "Cierra el paso de agua del lavabo o cocina.",
+            "Revisa si el goteo viene del cartucho interior.",
+            "Si puedes, manda una foto por WhatsApp 📸 para confirmar el tipo de grifo.",
+            "El cambio de cartucho suele costar menos que cambiar el grifo entero."
+        ]
+    },
+    {
+        "etiqueta": "ducha_pierde_agua",
+        "palabras": [
+            "ducha pierde agua fuga en cocina chorrea agua"
+        ],
+        "respuesta": [
+            "Localiza si la fuga viene de una junta, tubería o desagüe.",
+            "Si puedes, manda una foto por WhatsApp 📸 para ver si es reparación o cambio.",
+            "Si es en pared, toca alrededor para ver si está húmedo.",
+            "Cierra el paso general si la fuga es fuerte."
+        ]
+    },
+    {
+        "etiqueta": "cisterna_pierde",
+        "palabras": [
+            "cisterna pierde cisterna rota bota agua entra agua sin parar cisterna no cierra"
+        ],
+        "respuesta": [
+            "Levanta la tapa y revisa si flota bien el mecanismo.",
+            "Muchas veces se arregla cambiando la boya.",
+            "Envíame foto del interior para decirte si vale reparar o toca cambiar."
+        ]
+    },
+    {
+        "etiqueta": "tubería_taponada",
+        "palabras": [
+            "tubería taponada obstrucción fregadero fregadero tapado"
+        ],
+        "respuesta": [
+            "Si tu tubería está obstruida o taponada, envíame una foto por WhatsApp 📸.",
+            "Así podré valorar la mejor solución y darte un presupuesto o determinar si necesita un técnico."
+        ]
+    },
+    {
+        "etiqueta": "termo_eléctrico",
+        "palabras": [
+            "termo eléctrico calentador eléctrico termo gas calentador electric heater water heater no hot water"
+        ],
+        "respuesta": [
+            "Indica si es eléctrico o de gas.",
+            "Envía una foto por WhatsApp 📸 para valoración y presupuesto."
+        ]
+    },
+    {
+        "etiqueta": "calefacción_no_calienta",
+        "palabras": [
+            "calefacción no calienta radiador no calienta calefacción piso heating not working radiator not heating"
+        ],
+        "respuesta": [
+            "Revisa presión, purga de radiadores y termostatos.",
+            "Si persisten los problemas, envía fotos por WhatsApp 📸 y te indicaré la solución adecuada o si es necesario un técnico."
+        ]
+    },
+    {
+        "etiqueta": "lavadora_no_enciende",
+        "palabras": [
+            "lavadora no enciende lavadora no centrifuga lavadora atascada washer problem washing machine not working"
+        ],
+        "respuesta": [
+            "Envía fotos del panel o de la avería por WhatsApp 📸.",
+            "Te indicaré cómo solucionarlo o si hace falta la intervención de un técnico."
+        ]
+    },
+    {
+        "etiqueta": "secadora_no_funciona",
+        "palabras": [
+            "secadora no funciona secadora no calienta secadora bloqueada dryer not working dryer no heat"
+        ],
+        "respuesta": [
+            "Envía fotos del aparato y panel por WhatsApp 📸.",
+            "Podré indicarte la reparación o derivarte a un técnico profesional."
+        ]
+    },
+    {
+        "etiqueta": "lavavajillas_no_funciona",
+        "palabras": [
+            "lavavajillas no funciona lavaplatos bloqueado lavaplatos gotea dishwasher not working"
+        ],
+        "respuesta": [
+            "Envía fotos por WhatsApp 📸 mostrando el fallo.",
+            "Te indicaré cómo repararlo o si requiere técnico especializado."
+        ]
+    },
+    {
+        "etiqueta": "fregadero_obstruido",
+        "palabras": [
+            "fregadero obstruido fregadero tapado grifo fregadero"
+        ],
+        "respuesta": [
+            "Envía fotos por WhatsApp 📸 mostrando la zona afectada.",
+            "Podré orientarte sobre solución inmediata o intervención profesional."
+        ]
+    },
+    {
+        "etiqueta": "ducha_goteando",
+        "palabras": [
+            "ducha goteando pierde agua ducha chorrea la ducha"
+        ],
+        "respuesta": [
+            "Cierra la llave de paso de la ducha.",
+            "Revisa si el problema viene de la alcachofa o del mezclador.",
+            "Envía foto por WhatsApp 📸 para confirmar el tipo de reparación.",
+            "Dependiendo del tipo de fuga, cambiar junta o cartucho."
+        ]
+    },
+    {
+        "etiqueta": "caldera_no_enciende",
+        "palabras": [
+            "caldera no enciende"
+        ],
+        "respuesta": "Pendiente de definir respuesta. (Aún sin contenido)"
+    },
+    {
+        "etiqueta": "fregadero_goteando",
+        "palabras": [
+            "fregadero goteando"
+        ],
+        "respuesta": "Pendiente de definir respuesta. (Aún sin contenido)"
+    },
+    {
+        "etiqueta": "lavavajillas_atascado",
+        "palabras": [
+            "lavavajillas atascado"
+        ],
+        "respuesta": "Pendiente de definir respuesta"
+    },
+    {
+        "etiqueta": "tubería_rota",
+        "palabras": [
+            "tubería rota"
+        ],
+        "respuesta": "Pendiente de definir respuesta"
+    },
+    {
+        "etiqueta": "ducha_fría",
+        "palabras": [
+            "ducha fría"
+        ],
+        "respuesta": "Pendiente de definir respuesta"
+    },
+    {
+        "etiqueta": "grifo_de_lavabo_gotea",
+        "palabras": [
+            "grifo de lavabo gotea"
+        ],
+        "respuesta": "Pendiente de definir respuesta"
+    },
+    {
+        "etiqueta": "cisterna_pierde_agua",
+        "palabras": [
+            "cisterna pierde agua"
+        ],
+        "respuesta": [
+            "Revisa el mecanismo de llenado y la válvula.",
+            "Si el agua sigue goteando, comprueba juntas o válvula flotante.",
+            "Envía foto por WhatsApp 📸 si no sabes identificar la avería."
+        ]
+    },
+    {
+        "etiqueta": "desagüe_atascado",
+        "palabras": [
+            "desagüe atascado"
+        ],
+        "respuesta": [
+            "Retira residuos visibles y prueba con desatascador.",
+            "Si persiste, usa sonda o producto químico seguro.",
+            "Envía foto por WhatsApp 📸 si no se soluciona."
+        ]
+    },
+    {
+        "etiqueta": "grifo_de_ducha",
+        "palabras": [
+            "grifo de ducha"
+        ],
+        "respuesta": [
+            "Cierra paso de agua de la ducha.",
+            "Comprueba cartucho, juntas o manguito.",
+            "Envía foto por WhatsApp 📸 para confirmar tipo de grifo."
+        ]
+    },
+    {
+        "etiqueta": "mkdir",
+        "palabras": [
+            "mkdir"
+        ],
+        "respuesta": "Pendiente de definir respuesta"
+    }
+]

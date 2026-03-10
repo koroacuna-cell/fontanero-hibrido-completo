@@ -1,0 +1,7 @@
+grifo goteando
+ducha pierde agua
+cisterna pierde agua
+caldera no enciende
+lavadora no enciende
+tuberia rota
+ducha fría

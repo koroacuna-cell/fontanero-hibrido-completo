@@ -1,0 +1,84 @@
+{
+  "cisterna": {
+    "lenta": {
+      "solucion": "Ajusta la válvula de entrada y revisa si el flotador está subiendo correctamente."
+    },
+    "ruidosa": {
+      "solucion": "Limpia la válvula de llenado y revisa si hay aire en el sistema."
+    },
+    "pierde_agua": {
+      "solucion": "Reemplaza la junta de descarga y verifica el asiento de la válvula."
+    },
+    "rellena_rapido": {
+      "solucion": "Reduce el caudal cerrando ligeramente la llave de paso."
+    }
+  },
+  "ducha": {
+    "fria": {
+      "solucion": "Revisa el calentador, la salida de agua caliente y purga el sistema."
+    },
+    "intermitente": {
+      "solucion": "Limpia los filtros, revisa la llave de paso y verifica variaciones de presión."
+    },
+    "presion_baja": {
+      "solucion": "Limpia la alcachofa y revisa si hay obstrucciones en las tuberías."
+    },
+    "temperatura_irregular": {
+      "solucion": "Revisa el mezclador y asegúrate de que el calentador mantiene la potencia estable."
+    }
+  },
+  "grifo": {
+    "gotea": {
+      "solucion": "Cambia las juntas o el cartucho del grifo."
+    },
+    "base_fuga": {
+      "solucion": "Aprieta las conexiones inferiores y reemplaza juntas si es necesario."
+    },
+    "caliente_no_sale": {
+      "solucion": "Abre la llave general de agua caliente y revisa el calentador."
+    },
+    "flujo_bajo": {
+      "solucion": "Limpia el aireador y elimina obstrucciones internas."
+    }
+  },
+  "tuberia": {
+    "obstruida": {
+      "solucion": "Utiliza un desatascador o sonda y limpia el sifón si es necesario."
+    },
+    "goteando": {
+      "solucion": "Aprieta conexiones y usa cinta teflón en uniones defectuosas."
+    },
+    "desague_lento": {
+      "solucion": "Limpia el sifón y elimina restos de sedimentos."
+    },
+    "sedimentada": {
+      "solucion": "Realiza un descalcificado y purga las tuberías."
+    }
+  },
+  "calentador_caldera": {
+    "no_enciende": {
+      "solucion": "Revisa gas, corriente eléctrica y sensor de encendido."
+    },
+    "no_calienta": {
+      "solucion": "Limpia filtros, revisa termostato y verifica presión del sistema."
+    },
+    "ruidosa": {
+      "solucion": "Descalcifica el serpentín y purga el circuito."
+    }
+  },
+  "presion_general": {
+    "baja": {
+      "solucion": "Abre la llave de paso completamente y revisa obstrucciones en la red."
+    }
+  },
+  "fuga_general": {
+    "agua": {
+      "solucion": "Cierra la llave general, localiza la fuga y repara la tubería o unión afectada."
+    }
+  },
+  "bomba_agua": {
+    "falla": {
+      "solucion": "Comprueba alimentación eléctrica, presión y funcionamiento del presostato."
+    }
+  }
+}

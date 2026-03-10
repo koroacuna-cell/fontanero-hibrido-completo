@@ -1,0 +1,8 @@
+[
+    {"texto": "mi ducha pierde agua", "esperado": "ducha_pierde_agua"},
+    {"texto": "la cisterna está goteando", "esperado": "cisterna_pierde"},
+    {"texto": "no enciende la caldera", "esperado": "caldera_no_enciende"},
+    {"texto": "la lavadora no arranca", "esperado": "lavadora_no_enciende"},
+    {"texto": "hay agua fría en la ducha", "esperado": "ducha_fria"},
+    {"texto": "gotea el grifo del baño", "esperado": "grifo_goteando"}
+]

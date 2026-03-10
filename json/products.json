@@ -1,0 +1,16 @@
+{
+  "termo50": {
+    "name": "Termo Eléctrico 50L",
+    "price": "€120,00",
+    "description": "Termo eléctrico 50 litros, ideal para uso doméstico.",
+    "image": "img/productos/termo50.png",
+    "reference": "TE50"
+  },
+  "termo80": {
+    "name": "Termo Eléctrico 80L",
+    "price": "€150,00",
+    "description": "Termo eléctrico 80 litros, mayor capacidad para familias.",
+    "image": "img/productos/termo80.png",
+    "reference": "TE80"
+  }
+}

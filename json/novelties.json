@@ -1,0 +1,9 @@
+{
+  "nuevoTermo": {
+    "name": "Termo Innovador 60L",
+    "price": "€160,00",
+    "description": "Nuevo termo con eficiencia energética mejorada.",
+    "image": "img/productos/novedades/nuevoTermo.png",
+    "reference": "TI60"
+  }
+}

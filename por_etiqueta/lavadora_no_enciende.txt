@@ -1,0 +1,9 @@
+🔧 lavadora_no_enciende
+- agua fría en ducha
+- caldera apagada
+- caldera no funciona
+- caldera_no_enciende
+- grifo de lavabo gotea
+- lavadora apagada
+- lavadora no funciona
+- lavadora_no_enciende

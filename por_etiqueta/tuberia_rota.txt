@@ -1,0 +1,10 @@
+🔧 tuberia_rota
+- caldera apagada
+- cañería rota
+- cisterna_pierde
+- ducha_fria
+- grifo de lavabo gotea
+- grifo_goteando
+- tuberia_rota
+- tubería rota
+- tubo roto

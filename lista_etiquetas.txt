@@ -1,0 +1,7 @@
+🔧 caldera_no_enciende
+🔧 cisterna_pierde
+🔧 ducha_fria
+🔧 ducha_pierde_agua
+🔧 grifo_goteando
+🔧 lavadora_no_enciende
+🔧 tuberia_rota

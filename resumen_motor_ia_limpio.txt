@@ -1,0 +1,86 @@
+=== RESUMEN DE COINCIDENCIAS POR ETIQUETA ===
+
+🔧 grifo_goteando
+- grifo_goteando
+- grifo de lavabo gotea
+- grifo pierde agua
+- grifo fugando
+- ducha pierde agua
+- lavadora apagada
+- cisterna pierde agua
+- tuberia_rota
+--------------------------------------------------
+🔧 ducha_pierde_agua
+- grifo pierde agua
+- grifo fugando
+- ducha_pierde_agua
+- ducha con fuga
+- ducha mojada
+- ducha pierde agua
+- ducha_fria
+- ducha sin caliente
+- caldera_no_enciende
+- lavadora_no_enciende
+- lavadora no funciona
+- cisterna_pierde
+- cisterna con fuga
+- cisterna pierde agua
+- tubería rota
+--------------------------------------------------
+🔧 ducha_fria
+- grifo_goteando
+- ducha_pierde_agua
+- ducha con fuga
+- ducha mojada
+- ducha_fria
+- agua fría en ducha
+- ducha sin caliente
+--------------------------------------------------
+🔧 caldera_no_enciende
+- ducha mojada
+- agua fría en ducha
+- ducha sin caliente
+- caldera_no_enciende
+- caldera apagada
+- caldera no funciona
+- lavadora_no_enciende
+- lavadora apagada
+- lavadora no funciona
+- cisterna con fuga
+- cañería rota
+--------------------------------------------------
+🔧 lavadora_no_enciende
+- grifo de lavabo gotea
+- agua fría en ducha
+- caldera_no_enciende
+- caldera apagada
+- caldera no funciona
+- lavadora_no_enciende
+- lavadora apagada
+- lavadora no funciona
+--------------------------------------------------
+🔧 cisterna_pierde
+- grifo pierde agua
+- grifo fugando
+- ducha_pierde_agua
+- ducha con fuga
+- ducha pierde agua
+- caldera no funciona
+- cisterna_pierde
+- cisterna con fuga
+- cisterna pierde agua
+- tuberia_rota
+- tubería rota
+- cañería rota
+--------------------------------------------------
+🔧 tuberia_rota
+- grifo_goteando
+- grifo de lavabo gotea
+- ducha_fria
+- caldera apagada
+- cisterna_pierde
+- tuberia_rota
+- tubería rota
+- cañería rota
+- tubo roto
+--------------------------------------------------
