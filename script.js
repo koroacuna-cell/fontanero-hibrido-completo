@@ -1,296 +1,195 @@
-// Manejo de pantallas
-const screens = document.querySelectorAll(".screen");
-document.querySelectorAll(".viñeta").forEach((item) => {
-  item.addEventListener("click", () => {
-    screens.forEach((s) => s.classList.remove("active"));
-    const target = item.getAttribute("data-screen");
-    document.getElementById(target).classList.add("active");
-    if (target === "chat") initWelcomeMessage();
-  });
-});
+/**
+ * Fontanero Virtual PRO v1.0
+ * Chatbot con 133 respuestas + presupuestos estimativos
+ * Eduardo Quiroz - Fontanero en Torrevieja
+ */
 
-// Cargar imágenes con detalles y botones
-function cargarItems(carpeta, listaId) {
-  const lista = document.getElementById(listaId);
+// Variables globales
+let chatData = {};
+let isLoaded = false;
 
-  fetch(carpeta)
-    .then((res) => res.text())
-    .then((text) => {
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(text, "text/html");
-      const links = Array.from(doc.querySelectorAll("a"));
-
-      links.forEach((link) => {
-        const href = link.getAttribute("href");
-        if (href.match(/\.(png|jpg|jpeg|gif)$/i)) {
-          const li = document.createElement("li");
-
-          const img = document.createElement("img");
-          img.src = carpeta + "/" + href;
-
-          const details = document.createElement("div");
-          details.className = "item-details";
-
-          const name = document.createElement("div");
-          name.className = "item-name";
-          name.textContent = href.split(".")[0];
-
-          const price = document.createElement("div");
-          price.className = "item-price";
-          price.textContent = "Precio: €0,00";
-
-          const desc = document.createElement("div");
-          desc.className = "item-description";
-          desc.textContent = "Descripción técnica y medidas del producto.";
-
-          const btnWhats = document.createElement("button");
-          btnWhats.textContent = "Contactar WhatsApp";
-          btnWhats.onclick = () =>
-            window.open(
-              `https://wa.me/34603398960?text=Hola,+estoy+interesado+en+${encodeURIComponent(
-                href
-              )}`,
-              "_blank"
-            );
-
-          const btnFV = document.createElement("button");
-          btnFV.textContent = "Preguntar al Fontanero";
-          btnFV.className = "fv-btn";
-          btnFV.onclick = () => {
-            screens.forEach((s) => s.classList.remove("active"));
-            document.getElementById("chat").classList.add("active");
-            userInput.value = href.split(".")[0];
-            sendBtn.click();
-          };
-
-          details.appendChild(name);
-          details.appendChild(price);
-          details.appendChild(desc);
-          details.appendChild(btnWhats);
-          details.appendChild(btnFV);
-
-          li.appendChild(img);
-          li.appendChild(details);
-          lista.appendChild(li);
-        }
-      });
-    })
-    .catch((err) =>
-      console.warn(
-        "No se pueden listar imágenes desde la carpeta:",
-        carpeta
-      )
-    );
-}
-
-cargarItems("img/productos", "productos-list");
-cargarItems("img/ofertas", "ofertas-list");
-cargarItems("img/productos/novedades", "novedades-list");
-
-// Zoom de imagen
-document.addEventListener("click", (e) => {
-  if (
-    e.target.tagName === "IMG" &&
-    (e.target.closest("#productos-list") ||
-      e.target.closest("#ofertas-list") ||
-      e.target.closest("#novedades-list"))
-  ) {
-    const modal = document.createElement("div");
-    modal.style.position = "fixed";
-    modal.style.top = 0;
-    modal.style.left = 0;
-    modal.style.width = "100%";
-    modal.style.height = "100%";
-    modal.style.background = "rgba(0, 0, 0, 0.8)";
-    modal.style.display = "flex";
-    modal.style.justifyContent = "center";
-    modal.style.alignItems = "center";
-    modal.style.cursor = "zoom-out";
-
-    const img = document.createElement("img");
-    img.src = e.target.src;
-    img.style.maxWidth = "90%";
-    img.style.maxHeight = "90%";
-
-    modal.appendChild(img);
-    document.body.appendChild(modal);
-
-    modal.addEventListener("click", () => modal.remove());
-  }
-});
-
-// Fontanero Virtual
-const chatBox = document.getElementById("chat-box");
-const userInput = document.getElementById("user-input");
-const sendBtn = document.getElementById("send-btn");
-const resetBtn = document.getElementById("reset-chat");
-
-let responses = {};
-let responseKeysSorted = [];
-
-function normalizeText(s) {
-  if (!s) return "";
-  s = s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  s = s.replace(/[^a-zA-Z0-9\sñÑáÁéÉíÍóÓúÚüÜ\-]/g, " ");
-  s = s.toLowerCase();
-  s = s.replace(/\s+/g, " ").trim();
-  return s;
-}
-
-fetch("json/responses.json")
-  .then((res) => res.json())
-  .then((data) => {
-    responses = data || {};
-    responseKeysSorted = Object.keys(responses)
-      .map((k) => ({ key: k, n: normalizeText(k) }))
-      .sort((a, b) => b.n.length - a.n.length);
-  });
-
-// Tipo máquina
-function typeMessage(text, speed = 30, callback) {
-  let i = 0;
-  const interval = setInterval(() => {
-    if (i < text.length) {
-      chatBox.innerHTML += text.charAt(i);
-      chatBox.scrollTop = chatBox.scrollHeight;
-      i++;
-    } else {
-      clearInterval(interval);
-      if (callback) callback();
+// Cargar JSON de respuestas al iniciar
+async function loadChatData() {
+    try {
+        const response = await fetch('json/responses.json');
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        chatData = await response.json();
+        isLoaded = true;
+        console.log('✅ Chat data loaded:', Object.keys(chatData).length, 'entries');
+    } catch (error) {
+        console.error('❌ Error loading chat data:', error);
+        addMessage('bot', '⚠️ Error al cargar respuestas. Recarga la página o contacta por WhatsApp 📸');
     }
-  }, speed);
 }
 
-function initWelcomeMessage() {
-  if (chatBox.innerHTML.trim() === "") {
-    typeMessage(
-      "Hola, soy tu Fontanero Virtual 👷‍♂️. Pregúntame lo que quieras sobre fontanería y te ayudaré a encontrar la mejor solución.",
-      30
+// Normalizar texto (igual que en Python)
+function normalizeText(text) {
+    return text.toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // Quitar tildes
+        .replace(/[^\w\s]/g, '') // Quitar caracteres especiales
+        .trim();
+}
+
+// Buscar respuesta en el JSON
+function findResponse(message) {
+    if (!isLoaded || Object.keys(chatData).length === 0) {
+        return null;
+    }
+    
+    const normalizedMsg = normalizeText(message);
+    
+    // 1. Búsqueda directa por clave
+    if (chatData[normalizedMsg]) {
+        return chatData[normalizedMsg];
+    }
+    
+    // 2. Búsqueda por clave original (con espacios/guiones)
+    for (const [key, value] of Object.entries(chatData)) {
+        const normalizedKey = normalizeText(key);
+        if (normalizedKey === normalizedMsg) {
+            return value;
+        }
+        // Contención parcial
+        if (normalizedMsg.includes(normalizedKey) || normalizedKey.includes(normalizedMsg)) {
+            if (normalizedKey.length > 3) { // Evitar matches muy cortos
+                return value;
+            }
+        }
+    }
+    
+    // 3. Búsqueda por aliases
+    for (const [key, value] of Object.entries(chatData)) {
+        const aliases = value.alias || value.aliases || [];
+        for (const alias of aliases) {
+            if (normalizeText(alias) === normalizedMsg || normalizedMsg.includes(normalizeText(alias))) {
+                return value;
+            }
+        }
+    }
+    
+    // 4. Búsqueda por palabras clave
+    const words = normalizedMsg.split(/\s+/).filter(w => w.length > 3);
+    for (const word of words) {
+        for (const [key, value] of Object.entries(chatData)) {
+            const normalizedKey = normalizeText(key);
+            if (normalizedKey.includes(word) || word.includes(normalizedKey)) {
+                return value;
+            }
+        }
+    }
+    
+    return null;
+}
+
+// Generar respuesta con presupuesto
+function generateResponse(data, question) {
+    if (!data) {
+        return {
+            text: 'Lo siento, no tengo información específica sobre eso. Para una valoración exacta, envíame una foto por WhatsApp 📸',
+            hasBudget: false
+        };
+    }
+    
+    const pasos = data.pasos || data.steps || [];
+    let responseText = pasos.join(' | ');
+    
+    // Detectar si hay presupuesto en los pasos
+    const hasBudget = pasos.some(p => 
+        p.toLowerCase().includes('presupuest') || 
+        p.toLowerCase().includes('€') ||
+        p.toLowerCase().includes('estimad')
     );
-  }
-}
-
-resetBtn.addEventListener("click", () => {
-  chatBox.innerHTML = "";
-  initWelcomeMessage();
-});
-
-function ensureWhatsAppNote(text) {
-  if (!text) return text;
-  const lower = text.toLowerCase();
-  if (
-    lower.includes("whatsapp") ||
-    lower.includes("enví") ||
-    lower.includes("presup") ||
-    lower.includes("foto") ||
-    lower.includes("cotiz")
-  )
-    return text;
-  return (
-    text + " — Para una valoración y presupuesto exacto, envíame una foto por WhatsApp 📸"
-  );
-}
-
-const naughtyRoots = [
-  "comem",
-  "comeme",
-  "coméme",
-  "cómem",
-  "cómeme",
-  "culo",
-  "teta",
-  "sexo",
-];
-
-function isNaughty(normalized) {
-  for (const r of naughtyRoots) if (normalized.includes(r)) return true;
-  return false;
-}
-
-function findResponseFor(msg) {
-  const nmsg = normalizeText(msg);
-  if (!nmsg) return null;
-
-  if (isNaughty(nmsg))
+    
+    // Añadir nota de WhatsApp si no hay presupuesto
+    if (!hasBudget) {
+        responseText += ' | Para valoración exacta, envíame una foto por WhatsApp 📸';
+    }
+    
     return {
-      pasos: [
-        "Prefiero mantener las conversaciones profesionales. Para presupuesto o asistencia, envía una foto por WhatsApp.",
-      ],
+        text: responseText,
+        hasBudget: hasBudget
     };
+}
 
-  for (const item of responseKeysSorted) {
-    if (!item.n) continue;
-
-    if (nmsg.includes(item.n)) return responses[item.key];
-
-    const keyWords = item.n.split(" ").filter(Boolean);
-    if (keyWords.length > 1) {
-      let matchAll = true;
-      for (const w of keyWords)
-        if (!nmsg.includes(w)) {
-          matchAll = false;
-          break;
-        }
-      if (matchAll) return responses[item.key];
+// Añadir mensaje al chat
+function addMessage(sender, text) {
+    const chatBox = document.getElementById('chat-box');
+    if (!chatBox) {
+        console.error('❌ Chat box not found');
+        return;
     }
-  }
-
-  return null;
+    
+    const messageDiv = document.createElement('div');
+    messageDiv.className = 'chat-message message-' + sender;
+    
+    const label = sender === 'bot' ? '<strong>Fontanero Virtual 👷‍♂️</strong><br>' : '<strong>Tú 👤</strong><br>';
+    messageDiv.innerHTML = label + escapeHtml(text);
+    
+    chatBox.appendChild(messageDiv);
+    chatBox.scrollTop = chatBox.scrollHeight;
 }
 
-function getAnswerText(msg) {
-  const res = findResponseFor(msg);
-  if (res) {
-    let text = "";
-
-    if (res.pasos && Array.isArray(res.pasos))
-      text = res.pasos.join(" | ");
-    else if (res.steps && Array.isArray(res.steps))
-      text = res.steps.join(" | ");
-    else if (typeof res === "string") text = res;
-    else text = JSON.stringify(res);
-
-    return ensureWhatsAppNote(text);
-  }
-
-  return "Lo siento, no entiendo la pregunta con precisión. Para ayudarte mejor, envíame una foto por WhatsApp 📸";
+// Escapar HTML para seguridad
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
 }
 
-function appendUser(msg) {
-  const d = document.createElement("div");
-  d.className = "message-user";
-  d.innerHTML = `<strong>Tú:</strong> ${escapeHtml(msg)}`;
-  chatBox.appendChild(d);
-  chatBox.scrollTop = chatBox.scrollHeight;
+// Función principal de envío
+function sendMessage() {
+    const input = document.getElementById('user-input');
+    if (!input) {
+        console.error('❌ User input not found');
+        return;
+    }
+    
+    const message = input.value.trim();
+    if (!message) {
+        console.log('⚠️ Empty message');
+        return;
+    }
+    
+    console.log('📤 Sending:', message);
+    
+    // Añadir mensaje del usuario
+    addMessage('user', message);
+    input.value = '';
+    
+    // Buscar y mostrar respuesta
+    setTimeout(() => {
+        const responseData = findResponse(message);
+        const response = generateResponse(responseData, message);
+        console.log('📥 Response:', response.text.substring(0, 50) + '...');
+        addMessage('bot', response.text);
+    }, 300); // Pequeño delay para simular pensamiento
 }
 
-function appendBot(msg) {
-  const d = document.createElement("div");
-  d.className = "message-bot";
-  d.innerHTML = `<strong>Fontanero:</strong> ${escapeHtml(msg)}`;
-  chatBox.appendChild(d);
-  chatBox.scrollTop = chatBox.scrollHeight;
-}
-
-function escapeHtml(unsafe) {
-  return unsafe
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
-}
-
-sendBtn.addEventListener("click", () => {
-  const msg = userInput.value.trim();
-  if (!msg) return;
-
-  appendUser(msg);
-  userInput.value = "";
-
-  setTimeout(() => {
-    appendBot(getAnswerText(msg));
-  }, 250);
+// Inicializar al cargar la página
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('🚀 Fontanero Virtual initializing...');
+    loadChatData();
+    
+    // Configurar evento Enter en el input
+    const input = document.getElementById('user-input');
+    if (input) {
+        input.addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                sendMessage();
+            }
+        });
+        console.log('✅ Enter key listener attached');
+    }
+    
+    // Mensaje de bienvenida si el chat está vacío
+    setTimeout(() => {
+        const chatBox = document.getElementById('chat-box');
+        if (chatBox && chatBox.children.length <= 1) {
+            console.log('✅ Chat ready');
+        }
+    }, 1000);
 });
 
-userInput.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") sendBtn.click();
-});
+// Hacer sendMessage disponible globalmente para el onclick
+window.sendMessage = sendMessage;

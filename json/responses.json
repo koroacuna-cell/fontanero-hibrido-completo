@@ -1,20 +1,23 @@
 {
   "termo": {
     "pasos": [
-      "Disponemos de termos de 50L y termos digitales con control de temperatura."
+      "Disponemos de termos de 50L y termos digitales con control de temperatura.",
+      "💰 Presupuesto orientativo: 60-120€ estimado (según capacidad)"
     ]
   },
   "fuga": {
     "pasos": [
       "Cierra la llave de paso.",
       "Revisa juntas, válvulas y tuberías.",
-      "Si es PVC, asegúrate de que la unión esté limpia y seca antes de aplicar adhesivo."
+      "Si es PVC, asegúrate de que la unión esté limpia y seca antes de aplicar adhesivo.",
+      "💰 Presupuesto orientativo: 70-160€ estimado (según ubicación)"
     ]
   },
   "grifo": {
     "pasos": [
       "Los grifos de cocina incluyen monomando y bimando.",
-      "Para instalación, usa cinta de teflón en roscas y aprieta con llave ajustable sin dañar la pieza."
+      "Para instalación, usa cinta de teflón en roscas y aprieta con llave ajustable sin dañar la pieza.",
+      "💰 Presupuesto orientativo: 40-70€ estimado"
     ]
   },
   "bañera": {
@@ -43,7 +46,8 @@
   "cisterna": {
     "pasos": [
       "Para problemas con cisternas, revisa el mecanismo de flotador y la válvula de entrada.",
-      "Sustituye piezas desgastadas si el agua no para de correr."
+      "Sustituye piezas desgastadas si el agua no para de correr.",
+      "💰 Presupuesto orientativo: 60-140€ estimado"
     ]
   },
   "desagüe": {
