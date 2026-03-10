@@ -2,22 +2,21 @@
   "termo": {
     "pasos": [
       "Disponemos de termos de 50L y termos digitales con control de temperatura.",
-      "💰 Presupuesto orientativo: 60-120€ estimado (según capacidad)"
+      "💰 Presupuesto orientativo: 60-120€ estimado (según capacidad y modelo). Para valoración exacta, envíame foto por WhatsApp 📸"
     ]
   },
   "fuga": {
     "pasos": [
-      "Cierra la llave de paso.",
-      "Revisa juntas, válvulas y tuberías.",
-      "Si es PVC, asegúrate de que la unión esté limpia y seca antes de aplicar adhesivo.",
-      "💰 Presupuesto orientativo: 70-160€ estimado (según ubicación)"
+      "Identifica el origen de la fuga (tubería, grifo, junta).",
+      "Cierra el paso de agua si es necesario.",
+      "💰 Presupuesto orientativo: 70-160€ estimado (según ubicación y gravedad). Envía foto por WhatsApp 📸"
     ]
   },
   "grifo": {
     "pasos": [
-      "Los grifos de cocina incluyen monomando y bimando.",
-      "Para instalación, usa cinta de teflón en roscas y aprieta con llave ajustable sin dañar la pieza.",
-      "💰 Presupuesto orientativo: 40-70€ estimado"
+      "Los grifos pueden ser monomando (una palanca) o bimando (dos mandos).",
+      "Para instalación, usa cinta de teflón en las roscas.",
+      "💰 Presupuesto orientativo: 40-70€ estimado. Para valoración exacta, envíame foto por WhatsApp 📸"
     ]
   },
   "bañera": {
@@ -45,9 +44,9 @@
   },
   "cisterna": {
     "pasos": [
-      "Para problemas con cisternas, revisa el mecanismo de flotador y la válvula de entrada.",
-      "Sustituye piezas desgastadas si el agua no para de correr.",
-      "💰 Presupuesto orientativo: 60-140€ estimado"
+      "Si la cisterna no cierra, revisa flotador y válvula de entrada.",
+      "Sustituye piezas desgastadas y prueba el mecanismo.",
+      "💰 Presupuesto orientativo: 60-140€ estimado (IVA no incluido). Para valoración exacta, envíame foto por WhatsApp 📸"
     ]
   },
   "desagüe": {
@@ -115,7 +114,8 @@
   "termoNoEnciende": {
     "pasos": [
       "Comprueba que el termo esté enchufado y que el interruptor esté activo.",
-      "Para problemas eléctricos o de resistencia, contacta con nuestro fontanero especializado."
+      "Para problemas eléctricos o de resistencia, contacta con nuestro fontanero especializado.",
+      "💰 Presupuesto orientativo: 60-120€ estimado (IVA no incluido). Para valoración exacta, envíame foto por WhatsApp 📸"
     ]
   },
   "fugaAguaSotano": {
@@ -133,7 +133,8 @@
   "cisternaGotea": {
     "pasos": [
       "Revisa el mecanismo de flotador y la válvula de entrada.",
-      "Si persiste la fuga, contacta con nuestro fontanero vía WhatsApp para reparación profesional."
+      "Sustituye piezas desgastadas si el agua no para de correr.",
+      "💰 Presupuesto orientativo: 60-140€ estimado. Envía foto por WhatsApp 📸"
     ]
   },
   "instalacionGrifo": {
@@ -192,8 +193,9 @@
   },
   "desagueLento": {
     "pasos": [
-      "Limpia el sifón y usa un desatascador manual.",
-      "Para desagües rebeldes, nuestro fontanero puede intervenir y evitar problemas mayores."
+      "Usa un desatascador manual o producto específico.",
+      "Si persiste, puede haber obstrucción en las tuberías.",
+      "💰 Presupuesto orientativo: 50-100€ estimado. Para valoración exacta, envíame foto por WhatsApp 📸"
     ]
   },
   "grifoNoCierra": {
@@ -749,8 +751,9 @@
   },
   "grifo_gotea": {
     "pasos": [
-      "Si el grifo gotea, revisa la junta y aprieta la tuerca sin dañar la pieza.",
-      "Si la fuga continúa, reemplaza la arandela o llama a un técnico."
+      "Un grifo que gotea suele necesitar cambiar la arandela o el cartucho.",
+      "Si no estás seguro de cómo hacerlo, llámanos para recibir asistencia técnica.",
+      "💰 Presupuesto orientativo: 40-70€ estimado (IVA no incluido). Para valoración exacta, envíame foto por WhatsApp 📸"
     ]
   },
   "cisterna_no_cierra": {
@@ -822,7 +825,8 @@
       "Atiendo urgencias y trabajos programados.",
       "Para darte presupuesto exacto, necesito ver el trabajo.",
       "Envíame una foto por WhatsApp y te respondo rápido 📸",
-      "📱 WhatsApp: +34 603 39 89 60"
+      "📱 WhatsApp: +34 603 39 89 60",
+      "💰 Presupuesto orientativo: desde 35€ visita diagnóstica"
     ]
   },
   "atasco_cocina": {
@@ -838,6 +842,363 @@
       "Si el agua no baja, puede haber grasa acumulada en las tuberías.",
       "Para desatascos profesionales, contáctanos por WhatsApp 📸",
       "💰 Presupuesto orientativo: 60-100€ estimado"
+    ]
+  },
+  "termo_producto": {
+    "alias": [
+      "comprar termo",
+      "termo nuevo",
+      "precio termo",
+      "cuánto cuesta un termo",
+      "quiero un termo",
+      "termo 50 litros",
+      "termo 80 litros",
+      "termo 100 litros",
+      "termo digital",
+      "termo híbrido",
+      "catálogo termos",
+      "modelos de termos"
+    ],
+    "pasos": [
+      "Disponemos de termos eléctricos de 50L, 80L, 100L y termos digitales con control de temperatura.",
+      "También termos híbridos de alta eficiencia energética.",
+      "🛒 Precios de productos: desde 195€ (básico 50L) hasta 700€+ (digitales) y 1000€+ (híbridos).",
+      "🔗 Consulta modelos, fotos y disponibilidad en nuestro catálogo: https://fontaneriaeduardoquiroz.webador.es",
+      "💰 Para instalación + producto, presupuesto combinado desde 250€. Envía foto por WhatsApp 📸"
+    ]
+  },
+  "grifo_producto": {
+    "alias": [
+      "grifo nuevo",
+      "comprar grifo",
+      "precio grifo",
+      "quiero grifo",
+      "catálogo grifería",
+      "grifos cocina",
+      "grifos baño"
+    ],
+    "pasos": [
+      "Grifos monomando y bimando para cocina y baño. Marcas profesionales con garantía.",
+      "🛒 Precios de grifería: desde 45€ (básico) hasta 200€+ (diseño premium).",
+      "🔗 Consulta catálogo completo con fotos en: https://fontaneriaeduardoquiroz.webador.es",
+      "💰 Para instalación + producto, presupuesto desde 80€. Envía foto por WhatsApp 📸"
+    ]
+  },
+  "cisterna_producto": {
+    "alias": [
+      "cisterna nueva",
+      "comprar cisterna",
+      "mecanismo cisterna",
+      "repuestos cisterna"
+    ],
+    "pasos": [
+      "Mecanismos de cisterna universales y específicos por marca. Repuestos originales.",
+      "🛒 Precios de mecanismos: desde 25€ hasta 80€ según modelo.",
+      "🔗 Consulta repuestos en: https://fontaneriaeduardoquiroz.webador.es",
+      "💰 Para sustitución + pieza, presupuesto desde 55€. Envía foto por WhatsApp 📸"
+    ]
+  },
+  "termo_reparacion": {
+    "alias": [
+      "termo no calienta",
+      "termo roto",
+      "reparar termo",
+      "termo averiado",
+      "termo no funciona",
+      "arreglar termo"
+    ],
+    "pasos": [
+      "Comprueba que el termo esté enchufado y que el interruptor esté activo.",
+      "Para problemas eléctricos o de resistencia, contacta con nuestro fontanero especializado.",
+      "💰 Reparación estimada: 60-120€ (mano de obra, sin piezas). Para valoración exacta, envíame foto por WhatsApp 📸",
+      "🔁 Si el termo es muy antiguo, puede ser más rentable comprar uno nuevo. Consulta catálogo: https://fontaneriaeduardoquiroz.webador.es"
+    ]
+  },
+  "grifo_reparacion": {
+    "alias": [
+      "grifo gotea",
+      "grifo pierde agua",
+      "grifo no cierra",
+      "arreglar grifo",
+      "reparar grifo"
+    ],
+    "pasos": [
+      "Un grifo que gotea suele necesitar cambiar la arandela o el cartucho.",
+      "Si no estás seguro de cómo hacerlo, llámanos para recibir asistencia técnica.",
+      "💰 Reparación estimada: 40-70€ (mano de obra). Para valoración exacta, envíame foto por WhatsApp 📸"
+    ]
+  },
+  "cisterna_reparacion": {
+    "alias": [
+      "cisterna gotea",
+      "cisterna pierde agua",
+      "cisterna no para",
+      "arreglar cisterna",
+      "reparar cisterna"
+    ],
+    "pasos": [
+      "Si la cisterna no cierra, revisa flotador y válvula de entrada.",
+      "Sustituye piezas desgastadas y prueba el mecanismo.",
+      "💰 Reparación estimada: 60-140€ (mano de obra). Para valoración exacta, envíame foto por WhatsApp 📸"
+    ]
+  },
+  "fuga_reparacion": {
+    "alias": [
+      "fuga agua",
+      "tuberia goteando",
+      "fuga oculta",
+      "pierde agua",
+      "arreglar fuga",
+      "malos olores",
+      "olor desagüe",
+      "baño huele mal",
+      "olores tuberías"
+    ],
+    "pasos": [
+      "Identifica el origen de la fuga (tubería, grifo, junta).",
+      "Cierra el paso de agua si es necesario para evitar daños.",
+      "💰 Reparación estimada: 70-160€ (según ubicación y gravedad). Envía foto por WhatsApp 📸"
+    ]
+  },
+  "atasco_reparacion": {
+    "alias": [
+      "atasco cocina",
+      "desague atascado",
+      "fregadero no desagua",
+      "desatasco"
+    ],
+    "pasos": [
+      "Retira los restos de comida visibles del fregadero.",
+      "Usa un desatascador manual o producto específico.",
+      "💰 Desatasco estimado: 60-100€. Para valoración exacta, envíame foto por WhatsApp 📸"
+    ]
+  },
+  "urgencia_fontanero": {
+    "alias": [
+      "fontanero urgente",
+      "urgencia fontanero",
+      "necesito fontanero ya",
+      "emergencia fontanería",
+      "fontanero ahora"
+    ],
+    "pasos": [
+      "🚨 Entiendo que es una urgencia. Estoy disponible para atenderte.",
+      "Para llegar lo antes posible, necesito saber tu ubicación en Torrevieja.",
+      "📱 Envíame AHORA una foto y tu dirección por WhatsApp:",
+      "👉 https://wa.me/34603398960?text=🚨%20URGENTE:%20Necesito%20fontanero%20en%20Torrevieja",
+      "💰 Visita de urgencia: desde 50€ (prioridad máxima)"
+    ]
+  },
+  "multicapa_reparacion": {
+    "alias": [
+      "tuberia multicapa",
+      "multicapa gotea",
+      "multicapa fuga",
+      "multicapa rota",
+      "canalización multicapa",
+      "multicapa prensada",
+      "junta multicapa"
+    ],
+    "pasos": [
+      "Las tuberías de multicapa son muy comunes en instalaciones modernas.",
+      "Si hay fuga en una unión, puede ser por mala prensada o junta defectuosa.",
+      "Se necesita herramienta de prensado específica para reparar.",
+      "💰 Reparación estimada: 80-150€ (según acceso y número de puntos). Envía foto por WhatsApp 📸"
+    ]
+  },
+  "pvc_reparacion": {
+    "alias": [
+      "tuberia pvc",
+      "pvc roto",
+      "pvc fuga",
+      "adhesivo pvc",
+      "unión pvc",
+      "codo pvc"
+    ],
+    "pasos": [
+      "El PVC se repara cortando la sección dañada y pegando nueva pieza con adhesivo especial.",
+      "Es importante respetar el tiempo de secado (24h) antes de usar.",
+      "Para tuberías de desagüe, usar PVC de mayor grosor.",
+      "💰 Reparación estimada: 60-120€. Para valoración exacta, envíame foto por WhatsApp 📸"
+    ]
+  },
+  "sifon_cocina": {
+    "alias": [
+      "sifon roto",
+      "sifon cocina",
+      "sifon baño",
+      "sifon gotea",
+      "cambiar sifon",
+      "sifon desagüe"
+    ],
+    "pasos": [
+      "El sifón es la pieza curva bajo el fregadero que evita malos olores.",
+      "Si gotea, suele ser por junta vieja o mal enroscado.",
+      "Los sifones modernos son desenroscables para fácil limpieza.",
+      "💰 Reparación/cambio estimado: 45-85€ (incluye pieza). Envía foto por WhatsApp 📸"
+    ]
+  },
+  "latiguillo": {
+    "alias": [
+      "latiguillo roto",
+      "latiguillo gotea",
+      "latiguillo oxidado",
+      "cambiar latiguillo",
+      "latiguillo grifo",
+      "latiguillo termo"
+    ],
+    "pasos": [
+      "Los latiguillos son mangueras flexibles que conectan grifos y termos.",
+      "Con el tiempo se oxidan y pueden reventar, causando inundaciones.",
+      "Se recomienda cambiarlos cada 5-7 años preventivamente.",
+      "💰 Cambio estimado: 35-65€ por latiguillo (incluye pieza). Envía foto por WhatsApp 📸"
+    ]
+  },
+  "llave_paso": {
+    "alias": [
+      "llave de paso",
+      "llave general",
+      "cortar agua",
+      "llave no cierra",
+      "llave paso atascada"
+    ],
+    "pasos": [
+      "La llave de paso general corta el agua de toda la vivienda.",
+      "Es importante mantenerla en buen estado para emergencias.",
+      "Si no cierra bien, necesita cambio urgente para evitar problemas.",
+      "💰 Cambio estimado: 50-90€. Para valoración exacta, envíame foto por WhatsApp 📸"
+    ]
+  },
+  "plato_ducha": {
+    "alias": [
+      "plato de ducha",
+      "plato ducha gotea",
+      "plato ducha roto",
+      "cambiar plato ducha",
+      "reforma ducha",
+      "mampara ducha"
+    ],
+    "pasos": [
+      "Los platos de ducha pueden ser de resina, cerámica o acrílico.",
+      "Si hay grietas o fugas, puede necesitar sellado o cambio completo.",
+      "La instalación incluye nivelación, desagüe y sellado perimetral.",
+      "💰 Instalación estimada: 250-500€ (sin plato). Con plato desde 400€. Consulta Webador 🛒"
+    ]
+  },
+  "mampara": {
+    "alias": [
+      "mampara ducha",
+      "mampara gotea",
+      "mampara rota",
+      "cambiar mampara",
+      "puerta ducha",
+      "cristal ducha"
+    ],
+    "pasos": [
+      "Las mamparas llevan perfiles de aluminio y cristales templados.",
+      "Si gotea por los perfiles, necesita cambio de burletes o sellado.",
+      "Para cambio completo, medimos hueco y instalamos a medida.",
+      "💰 Reparación: 40-80€ | Cambio completo: 200-450€. Consulta catálogo Webador 🛒"
+    ]
+  },
+  "mueble_bano": {
+    "alias": [
+      "mueble baño",
+      "lavabo mueble",
+      "grifo mueble",
+      "sifon mueble"
+    ],
+    "pasos": [
+      "Instalación de muebles de baño incluye nivelación y fijación a pared.",
+      "Conexión de grifo y desagüe al lavabo integrado.",
+      "Silicona perimetral para evitar filtraciones.",
+      "💰 Instalación estimada: 80-150€ (sin mueble). Envía foto por WhatsApp 📸"
+    ]
+  },
+  "reforma_bano": {
+    "alias": [
+      "reforma baño",
+      "reforma completa",
+      "albañilería baño",
+      "baño nuevo"
+    ],
+    "pasos": [
+      "Reforma completa de baño incluye: demolición, fontanería, alicatado, sanitarios.",
+      "Trabajamos con albañiles de confianza para obra completa.",
+      "Plazo estimado: 7-15 días según complejidad.",
+      "💰 Presupuesto orientativo: desde 2500€ (básico) hasta 6000€+ (completo). Solicita visita gratuita 📸"
+    ]
+  },
+  "lavadora_instalacion": {
+    "alias": [
+      "instalar lavadora",
+      "lavadora nueva",
+      "conexion lavadora",
+      "lavadora desague",
+      "lavadora agua"
+    ],
+    "pasos": [
+      "La instalación incluye: conexión de agua fría, desagüe y nivelación.",
+      "Verificamos que el desagüe tenga sifón para evitar olores.",
+      "Comprobamos que no haya fugas en las conexiones.",
+      "💰 Instalación estimada: 35-60€. Para valoración exacta, envíame foto por WhatsApp 📸"
+    ]
+  },
+  "lavavajillas_instalacion": {
+    "alias": [
+      "instalar lavavajillas",
+      "lavavajillas nuevo",
+      "conexion lavavajillas",
+      "lavavajillas desague"
+    ],
+    "pasos": [
+      "Similar a lavadora: conexión agua, desagüe y nivelación.",
+      "Algunos modelos necesitan conexión a agua caliente también.",
+      "Verificamos presión de agua correcta para buen funcionamiento.",
+      "💰 Instalación estimada: 40-70€. Para valoración exacta, envíame foto por WhatsApp 📸"
+    ]
+  },
+  "caldera_mantenimiento": {
+    "alias": [
+      "mantenimiento caldera",
+      "revision caldera",
+      "caldera revision",
+      "caldera gas"
+    ],
+    "pasos": [
+      "La revisión anual de caldera es obligatoria por ley.",
+      "Incluye: limpieza de quemador, comprobación de gases, seguridad.",
+      "Trabajamos con técnicos certificados para calderas de gas.",
+      "💰 Revisión estimada: 70-120€. Para cita, contacta por WhatsApp 📸"
+    ]
+  },
+  "radiador_purga": {
+    "alias": [
+      "purga radiadores",
+      "radiador frio",
+      "radiador no calienta",
+      "aire radiador"
+    ],
+    "pasos": [
+      "Los radiadores necesitan purga anual para eliminar aire acumulado.",
+      "Si están fríos por arriba y calientes por abajo, necesitan purga.",
+      "También verificamos presión de la caldera (1.2-1.5 bar).",
+      "💰 Purga estimada: 40-70€ (hasta 4 radiadores). Envía foto por WhatsApp 📸"
+    ]
+  },
+  "inundacion": {
+    "alias": [
+      "inundacion",
+      "agua por todos lados",
+      "reventon tuberia",
+      "emergencia agua"
+    ],
+    "pasos": [
+      "🚨 PRIMERO: Cierra la llave de paso general inmediatamente.",
+      "Si no cierra, llama YA al 112 o a tu compañía de aguas.",
+      "Después contacta conmigo para reparación de emergencia.",
+      "📱 WhatsApp urgencias: https://wa.me/34603398960?text=🚨%20INUNDACION:%20Necesito%20fontanero%20URGENTE",
+      "💰 Visita urgencia: desde 60€ + reparación"
     ]
   }
 }
