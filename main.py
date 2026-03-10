@@ -1,7 +1,7 @@
 import json
 
 # Cargar el JSON de problemas
-with open("problemas_v2.json", "r", encoding="utf-8") as f:
+with open("json/Fontanero_Virtual_J_JSON_2.json", "r", encoding="utf-8") as f:
     problemas = json.load(f)
 
 def obtener_solucion(categoria, problema):
