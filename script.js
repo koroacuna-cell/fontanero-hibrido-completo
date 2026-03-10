@@ -1,12 +1,35 @@
 /**
- * Fontanero Virtual PRO v2.1 - Tolerancia Avanzada a Errores
- * Soporta dictado por voz, typos, mayúsculas, palabras similares
+ * Fontanero Virtual PRO v2.2 - Idioma Consistente + Contexto Conversacional
+ * Responde en el idioma del usuario, recuerda contexto, tolera typos EN/ES
  */
 
 let chatData = {};
 let isLoaded = false;
-let currentLanguage = 'es';
-let lastTopic = null;
+let userLanguage = null; // 'es', 'en', o null (auto-detect)
+let conversationContext = { topic: null, lastAnswer: null, timestamp: null };
+
+// ===== DETECTAR IDIOMA DEL MENSAJE =====
+function detectLanguage(text) {
+    if (!text) return 'es';
+    
+    const enWords = ['water', 'heater', 'boiler', 'dripping', 'leak', 'fix', 'repair', 
+        'urgent', 'emergency', 'price', 'cost', 'want', 'need', 'new', 'liters', 'litres',
+        'kitchen', 'bathroom', 'tap', 'faucet', 'pipe', 'drain', 'clogged', 'broken'];
+    
+    const esWords = ['agua', 'termo', 'caldera', 'gotea', 'pierde', 'fuga', 'reparar', 
+        'arreglar', 'urgente', 'emergencia', 'precio', 'coste', 'quiero', 'necesito', 'nuevo',
+        'litros', 'cocina', 'baño', 'grifo', 'tuberia', 'desagüe', 'atasco', 'roto'];
+    
+    const lower = text.toLowerCase();
+    const enCount = enWords.filter(w => lower.includes(w)).length;
+    const esCount = esWords.filter(w => lower.includes(w)).length;
+    
+    if (enCount > esCount) return 'en';
+    if (esCount > enCount) return 'es';
+    
+    // Si hay empate, usar último idioma usado o español por defecto
+    return userLanguage || 'es';
+}
 
 // ===== CARGAR JSON =====
 async function loadChatData() {
@@ -19,109 +42,151 @@ async function loadChatData() {
         updateLanguageUI();
     } catch (error) {
         console.error('❌ Error loading ', error);
-        addMessage('bot', currentLanguage === 'es' ? 
-            '⚠️ Error al cargar. Recarga o WhatsApp 📸' :
-            '⚠️ Error loading. Refresh or WhatsApp 📸');
+        addMessage('bot', getLangText('error_load'));
     }
 }
 
-// ===== IDIOMA =====
+// ===== TEXTOS POR IDIOMA =====
+function getLangText(key) {
+    const texts = {
+        'es': {
+            welcome: 'Hola, soy tu Fontanero Virtual. Pregúntame sobre grifos, termos, cisternas, fugas, desagües, mamparas, reformas... y te ayudaré con solución + presupuesto estimado.',
+            no_info: 'Lo siento, no tengo información específica. Para valoración exacta, envíame una foto por WhatsApp 📸',
+            followup_capacity: '💡 ¿De qué capacidad? (50L / 80L / 100L)',
+            followup_location: '💡 ¿Dónde está? (cocina / baño / terraza / pared)',
+            followup_drain: '💡 ¿Qué no desagua? (fregadero / lavabo / ducha / bañera)',
+            followup_kitchen_bath: '💡 ¿De cocina o baño?',
+            lang_changed: '🇪🇸 Idioma cambiado a ESPAÑOL',
+            placeholder: 'Ej: grifo gotea, quiero termo, urgencia...'
+        },
+        'en': {
+            welcome: 'Hi, I\'m your Virtual Plumber. Ask me about taps, water heaters, cisterns, leaks, drains, showers, bathroom renovations... and I\'ll help with solution + estimated quote.',
+            no_info: 'Sorry, no specific info. For exact quote, send photo via WhatsApp 📸',
+            followup_capacity: '💡 What capacity? (50L / 80L / 100L)',
+            followup_location: '💡 Where is it? (kitchen / bathroom / terrace / wall)',
+            followup_drain: '💡 What won\'t drain? (sink / washbasin / shower / bathtub)',
+            followup_kitchen_bath: '💡 Kitchen or bathroom?',
+            lang_changed: '🇬🇧 Language changed to ENGLISH',
+            placeholder: 'Ex: dripping tap, want water heater, emergency...'
+        }
+    };
+    const lang = userLanguage || detectLanguage('');
+    return texts[lang]?.[key] || texts['es'][key];
+}
+
+// ===== CAMBIAR IDIOMA MANUAL =====
 function toggleLanguage() {
-    currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
+    userLanguage = userLanguage === 'es' ? 'en' : (userLanguage === 'en' ? null : 'en');
     updateLanguageUI();
-    addMessage('bot', currentLanguage === 'es' ? '🇪🇸 ESPAÑOL' : '🇬🇧 ENGLISH');
+    addMessage('bot', getLangText('lang_changed'));
 }
 
 function updateLanguageUI() {
     const langBtn = document.getElementById('lang-toggle');
-    if (langBtn) langBtn.textContent = currentLanguage === 'es' ? '🇬🇧 EN' : '🇪🇸 ES';
+    if (langBtn) {
+        if (userLanguage === 'en') langBtn.textContent = '🇪🇸 ES';
+        else if (userLanguage === 'es') langBtn.textContent = '🇬🇧 EN';
+        else langBtn.textContent = '🌐 AUTO';
+    }
     const input = document.getElementById('user-input');
     if (input) {
-        input.placeholder = currentLanguage === 'es' ?
-            'Ej: grifo gotea, quiero termo, urgencia...' :
-            'Ex: dripping tap, want water heater, emergency...';
+        input.placeholder = getLangText('placeholder');
     }
 }
 
-// ===== NORMALIZACIÓN AVANZADA (tolera errores) =====
+// ===== NORMALIZACIÓN AVANZADA (EN + ES) =====
 function normalizeText(text) {
     if (!text) return '';
     
     return text.toLowerCase()
-        // Quitar tildes y caracteres especiales
+        // Quitar tildes
         .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-        // Reemplazar caracteres confusos por voz
-        .replace(/ç/g, 'c').replace(/ñ/g, 'n')
-        // Quitar puntuación excepto espacios
+        // Reemplazar caracteres confusos
+        .replace(/ç/g, 'c').replace(/ñ/g, 'n').replace(/ß/g, 'ss')
+        // Correcciones comunes de dictado/typos EN
+        .replace(/\bwater\s*heter\b/g, 'water_heater')
+        .replace(/\bwater\s*heater\b/g, 'termo')
+        .replace(/\bboiler\b/g, 'caldera')
+        .replace(/\bdripping\b/g, 'gotea')
+        .replace(/\bleak\b/g, 'fuga')
+        .replace(/\bfix\b|\brepair\b/g, 'reparar')
+        .replace(/\burgent\b|\bemergency\b/g, 'urgente')
+        .replace(/\bprice\b|\bcost\b/g, 'precio')
+        .replace(/\bliters?\b|\blitres?\b/g, 'litros')
+        .replace(/\bfifty\b/g, '50').replace(/\beighty\b/g, '80').replace(/\bone\s*hundred\b/g, '100')
+        .replace(/\bkitchen\b/g, 'cocina').replace(/\bbathroom\b/g, 'bano')
+        .replace(/\btap\b|\bfaucet\b/g, 'grifo')
+        .replace(/\bpipe\b/g, 'tuberia').replace(/\bdrain\b/g, 'desague')
+        .replace(/\bclogged\b|\bblocked\b/g, 'atasco')
+        .replace(/\bbroken\b/g, 'roto')
+        // Correcciones comunes ES
+        .replace(/\bpoerde\b/g, 'pierde')
+        .replace(/\bgote\b/g, 'gotea')
+        .replace(/\bfug\b/g, 'fuga')
+        .replace(/\batasc\b/g, 'atasco')
+        .replace(/\burjente\b/g, 'urgente')
+        .replace(/\bcosina\b|\bkocina\b/g, 'cocina')
+        .replace(/\bbano\b/g, 'bano')
+        // Quitar puntuación
         .replace(/[^\w\s]/g, '')
-        // Unificar espacios múltiples
+        // Unificar espacios
         .replace(/\s+/g, '_')
-        // Quitar espacios al inicio/final
         .trim();
 }
 
-// ===== GENERAR VARIANTES DE TYPOS COMUNES =====
+// ===== GENERAR VARIANTES DE TYPOS =====
 function generateTypos(text) {
     const variants = [text];
     
-    // Typos comunes por dictado por voz
-    const voiceTypos = {
-        'pierde': ['poerde', 'pierde', 'pierd', 'pierdeagua', 'pierde_agua'],
-        'gotea': ['gotea', 'gote', 'goteaagua', 'gotea_agua'],
-        'agua': ['agua', 'agu', 'aguas'],
-        'termo': ['termo', 'term', 'termos', 'calentador'],
-        'grifo': ['grifo', 'grif', 'grifos', 'canilla'],
-        'cisterna': ['cisterna', 'cisterna', 'inodoro', 'wcter'],
-        'fuga': ['fuga', 'fug', 'fugas', 'perdiendo'],
-        'cocina': ['cocina', 'cosina', 'kocina'],
-        'baño': ['bano', 'bano', 'baño', 'bath'],
-        'urgente': ['urgente', 'urgencia', 'urjente', 'rapido', 'ya'],
+    // Typos comunes EN/ES
+    const typos = {
+        'termo': ['termo', 'term', 'termos', 'calentador', 'water_heater', 'boiler'],
+        'grifo': ['grifo', 'grif', 'grifos', 'canilla', 'tap', 'faucet'],
+        'cisterna': ['cisterna', 'cistern', 'inodoro', 'wc', 'toilet'],
+        'fuga': ['fuga', 'fug', 'fugas', 'leak', 'pierde', 'poerde'],
+        'gotea': ['gotea', 'gote', 'goteando', 'dripping', 'drip'],
+        'cocina': ['cocina', 'cosina', 'kitchen'],
+        'bano': ['bano', 'bano', 'bathroom', 'bath'],
+        'urgente': ['urgente', 'urgencia', 'urjente', 'urgent', 'emergency', 'rapido', 'ya'],
+        'litros': ['litros', 'litro', 'liters', 'litres', 'l', '50l', '80l', '100l'],
     };
     
-    for (const [correct, typos] of Object.entries(voiceTypos)) {
+    for (const [correct, variants_list] of Object.entries(typos)) {
         if (text.includes(correct)) {
-            for (const typo of typos) {
+            for (const typo of variants_list) {
                 variants.push(text.replace(new RegExp(correct, 'g'), typo));
             }
         }
     }
     
-    // Variante sin guiones bajos
-    if (text.includes('_')) {
-        variants.push(text.replace(/_/g, ''));
-    }
-    
-    // Variante con guiones bajos añadidos
+    // Variantes con/sin guiones
+    if (text.includes('_')) variants.push(text.replace(/_/g, ''));
     variants.push(text.replace(/\s/g, '_'));
     
-    return [...new Set(variants)]; // Eliminar duplicados
+    return [...new Set(variants)];
 }
 
-// ===== FUZZY MATCHING MEJORADO (más permisivo) =====
+// ===== FUZZY MATCHING =====
 function similarity(s1, s2) {
-    // Normalizar primero
     s1 = normalizeText(s1);
     s2 = normalizeText(s2);
-    
     if (s1 === s2) return 1.0;
     if (!s1 || !s2) return 0;
     
     const longer = s1.length > s2.length ? s1 : s2;
     const shorter = s1.length > s2.length ? s2 : s1;
-    
     if (longer.length === 0) return 1.0;
     
-    // Levenshtein distance
     const edits = levenshteinDistance(longer, shorter);
-    const score = (longer.length - edits) / longer.length;
+    let score = (longer.length - edits) / longer.length;
     
-    // Bonus por contención de palabras clave
+    // Bonus por palabras comunes
     const s1Words = s1.split('_').filter(w => w.length > 2);
     const s2Words = s2.split('_').filter(w => w.length > 2);
-    const commonWords = s1Words.filter(w => s2Words.includes(w)).length;
+    const common = s1Words.filter(w => s2Words.includes(w)).length;
     
-    if (commonWords >= 2) return Math.min(1.0, score + 0.15);
-    if (commonWords === 1) return Math.min(1.0, score + 0.08);
+    if (common >= 2) score = Math.min(1.0, score + 0.15);
+    else if (common === 1) score = Math.min(1.0, score + 0.08);
     
     return score;
 }
@@ -130,7 +195,6 @@ function levenshteinDistance(s1, s2) {
     const matrix = [];
     for (let i = 0; i <= s2.length; i++) matrix[i] = [i];
     for (let j = 0; j <= s1.length; j++) matrix[0][j] = j;
-    
     for (let i = 1; i <= s2.length; i++) {
         for (let j = 1; j <= s1.length; j++) {
             if (s2.charAt(i-1) === s1.charAt(j-1)) {
@@ -147,121 +211,159 @@ function levenshteinDistance(s1, s2) {
     return matrix[s2.length][s1.length];
 }
 
-// ===== DETECTAR INTENCIÓN (más flexible) =====
+// ===== DETECTAR INTENCIÓN =====
 function detectIntent(message) {
     const msg = normalizeText(message);
     
-    const productKeywords = ['comprar', 'nuevo', 'precio', 'cuanto_cuesta', 'quiero_un', 'catalogo', 
-        'modelos', 'tienda', 'webador', 'disponibles', '50_litros', '80_litros', 'digital', 'hibrido',
-        'cuantos_euros', 'valor', 'coste', 'tarifa'];
+    const product = ['comprar', 'nuevo', 'precio', 'cuanto_cuesta', 'quiero_un', 'catalogo', 
+        'modelos', 'tienda', 'webador', 'disponibles', 'digital', 'hibrido', 'coste', 'tarifa',
+        'want', 'need', 'new', 'price', 'cost', 'buy', 'catalog'];
     
-    const repairKeywords = ['reparar', 'arreglar', 'roto', 'averiado', 'no_funciona', 'no_calienta',
+    const repair = ['reparar', 'arreglar', 'roto', 'averiado', 'no_funciona', 'no_calienta',
         'gotea', 'pierde', 'fuga', 'atasco', 'no_cierra', 'no_para', 'urgente', 'olor', 'huele',
-        'gote', 'poerde', 'fug', 'atasc', 'urjente'];
+        'fix', 'repair', 'broken', 'leak', 'dripping', 'clogged', 'urgent', 'emergency'];
     
-    const hasProduct = productKeywords.some(k => msg.includes(k));
-    const hasRepair = repairKeywords.some(k => msg.includes(k));
+    const hasProduct = product.some(k => msg.includes(k));
+    const hasRepair = repair.some(k => msg.includes(k));
     
     if (hasProduct && !hasRepair) return 'product';
     if (hasRepair && !hasProduct) return 'repair';
     if (hasProduct && hasRepair) {
-        if (msg.includes('termo') && (msg.includes('nuevo') || msg.includes('comprar') || msg.includes('quiero'))) return 'product';
+        if (msg.includes('termo') || msg.includes('water_heater') || msg.includes('boiler')) {
+            if (msg.includes('nuevo') || msg.includes('comprar') || msg.includes('quiero') || msg.includes('want') || msg.includes('need')) return 'product';
+        }
         return 'repair';
     }
-    
     return null;
 }
 
-// ===== BUSCAR RESPUESTA CON TOLERANCIA EXTREMA =====
+// ===== ACTUALIZAR CONTEXTO CONVERSACIONAL =====
+function updateContext(topic, answer) {
+    conversationContext = {
+        topic: topic,
+        lastAnswer: answer,
+        timestamp: Date.now()
+    };
+}
+
+function getContextResponse(message) {
+    const now = Date.now();
+    const msg = normalizeText(message);
+    
+    // Si es hace menos de 30 segundos y hay contexto
+    if (conversationContext.topic && (now - conversationContext.timestamp) < 30000) {
+        // Respuesta sobre capacidad de termo
+        if (conversationContext.topic === 'termo' && (msg.includes('50') || msg.includes('80') || msg.includes('100') || msg.includes('litro'))) {
+            const capacity = msg.match(/(50|80|100)/)?.[0] || '50';
+            return {
+                text: `✅ Termo de ${capacity}L disponible. 🛒 Precios: ${capacity === '50' ? 'desde 195€' : capacity === '80' ? 'desde 350€' : 'desde 500€'} (básico) hasta 700€+ (digital) y 1000€+ (híbrido). | 🔗 Ver modelos: https://fontaneriaeduardoquiroz.webador.es | 💰 Instalación + producto desde 250€. WhatsApp 📸`,
+                hasBudget: true
+            };
+        }
+        // Respuesta sobre ubicación de fuga
+        if (conversationContext.topic === 'fuga' && (msg.includes('cocina') || msg.includes('bano') || msg.includes('terr'))) {
+            return {
+                text: `✅ Fuga en ${msg.includes('cocina') ? 'cocina' : msg.includes('bano') ? 'baño' : 'terraza'}. 💰 Reparación estimada: 70-160€ según acceso. Cierra llave de paso si es grave. Envía foto por WhatsApp 📸`,
+                hasBudget: true
+            };
+        }
+    }
+    return null;
+}
+
+// ===== BUSCAR RESPUESTA =====
 function findResponse(message) {
     if (!isLoaded || Object.keys(chatData).length === 0) return null;
+    
+    // 1. Verificar contexto conversacional primero
+    const contextResp = getContextResponse(message);
+    if (contextResp) {
+        console.log('🎯 Match por contexto:', contextResp.text.substring(0, 50));
+        return { pasos: [contextResp.text], hasBudget: contextResp.hasBudget };
+    }
     
     const intent = detectIntent(message);
     const normalizedMsg = normalizeText(message);
     const variants = generateTypos(normalizedMsg);
+    const lang = detectLanguage(message);
     
-    console.log(`🔍 Buscando: "${message}" → variants: [${variants.slice(0,3).join(', ')}...]`);
+    console.log(`🔍 Buscando: "${message}" (lang: ${lang}) → variants: [${variants.slice(0,3).join(', ')}...]`);
     
-    // 1. Búsqueda directa por variantes
+    // 2. Búsqueda directa por variantes
     for (const variant of variants) {
         if (chatData[variant]) {
             console.log(`✅ Match directo variante: ${variant}`);
+            updateContext(variant.split('_')[0], chatData[variant]);
             return chatData[variant];
         }
     }
     
-    // 2. Búsqueda por intención + palabra clave con variantes
+    // 3. Búsqueda por intención + keyword
     if (intent) {
         const keywords = ['termo', 'grifo', 'cisterna', 'fuga', 'atasco', 'caldera', 'radiador', 
             'multicapa', 'pvc', 'sifon', 'latiguillo', 'mampara', 'ducha', 'lavadora', 'lavavajillas',
-            'term', 'grif', 'cistern', 'fug', 'atasc'];
+            'llave_paso', 'humedades', 'plato_ducha'];
         
         for (const kw of keywords) {
             if (normalizedMsg.includes(kw) || variants.some(v => v.includes(kw))) {
-                const baseKey = kw.replace(/[^a-z]/g, '');
-                const targetKey = `${baseKey}_${intent === 'product' ? 'producto' : 'reparacion'}`;
-                
-                // Buscar con fuzzy en las claves
-                for (const [key, value] of Object.entries(chatData)) {
-                    if (key.includes(baseKey) && key.includes(intent === 'product' ? 'producto' : 'reparacion')) {
-                        console.log(`✅ Match intención+keyword: ${key}`);
-                        lastTopic = baseKey;
-                        return value;
-                    }
+                const targetKey = `${kw}_${intent === 'product' ? 'producto' : 'reparacion'}`;
+                if (chatData[targetKey]) {
+                    console.log(`✅ Match intención+keyword: ${targetKey}`);
+                    updateContext(kw, chatData[targetKey]);
+                    return chatData[targetKey];
                 }
             }
         }
     }
     
-    // 3. Búsqueda por aliases con variantes
+    // 4. Búsqueda por aliases
     for (const [key, value] of Object.entries(chatData)) {
         const aliases = value.alias || value.aliases || [];
         for (const alias of aliases) {
             const normalizedAlias = normalizeText(alias);
             const aliasVariants = generateTypos(normalizedAlias);
-            
             if (variants.some(v => aliasVariants.includes(v)) || aliasVariants.some(v => variants.includes(v))) {
                 console.log(`✅ Match alias con typo: ${key}`);
+                updateContext(key.split('_')[0], value);
                 return value;
             }
         }
     }
     
-    // 4. Fuzzy matching con umbral más bajo (0.45)
+    // 5. Fuzzy matching (umbral 0.45)
     let bestMatch = null;
-    let bestScore = 0.45; // Más permisivo que antes (0.55)
+    let bestScore = 0.45;
     
     for (const [key, value] of Object.entries(chatData)) {
         const normalizedKey = normalizeText(key);
-        
-        // Probar con todas las variantes del mensaje
         for (const variant of variants) {
             const score = similarity(variant, normalizedKey);
             if (score > bestScore) {
                 bestScore = score;
                 bestMatch = value;
-                console.log(`🎯 Fuzzy: "${variant}" → "${key}" = ${score.toFixed(2)}`);
             }
         }
     }
     
     if (bestMatch) {
-        console.log(`✅ Mejor fuzzy match: ${bestScore.toFixed(2)}`);
+        console.log(`✅ Mejor fuzzy: ${bestScore.toFixed(2)}`);
+        updateContext(Object.keys(chatData).find(k => chatData[k] === bestMatch)?.split('_')[0], bestMatch);
         return bestMatch;
     }
     
-    // 5. Búsqueda por contención de palabras clave simples
+    // 6. Búsqueda por palabras clave simples
     const msgWords = normalizedMsg.split('_').filter(w => w.length > 3);
     for (const [key, value] of Object.entries(chatData)) {
         const keyWords = normalizeText(key).split('_').filter(w => w.length > 3);
         const common = msgWords.filter(w => keyWords.includes(w));
         if (common.length >= 2) {
-            console.log(`✅ Match por palabras comunes: ${common.join(', ')}`);
+            console.log(`✅ Match palabras comunes: ${common.join(', ')}`);
+            updateContext(key.split('_')[0], value);
             return value;
         }
     }
     
-    console.log('❌ No se encontró match');
+    console.log('❌ No match');
     return null;
 }
 
@@ -269,19 +371,18 @@ function findResponse(message) {
 function generateFollowUp(data, question) {
     const msg = normalizeText(question);
     
-    if (msg.includes('termo') && !msg.includes('litro') && !msg.includes('50') && !msg.includes('80') && !msg.includes('100')) {
-        return '💡 ¿De qué capacidad? (50L / 80L / 100L)';
+    if (msg.includes('termo') && !msg.match(/(50|80|100).*litro|litro.*(50|80|100)/)) {
+        return getLangText('followup_capacity');
     }
-    if ((msg.includes('fuga') || msg.includes('pierde')) && !msg.includes('cocina') && !msg.includes('bano') && !msg.includes('terr')) {
-        return '💡 ¿Dónde está? (cocina / baño / terraza / pared)';
+    if ((msg.includes('fuga') || msg.includes('pierde') || msg.includes('leak')) && !msg.includes('cocina') && !msg.includes('bano')) {
+        return getLangText('followup_location');
     }
-    if (msg.includes('atasco') || msg.includes('desag') || msg.includes('no_desagua')) {
-        return '💡 ¿Qué no desagua? (fregadero / lavabo / ducha / bañera)';
+    if (msg.includes('atasco') || msg.includes('desag') || msg.includes('clogged')) {
+        return getLangText('followup_drain');
     }
     if (msg.includes('grifo') && !msg.includes('cocina') && !msg.includes('bano')) {
-        return '💡 ¿De cocina o baño?';
+        return getLangText('followup_kitchen_bath');
     }
-    
     return null;
 }
 
@@ -289,9 +390,7 @@ function generateFollowUp(data, question) {
 function generateResponse(data, question) {
     if (!data) {
         return {
-            text: currentLanguage === 'es' ?
-                'No tengo info específica. Para valoración exacta, envíame foto por WhatsApp 📸' :
-                'No specific info. For exact quote, send photo via WhatsApp 📸',
+            text: getLangText('no_info'),
             hasBudget: false,
             followUp: null
         };
@@ -300,7 +399,7 @@ function generateResponse(data, question) {
     const pasos = data.pasos || data.steps || [];
     let responseText = pasos.join(' | ');
     
-    // Detectar si ya tiene precio
+    // Detectar precio
     const hasBudget = pasos.some(p => 
         p.toLowerCase().includes('presupuest') || 
         p.toLowerCase().includes('€') ||
@@ -308,33 +407,35 @@ function generateResponse(data, question) {
         p.match(/\d+\s*[-–]\s*\d+\s*€/i)
     );
     
-    // Si NO tiene precio, añadir uno por defecto según contexto
+    // Precio por defecto si no hay
     if (!hasBudget) {
         const msg = normalizeText(question);
-        let defaultPrice = null;
+        let defaultPrice = 'desde 35€';
         
-        if (msg.includes('termo')) defaultPrice = '60-120€';
-        else if (msg.includes('grifo')) defaultPrice = '40-70€';
-        else if (msg.includes('cisterna')) defaultPrice = '60-140€';
-        else if (msg.includes('fuga') || msg.includes('pierde')) defaultPrice = '70-160€';
-        else if (msg.includes('atasco') || msg.includes('desag')) defaultPrice = '50-100€';
+        if (msg.includes('termo') || msg.includes('water_heater') || msg.includes('boiler')) defaultPrice = '60-120€ (reparación) | 195-1000€+ (producto)';
+        else if (msg.includes('grifo') || msg.includes('tap') || msg.includes('faucet')) defaultPrice = '40-70€';
+        else if (msg.includes('cisterna') || msg.includes('toilet')) defaultPrice = '60-140€';
+        else if (msg.includes('fuga') || msg.includes('pierde') || msg.includes('leak')) defaultPrice = '70-160€';
+        else if (msg.includes('atasco') || msg.includes('desag') || msg.includes('clogged')) defaultPrice = '50-100€';
         else if (msg.includes('lavadora') || msg.includes('lavavajillas')) defaultPrice = '35-70€';
-        else if (msg.includes('caldera') || msg.includes('radiador')) defaultPrice = '70-130€';
-        else defaultPrice = 'desde 35€';
+        else if (msg.includes('caldera') || msg.includes('boiler')) defaultPrice = '70-130€';
+        else if (msg.includes('llave_paso') || msg.includes('llave general')) defaultPrice = '50-90€';
         
-        responseText += ` | 💰 Presupuesto orientativo: ${defaultPrice}. Para exacto, WhatsApp 📸`;
+        const priceText = userLanguage === 'en' ? 
+            `💰 Estimated quote: ${defaultPrice}. For exact, WhatsApp 📸` :
+            `💰 Presupuesto orientativo: ${defaultPrice}. Para exacto, WhatsApp 📸`;
+        
+        responseText += ' | ' + priceText;
     }
     
-    // Añadir pregunta de seguimiento
+    // Follow-up
     const followUp = generateFollowUp(data, question);
-    if (followUp) {
-        responseText += ' | ' + followUp;
-    }
+    if (followUp) responseText += ' | ' + followUp;
     
     return { text: responseText, hasBudget: true, followUp };
 }
 
-// ===== AÑADIR MENSAJE (con enlaces que no rompen layout) =====
+// ===== AÑADIR MENSAJE =====
 function addMessage(sender, text) {
     const chatBox = document.getElementById('chat-box');
     if (!chatBox) return;
@@ -343,11 +444,10 @@ function addMessage(sender, text) {
     messageDiv.className = 'chat-message message-' + sender;
     
     const label = sender === 'bot' ? 
-        (currentLanguage === 'es' ? '<strong>Fontanero Virtual 👷‍♂️</strong><br>' : '<strong>Virtual Plumber 👷‍♂️</strong><br>') :
-        (currentLanguage === 'es' ? '<strong>Tú 👤</strong><br>' : '<strong>You 👤</strong><br>');
+        ((userLanguage || detectLanguage('')) === 'en' ? '<strong>Virtual Plumber 👷‍♂️</strong><br>' : '<strong>Fontanero Virtual 👷‍♂️</strong><br>') :
+        ((userLanguage || detectLanguage('')) === 'en' ? '<strong>You 👤</strong><br>' : '<strong>Tú 👤</strong><br>');
     
     let escaped = escapeHtml(text);
-    // Enlaces que se ajustan a pantalla
     escaped = escaped.replace(
         /https?:\/\/[^\s<"]+/g, 
         '<a href="$&" target="_blank" style="color:#0ea5e9;text-decoration:none;font-weight:500;word-break:break-all;display:inline;max-width:100%;overflow-wrap:break-word">$&</a>'
@@ -372,8 +472,13 @@ function sendMessage() {
     const message = input.value.trim();
     if (!message) return;
     
-    console.log('📤 Sending:', message);
-    console.log('🎯 Intent:', detectIntent(message));
+    // Auto-detectar idioma si no está forzado
+    if (!userLanguage) {
+        userLanguage = detectLanguage(message);
+        updateLanguageUI();
+    }
+    
+    console.log('📤 Sending:', message, '| Lang:', userLanguage);
     
     addMessage('user', message);
     input.value = '';
@@ -388,7 +493,7 @@ function sendMessage() {
 
 // ===== INICIALIZAR =====
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('🚀 Fontanero Virtual PRO v2.1 initializing...');
+    console.log('🚀 Fontanero Virtual PRO v2.2 initializing...');
     loadChatData();
     
     // Botón idioma
@@ -396,7 +501,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (header) {
         const langBtn = document.createElement('button');
         langBtn.id = 'lang-toggle';
-        langBtn.textContent = '🇬🇧 EN';
+        langBtn.textContent = '🌐 AUTO';
         langBtn.style.cssText = 'background:var(--accent);border:none;border-radius:6px;padding:0.4rem 0.75rem;cursor:pointer;font-weight:600;font-size:0.875rem;margin-left:0.5rem';
         langBtn.onclick = toggleLanguage;
         header.appendChild(langBtn);

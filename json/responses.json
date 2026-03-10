@@ -1370,5 +1370,87 @@
       "📱 WhatsApp urgencias: https://wa.me/34603398960?text=🚨%20INUNDACION:%20Necesito%20fontanero%20URGENTE",
       "💰 Visita urgencia: desde 60€ + reparación"
     ]
+  },
+  "llave_paso_reparacion": {
+    "alias": [
+      "llave de paso gotea",
+      "llave general gotea",
+      "llave paso pierde",
+      "llave paso no cierra",
+      "llave general no corta",
+      "main valve leak",
+      "shut off valve dripping"
+    ],
+    "pasos": [
+      "La llave de paso general controla el agua de toda la vivienda.",
+      "Si gotea, puede ser por junta desgastada o válvula defectuosa.",
+      "Si no corta el agua, necesita cambio urgente para emergencias.",
+      "💰 Reparación/cambio estimado: 50-90€. Para valoración exacta, envíame foto por WhatsApp 📸"
+    ]
+  },
+  "humedades_bano": {
+    "alias": [
+      "humedades baño",
+      "humedad baño",
+      "pared mojada baño",
+      "moho baño",
+      "baño huele mal",
+      "mal olor baño",
+      "bathroom damp",
+      "bathroom smell"
+    ],
+    "pasos": [
+      "Las humedades en baño suelen venir de fugas ocultas o ventilación insuficiente.",
+      "Los malos olores pueden ser por sifón seco o fuga en desagüe.",
+      "Revisamos tuberías, sellado y sistema de ventilación.",
+      "💰 Diagnóstico + reparación estimado: 60-150€. Envía foto por WhatsApp 📸"
+    ]
+  },
+  "plato_ducha_instalacion": {
+    "alias": [
+      "quitar bañera poner plato",
+      "cambiar bañera por ducha",
+      "instalar plato ducha",
+      "reforma ducha",
+      "bañera a plato ducha",
+      "bathtub to shower conversion"
+    ],
+    "pasos": [
+      "Cambiar bañera por plato de ducha incluye: demolición, nueva base, desagüe alineado, sellado.",
+      "Ofrecemos platos de resina, cerámica o acrílico en varios tamaños.",
+      "La mampara se instala a medida con perfiles de aluminio y cristal templado.",
+      "💰 Instalación plato: 250-500€ | Con mampara: 450-800€. Consulta catálogo: https://fontaneriaeduardoquiroz.webador.es"
+    ]
+  },
+  "caldera_no_enciende": {
+    "alias": [
+      "caldera no enciende",
+      "caldera no funciona",
+      "caldera apagada",
+      "boiler not working",
+      "water heater not starting"
+    ],
+    "pasos": [
+      "Verifica: 1) Suministro de gas/elektricidad, 2) Presión de agua (1.2-1.5 bar), 3) Termostato encendido.",
+      "Si muestra código de error, anótalo para diagnóstico rápido.",
+      "No manipules la caldera si hueles a gas: llama al 112.",
+      "💰 Diagnóstico: desde 70€ | Reparación: 70-200€ según avería. WhatsApp 📸"
+    ]
+  },
+  "aire_acondicionado": {
+    "alias": [
+      "aire acondicionado",
+      "ac no funciona",
+      "split no enfría",
+      "aire no enfría",
+      "air conditioning",
+      "ac repair"
+    ],
+    "pasos": [
+      "Aunque no es fontanería pura, ayudo con conexiones de desagüe de aire acondicionado.",
+      "Si el AC no enfría, puede necesitar carga de gas o limpieza de filtros.",
+      "Trabajo con técnicos certificados de climatización.",
+      "💰 Conexión desagüe AC: 40-80€ | Derivación a técnico: gratuita. WhatsApp 📸"
+    ]
   }
 }
