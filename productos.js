@@ -28,7 +28,7 @@ function loadItemsFromJSON(jsonFile, listId){
 
             const btn = document.createElement('button');
             btn.textContent = "Contactar WhatsApp";
-            btn.onclick = () => window.open(`https://wa.me/34611844783?text=Hola,+estoy+interesado+en+${encodeURIComponent(item.reference)}`, '_blank');
+            btn.onclick = () => window.open(`https://wa.me/34603398960?text=Hola,+estoy+interesado+en+${encodeURIComponent(item.reference)}`, '_blank');
 
             details.appendChild(name);
             details.appendChild(price);

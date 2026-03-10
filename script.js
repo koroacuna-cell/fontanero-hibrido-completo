@@ -47,7 +47,7 @@ function cargarItems(carpeta, listaId) {
           btnWhats.textContent = "Contactar WhatsApp";
           btnWhats.onclick = () =>
             window.open(
-              `https://wa.me/34611844783?text=Hola,+estoy+interesado+en+${encodeURIComponent(
+              `https://wa.me/34603398960?text=Hola,+estoy+interesado+en+${encodeURIComponent(
                 href
               )}`,
               "_blank"
