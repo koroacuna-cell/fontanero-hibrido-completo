@@ -1,6 +1,6 @@
 /**
- * Fontanero Virtual PRO v2.0 - Chat Inteligente con Preguntas de Seguimiento
- * Detección de intención, seguimiento conversacional y soporte bilingüe
+ * Fontanero Virtual PRO v2.1 - Tolerancia Avanzada a Errores
+ * Soporta dictado por voz, typos, mayúsculas, palabras similares
  */
 
 let chatData = {};
@@ -20,78 +20,117 @@ async function loadChatData() {
     } catch (error) {
         console.error('❌ Error loading ', error);
         addMessage('bot', currentLanguage === 'es' ? 
-            '⚠️ Error al cargar. Recarga la página o contacta por WhatsApp 📸' :
-            '⚠️ Error loading. Refresh or contact WhatsApp 📸');
+            '⚠️ Error al cargar. Recarga o WhatsApp 📸' :
+            '⚠️ Error loading. Refresh or WhatsApp 📸');
     }
 }
 
-// ===== CAMBIAR IDIOMA =====
+// ===== IDIOMA =====
 function toggleLanguage() {
     currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
     updateLanguageUI();
-    addMessage('bot', currentLanguage === 'es' ?
-        '🇪🇸 Idioma cambiado a ESPAÑOL' :
-        '🇬🇧 Language changed to ENGLISH');
+    addMessage('bot', currentLanguage === 'es' ? '🇪🇸 ESPAÑOL' : '🇬🇧 ENGLISH');
 }
 
 function updateLanguageUI() {
     const langBtn = document.getElementById('lang-toggle');
-    if (langBtn) {
-        langBtn.textContent = currentLanguage === 'es' ? '🇬🇧 EN' : '🇪🇸 ES';
-    }
-    const placeholder = document.getElementById('user-input');
-    if (placeholder) {
-        placeholder.placeholder = currentLanguage === 'es' ?
+    if (langBtn) langBtn.textContent = currentLanguage === 'es' ? '🇬🇧 EN' : '🇪🇸 ES';
+    const input = document.getElementById('user-input');
+    if (input) {
+        input.placeholder = currentLanguage === 'es' ?
             'Ej: grifo gotea, quiero termo, urgencia...' :
             'Ex: dripping tap, want water heater, emergency...';
     }
 }
 
-// ===== NORMALIZAR TEXTO =====
+// ===== NORMALIZACIÓN AVANZADA (tolera errores) =====
 function normalizeText(text) {
+    if (!text) return '';
+    
     return text.toLowerCase()
+        // Quitar tildes y caracteres especiales
         .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        // Reemplazar caracteres confusos por voz
+        .replace(/ç/g, 'c').replace(/ñ/g, 'n')
+        // Quitar puntuación excepto espacios
         .replace(/[^\w\s]/g, '')
+        // Unificar espacios múltiples
         .replace(/\s+/g, '_')
+        // Quitar espacios al inicio/final
         .trim();
 }
 
-// ===== DETECTAR INTENCIÓN =====
-function detectIntent(message) {
-    const msg = message.toLowerCase();
+// ===== GENERAR VARIANTES DE TYPOS COMUNES =====
+function generateTypos(text) {
+    const variants = [text];
     
-    const productKeywords = ['comprar', 'nuevo', 'precio', 'cuánto cuesta', 'quiero un', 'catálogo', 
-        'modelos', 'tienda', 'webador', 'disponibles', '50 litros', '80 litros', 'digital', 'híbrido'];
+    // Typos comunes por dictado por voz
+    const voiceTypos = {
+        'pierde': ['poerde', 'pierde', 'pierd', 'pierdeagua', 'pierde_agua'],
+        'gotea': ['gotea', 'gote', 'goteaagua', 'gotea_agua'],
+        'agua': ['agua', 'agu', 'aguas'],
+        'termo': ['termo', 'term', 'termos', 'calentador'],
+        'grifo': ['grifo', 'grif', 'grifos', 'canilla'],
+        'cisterna': ['cisterna', 'cisterna', 'inodoro', 'wcter'],
+        'fuga': ['fuga', 'fug', 'fugas', 'perdiendo'],
+        'cocina': ['cocina', 'cosina', 'kocina'],
+        'baño': ['bano', 'bano', 'baño', 'bath'],
+        'urgente': ['urgente', 'urgencia', 'urjente', 'rapido', 'ya'],
+    };
     
-    const repairKeywords = ['reparar', 'arreglar', 'roto', 'averiado', 'no funciona', 'no calienta',
-        'gotea', 'pierde', 'fuga', 'atasco', 'no cierra', 'no para', 'urgente', 'olor', 'huele'];
-    
-    const hasProduct = productKeywords.some(k => msg.includes(k));
-    const hasRepair = repairKeywords.some(k => msg.includes(k));
-    
-    if (hasProduct && !hasRepair) return 'product';
-    if (hasRepair && !hasProduct) return 'repair';
-    if (hasProduct && hasRepair) {
-        if (msg.includes('termo') && (msg.includes('nuevo') || msg.includes('comprar'))) return 'product';
-        return 'repair';
+    for (const [correct, typos] of Object.entries(voiceTypos)) {
+        if (text.includes(correct)) {
+            for (const typo of typos) {
+                variants.push(text.replace(new RegExp(correct, 'g'), typo));
+            }
+        }
     }
     
-    return null;
+    // Variante sin guiones bajos
+    if (text.includes('_')) {
+        variants.push(text.replace(/_/g, ''));
+    }
+    
+    // Variante con guiones bajos añadidos
+    variants.push(text.replace(/\s/g, '_'));
+    
+    return [...new Set(variants)]; // Eliminar duplicados
 }
 
-// ===== FUZZY MATCHING =====
+// ===== FUZZY MATCHING MEJORADO (más permisivo) =====
 function similarity(s1, s2) {
+    // Normalizar primero
+    s1 = normalizeText(s1);
+    s2 = normalizeText(s2);
+    
+    if (s1 === s2) return 1.0;
+    if (!s1 || !s2) return 0;
+    
     const longer = s1.length > s2.length ? s1 : s2;
     const shorter = s1.length > s2.length ? s2 : s1;
+    
     if (longer.length === 0) return 1.0;
+    
+    // Levenshtein distance
     const edits = levenshteinDistance(longer, shorter);
-    return (longer.length - edits) / longer.length;
+    const score = (longer.length - edits) / longer.length;
+    
+    // Bonus por contención de palabras clave
+    const s1Words = s1.split('_').filter(w => w.length > 2);
+    const s2Words = s2.split('_').filter(w => w.length > 2);
+    const commonWords = s1Words.filter(w => s2Words.includes(w)).length;
+    
+    if (commonWords >= 2) return Math.min(1.0, score + 0.15);
+    if (commonWords === 1) return Math.min(1.0, score + 0.08);
+    
+    return score;
 }
 
 function levenshteinDistance(s1, s2) {
     const matrix = [];
     for (let i = 0; i <= s2.length; i++) matrix[i] = [i];
     for (let j = 0; j <= s1.length; j++) matrix[0][j] = j;
+    
     for (let i = 1; i <= s2.length; i++) {
         for (let j = 1; j <= s1.length; j++) {
             if (s2.charAt(i-1) === s1.charAt(j-1)) {
@@ -108,99 +147,151 @@ function levenshteinDistance(s1, s2) {
     return matrix[s2.length][s1.length];
 }
 
-// ===== BUSCAR RESPUESTA CON CONTEXTO =====
+// ===== DETECTAR INTENCIÓN (más flexible) =====
+function detectIntent(message) {
+    const msg = normalizeText(message);
+    
+    const productKeywords = ['comprar', 'nuevo', 'precio', 'cuanto_cuesta', 'quiero_un', 'catalogo', 
+        'modelos', 'tienda', 'webador', 'disponibles', '50_litros', '80_litros', 'digital', 'hibrido',
+        'cuantos_euros', 'valor', 'coste', 'tarifa'];
+    
+    const repairKeywords = ['reparar', 'arreglar', 'roto', 'averiado', 'no_funciona', 'no_calienta',
+        'gotea', 'pierde', 'fuga', 'atasco', 'no_cierra', 'no_para', 'urgente', 'olor', 'huele',
+        'gote', 'poerde', 'fug', 'atasc', 'urjente'];
+    
+    const hasProduct = productKeywords.some(k => msg.includes(k));
+    const hasRepair = repairKeywords.some(k => msg.includes(k));
+    
+    if (hasProduct && !hasRepair) return 'product';
+    if (hasRepair && !hasProduct) return 'repair';
+    if (hasProduct && hasRepair) {
+        if (msg.includes('termo') && (msg.includes('nuevo') || msg.includes('comprar') || msg.includes('quiero'))) return 'product';
+        return 'repair';
+    }
+    
+    return null;
+}
+
+// ===== BUSCAR RESPUESTA CON TOLERANCIA EXTREMA =====
 function findResponse(message) {
     if (!isLoaded || Object.keys(chatData).length === 0) return null;
     
     const intent = detectIntent(message);
     const normalizedMsg = normalizeText(message);
+    const variants = generateTypos(normalizedMsg);
     
-    // 1. Búsqueda por intención + palabra clave
+    console.log(`🔍 Buscando: "${message}" → variants: [${variants.slice(0,3).join(', ')}...]`);
+    
+    // 1. Búsqueda directa por variantes
+    for (const variant of variants) {
+        if (chatData[variant]) {
+            console.log(`✅ Match directo variante: ${variant}`);
+            return chatData[variant];
+        }
+    }
+    
+    // 2. Búsqueda por intención + palabra clave con variantes
     if (intent) {
         const keywords = ['termo', 'grifo', 'cisterna', 'fuga', 'atasco', 'caldera', 'radiador', 
-            'multicapa', 'pvc', 'sifon', 'latiguillo', 'mampara', 'ducha', 'lavadora', 'lavavajillas'];
-        const foundKeyword = keywords.find(k => normalizedMsg.includes(k));
+            'multicapa', 'pvc', 'sifon', 'latiguillo', 'mampara', 'ducha', 'lavadora', 'lavavajillas',
+            'term', 'grif', 'cistern', 'fug', 'atasc'];
         
-        if (foundKeyword) {
-            const targetKey = `${foundKeyword}_${intent === 'product' ? 'producto' : 'reparacion'}`;
-            if (chatData[targetKey]) {
-                lastTopic = foundKeyword;
-                console.log(`🎯 Match por intención: ${targetKey}`);
-                return chatData[targetKey];
+        for (const kw of keywords) {
+            if (normalizedMsg.includes(kw) || variants.some(v => v.includes(kw))) {
+                const baseKey = kw.replace(/[^a-z]/g, '');
+                const targetKey = `${baseKey}_${intent === 'product' ? 'producto' : 'reparacion'}`;
+                
+                // Buscar con fuzzy en las claves
+                for (const [key, value] of Object.entries(chatData)) {
+                    if (key.includes(baseKey) && key.includes(intent === 'product' ? 'producto' : 'reparacion')) {
+                        console.log(`✅ Match intención+keyword: ${key}`);
+                        lastTopic = baseKey;
+                        return value;
+                    }
+                }
             }
         }
     }
     
-    // 2. Búsqueda por aliases
+    // 3. Búsqueda por aliases con variantes
     for (const [key, value] of Object.entries(chatData)) {
         const aliases = value.alias || value.aliases || [];
         for (const alias of aliases) {
-            if (normalizeText(alias) === normalizedMsg) {
-                console.log(`🎯 Match por alias: ${key}`);
+            const normalizedAlias = normalizeText(alias);
+            const aliasVariants = generateTypos(normalizedAlias);
+            
+            if (variants.some(v => aliasVariants.includes(v)) || aliasVariants.some(v => variants.includes(v))) {
+                console.log(`✅ Match alias con typo: ${key}`);
                 return value;
             }
         }
     }
     
-    // 3. Fuzzy matching
+    // 4. Fuzzy matching con umbral más bajo (0.45)
     let bestMatch = null;
-    let bestScore = 0.55;
+    let bestScore = 0.45; // Más permisivo que antes (0.55)
     
     for (const [key, value] of Object.entries(chatData)) {
         const normalizedKey = normalizeText(key);
-        const score = similarity(normalizedMsg, normalizedKey);
         
-        if (score > bestScore) {
-            bestScore = score;
-            bestMatch = value;
+        // Probar con todas las variantes del mensaje
+        for (const variant of variants) {
+            const score = similarity(variant, normalizedKey);
+            if (score > bestScore) {
+                bestScore = score;
+                bestMatch = value;
+                console.log(`🎯 Fuzzy: "${variant}" → "${key}" = ${score.toFixed(2)}`);
+            }
         }
     }
     
     if (bestMatch) {
-        console.log(`🎯 Fuzzy match: ${bestScore.toFixed(2)}`);
+        console.log(`✅ Mejor fuzzy match: ${bestScore.toFixed(2)}`);
         return bestMatch;
     }
     
-    // 4. Búsqueda por palabra clave simple
-    for (const key of Object.keys(chatData)) {
-        if (normalizedMsg.includes(normalizeText(key)) || 
-            normalizeText(key).includes(normalizedMsg.split('_')[0])) {
-            return chatData[key];
+    // 5. Búsqueda por contención de palabras clave simples
+    const msgWords = normalizedMsg.split('_').filter(w => w.length > 3);
+    for (const [key, value] of Object.entries(chatData)) {
+        const keyWords = normalizeText(key).split('_').filter(w => w.length > 3);
+        const common = msgWords.filter(w => keyWords.includes(w));
+        if (common.length >= 2) {
+            console.log(`✅ Match por palabras comunes: ${common.join(', ')}`);
+            return value;
         }
     }
     
+    console.log('❌ No se encontró match');
     return null;
 }
 
-// ===== GENERAR PREGUNTA DE SEGUIMIENTO =====
+// ===== PREGUNTA DE SEGUIMIENTO =====
 function generateFollowUp(data, question) {
-    const msg = question.toLowerCase();
+    const msg = normalizeText(question);
     
-    // Si es sobre termo, preguntar capacidad
-    if (msg.includes('termo') && !msg.includes('litro')) {
-        return '💡 ¿De qué capacidad necesitas el termo? (50L, 80L, 100L)';
+    if (msg.includes('termo') && !msg.includes('litro') && !msg.includes('50') && !msg.includes('80') && !msg.includes('100')) {
+        return '💡 ¿De qué capacidad? (50L / 80L / 100L)';
     }
-    
-    // Si es fuga, preguntar ubicación
-    if (msg.includes('fuga') && !msg.includes('cocina') && !msg.includes('baño')) {
-        return '💡 ¿Dónde está la fuga? (cocina, baño, terraza, pared)';
+    if ((msg.includes('fuga') || msg.includes('pierde')) && !msg.includes('cocina') && !msg.includes('bano') && !msg.includes('terr')) {
+        return '💡 ¿Dónde está? (cocina / baño / terraza / pared)';
     }
-    
-    // Si es atasco, preguntar qué no desagua
-    if (msg.includes('atasco') || msg.includes('desagüe')) {
-        return '💡 ¿Qué no desagua? (fregadero, lavabo, ducha, bañera)';
+    if (msg.includes('atasco') || msg.includes('desag') || msg.includes('no_desagua')) {
+        return '💡 ¿Qué no desagua? (fregadero / lavabo / ducha / bañera)';
+    }
+    if (msg.includes('grifo') && !msg.includes('cocina') && !msg.includes('bano')) {
+        return '💡 ¿De cocina o baño?';
     }
     
     return null;
 }
 
-// ===== GENERAR RESPUESTA =====
+// ===== GENERAR RESPUESTA CON PRECIO POR DEFECTO =====
 function generateResponse(data, question) {
     if (!data) {
         return {
             text: currentLanguage === 'es' ?
-                'Lo siento, no tengo información específica. Para valoración exacta, envíame una foto por WhatsApp 📸' :
-                'Sorry, no specific info. For exact quote, send photo via WhatsApp 📸',
+                'No tengo info específica. Para valoración exacta, envíame foto por WhatsApp 📸' :
+                'No specific info. For exact quote, send photo via WhatsApp 📸',
             hasBudget: false,
             followUp: null
         };
@@ -209,12 +300,30 @@ function generateResponse(data, question) {
     const pasos = data.pasos || data.steps || [];
     let responseText = pasos.join(' | ');
     
-    // Detectar presupuesto
+    // Detectar si ya tiene precio
     const hasBudget = pasos.some(p => 
         p.toLowerCase().includes('presupuest') || 
         p.toLowerCase().includes('€') ||
-        p.toLowerCase().includes('estimad')
+        p.toLowerCase().includes('estimad') ||
+        p.match(/\d+\s*[-–]\s*\d+\s*€/i)
     );
+    
+    // Si NO tiene precio, añadir uno por defecto según contexto
+    if (!hasBudget) {
+        const msg = normalizeText(question);
+        let defaultPrice = null;
+        
+        if (msg.includes('termo')) defaultPrice = '60-120€';
+        else if (msg.includes('grifo')) defaultPrice = '40-70€';
+        else if (msg.includes('cisterna')) defaultPrice = '60-140€';
+        else if (msg.includes('fuga') || msg.includes('pierde')) defaultPrice = '70-160€';
+        else if (msg.includes('atasco') || msg.includes('desag')) defaultPrice = '50-100€';
+        else if (msg.includes('lavadora') || msg.includes('lavavajillas')) defaultPrice = '35-70€';
+        else if (msg.includes('caldera') || msg.includes('radiador')) defaultPrice = '70-130€';
+        else defaultPrice = 'desde 35€';
+        
+        responseText += ` | 💰 Presupuesto orientativo: ${defaultPrice}. Para exacto, WhatsApp 📸`;
+    }
     
     // Añadir pregunta de seguimiento
     const followUp = generateFollowUp(data, question);
@@ -222,16 +331,10 @@ function generateResponse(data, question) {
         responseText += ' | ' + followUp;
     }
     
-    if (!hasBudget) {
-        responseText += currentLanguage === 'es' ?
-            ' | Para valoración exacta, envíame foto por WhatsApp 📸' :
-            ' | For exact quote, send photo via WhatsApp 📸';
-    }
-    
-    return { text: responseText, hasBudget, followUp };
+    return { text: responseText, hasBudget: true, followUp };
 }
 
-// ===== AÑADIR MENSAJE AL CHAT =====
+// ===== AÑADIR MENSAJE (con enlaces que no rompen layout) =====
 function addMessage(sender, text) {
     const chatBox = document.getElementById('chat-box');
     if (!chatBox) return;
@@ -244,10 +347,10 @@ function addMessage(sender, text) {
         (currentLanguage === 'es' ? '<strong>Tú 👤</strong><br>' : '<strong>You 👤</strong><br>');
     
     let escaped = escapeHtml(text);
-    // Hacer enlaces clickeables y que se ajusten a pantalla
+    // Enlaces que se ajustan a pantalla
     escaped = escaped.replace(
         /https?:\/\/[^\s<"]+/g, 
-        '<a href="$&" target="_blank" style="color:#0ea5e9;text-decoration:none;font-weight:500;word-break:break-all;display:inline-block;max-width:100%">$&</a>'
+        '<a href="$&" target="_blank" style="color:#0ea5e9;text-decoration:none;font-weight:500;word-break:break-all;display:inline;max-width:100%;overflow-wrap:break-word">$&</a>'
     );
     
     messageDiv.innerHTML = label + escaped;
@@ -278,23 +381,23 @@ function sendMessage() {
     setTimeout(() => {
         const responseData = findResponse(message);
         const response = generateResponse(responseData, message);
-        console.log('📥 Response:', response.text.substring(0, 70) + '...');
+        console.log('📥 Response:', response.text.substring(0, 80) + '...');
         addMessage('bot', response.text);
     }, 400);
 }
 
 // ===== INICIALIZAR =====
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('🚀 Fontanero Virtual PRO v2.0 initializing...');
+    console.log('🚀 Fontanero Virtual PRO v2.1 initializing...');
     loadChatData();
     
-    // Botón de idioma
+    // Botón idioma
     const header = document.querySelector('header .header-content');
     if (header) {
         const langBtn = document.createElement('button');
         langBtn.id = 'lang-toggle';
         langBtn.textContent = '🇬🇧 EN';
-        langBtn.style.cssText = 'background:var(--accent);border:none;border-radius:6px;padding:0.4rem 0.75rem;cursor:pointer;font-weight:600;font-size:0.875rem';
+        langBtn.style.cssText = 'background:var(--accent);border:none;border-radius:6px;padding:0.4rem 0.75rem;cursor:pointer;font-weight:600;font-size:0.875rem;margin-left:0.5rem';
         langBtn.onclick = toggleLanguage;
         header.appendChild(langBtn);
     }
@@ -304,7 +407,6 @@ document.addEventListener('DOMContentLoaded', function() {
         input.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') { e.preventDefault(); sendMessage(); }
         });
-        console.log('✅ Enter key listener attached');
     }
 });
 
