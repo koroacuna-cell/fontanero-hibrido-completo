@@ -1,0 +1,72 @@
+{
+  "calderas_junkers": {
+    "marca": "Junkers",
+    "modelos": ["Cerapur", "Ceraclass", "Condens", "HydroPower"],
+    "codigos_error": {
+      "EA": "No hay llama - Verificar suministro de gas, electroválvula, ionización",
+      "E9": "Sobrecalentamiento - Verificar circulación de agua, bomba, sensor NTC",
+      "F7": "Fallo de ionización - Limpiar electrodo, verificar cableado",
+      "F13": "Sensor NTC averiado - Reemplazar sensor de temperatura",
+      "CE": "Presión de agua baja - Rellenar circuito a 1.2-1.5 bar",
+      "CC": "Fallo de comunicación - Verificar placa electrónica, conexiones"
+    },
+    "presiones": {
+      "normal_operacion": "1.2-1.5 bar",
+      "minima_seguridad": "0.8 bar",
+      "maxima_seguridad": "2.5 bar"
+    },
+    "temperaturas": {
+      "acs_recomendada": "50-55°C",
+      "calefaccion_recomendada": "60-70°C",
+      "maxima_seguridad": "85°C"
+    }
+  },
+  "calderas_ariston": {
+    "marca": "Ariston",
+    "modelos": ["Genus", "Clas", "Egis", "Alteas"],
+    "codigos_error": {
+      "101": "Sobrecalentamiento - Verificar bomba, radiadores abiertos",
+      "103": "Circulación bloqueada - Purgar radiadores, verificar bomba",
+      "104": "Fallo de encendido - Verificar gas, electroválvula, electrodo",
+      "106": "Presión baja - Rellenar circuito a 1.2 bar",
+      "107": "Presión alta - Purgar radiadores, verificar vaso de expansión",
+      "501": "Falta de gas - Verificar suministro, purgar línea"
+    }
+  },
+  "lavadoras_bosch": {
+    "marca": "Bosch/Siemens",
+    "codigos_error": {
+      "E18": "Desagüe bloqueado - Limpiar filtro, verificar manguera",
+      "E21": "Bomba de desagüe averiada - Reemplazar bomba",
+      "F18": "Puerta no cierra - Verificar cierre, interruptor",
+      "F21": "Motor bloqueado - Verificar correa, rotor",
+      "F43": "Fallo de tacómetro - Reemplazar módulo de control"
+    }
+  },
+  "aire_acondicionado_general": {
+    "problemas_comunes": {
+      "no_enfria": [
+        "Falta de gas refrigerante (R410A, R32)",
+        "Filtro sucio - Limpiar cada 3 meses",
+        "Batería exterior obstruida - Limpiar con agua a presión",
+        "Compresor averiado - Requiere técnico certificado"
+      ],
+      "gotea_interior": [
+        "Desagüe obstruido - Limpiar con aire comprimido",
+        "Bomba de condensados averiada",
+        "Unidad no nivelada - Ajustar soportes"
+      ],
+      "hace_ruido": [
+        "Ventilador desbalanceado - Verificar aspas",
+        "Compresor con desgaste - Requiere revisión",
+        "Tuberías vibrando - Ajustar abrazaderas"
+      ]
+    },
+    "presiones_gas": {
+      "R410A_baja": "110-130 PSI",
+      "R410A_alta": "350-400 PSI",
+      "R32_baja": "90-110 PSI",
+      "R32_alta": "300-350 PSI"
+    }
+  }
+}

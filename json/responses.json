@@ -1027,7 +1027,11 @@
       "termo digital",
       "termo híbrido",
       "catálogo termos",
-      "modelos de termos"
+      "modelos de termos",
+      "termo de 50l",
+      "termo de 80l",
+      "precio termo 50 litros",
+      "quiero termo nuevo"
     ],
     "pasos": [
       "Disponemos de termos eléctricos de 50L, 80L, 100L y termos digitales con control de temperatura.",
@@ -1035,7 +1039,18 @@
       "🛒 Precios de productos: desde 195€ (básico 50L) hasta 700€+ (digitales) y 1000€+ (híbridos).",
       "🔗 Consulta modelos, fotos y disponibilidad en nuestro catálogo: https://fontaneriaeduardoquiroz.webador.es",
       "💰 Para instalación + producto, presupuesto combinado desde 250€. Envía foto por WhatsApp 📸"
-    ]
+    ],
+    "materiales_estimados": [
+      "1 termo eléctrico (50L/80L/100L según necesidad)",
+      "1 válvula de seguridad 3/4\" (6-8 bar)",
+      "2 latiguillos flexibles 3/4\" M-H (30-50 cm)",
+      "1 grupo de seguridad con desagüe visible",
+      "Teflón o pasta selladora para roscas",
+      "Soportes de fijación a pared (incluidos o según pared)",
+      "Cable eléctrico 3x2.5mm² si necesita nueva línea",
+      "Diferencial 30mA si no hay en cuadro"
+    ],
+    "nota_instalacion": "Instalación requiere electricista certificado si necesita nueva línea. Siempre conectar a tierra."
   },
   "grifo_producto": {
     "alias": [
@@ -1045,14 +1060,32 @@
       "quiero grifo",
       "catálogo grifería",
       "grifos cocina",
-      "grifos baño"
+      "grifos baño",
+      "grifo de cocina",
+      "grifo de bano",
+      "grifo de lavabo",
+      "grifo de fregadero",
+      "grifo para cocina",
+      "grifo para bano",
+      "cuanto vale un grifo",
+      "precio grifo cocina",
+      "quiero grifo nuevo",
+      "necesito grifo"
     ],
     "pasos": [
       "Grifos monomando y bimando para cocina y baño. Marcas profesionales con garantía.",
       "🛒 Precios de grifería: desde 45€ (básico) hasta 200€+ (diseño premium).",
       "🔗 Consulta catálogo completo con fotos en: https://fontaneriaeduardoquiroz.webador.es",
       "💰 Para instalación + producto, presupuesto desde 80€. Envía foto por WhatsApp 📸"
-    ]
+    ],
+    "materiales_estimados": [
+      "1 grifo nuevo (monomando/bimando/termostático)",
+      "2 latiguillos flexibles 3/8\" M-H (30-50 cm) si no incluye",
+      "Arandela de goma o silicona para sellado",
+      "Cinta de teflón para roscas si son rígidas",
+      "Llave ajustable 200mm para tuercas"
+    ],
+    "nota_instalacion": "Verificar presión de agua antes de instalar. Cerrar llave de paso general antes de trabajar."
   },
   "cisterna_producto": {
     "alias": [
@@ -1075,7 +1108,12 @@
       "reparar termo",
       "termo averiado",
       "termo no funciona",
-      "arreglar termo"
+      "arreglar termo",
+      "termo pierde agua",
+      "termo no calienta agua",
+      "termo agua fria",
+      "termo gotea",
+      "reparar termo electrico"
     ],
     "pasos": [
       "Comprueba que el termo esté enchufado y que el interruptor esté activo.",
@@ -1090,7 +1128,12 @@
       "grifo pierde agua",
       "grifo no cierra",
       "arreglar grifo",
-      "reparar grifo"
+      "reparar grifo",
+      "grifo gotea cocina",
+      "grifo gotea bano",
+      "grifo pierde agua cocina",
+      "arreglar grifo cocina",
+      "reparar grifo bano"
     ],
     "pasos": [
       "Un grifo que gotea suele necesitar cambiar la arandela o el cartucho.",
@@ -1104,7 +1147,10 @@
       "cisterna pierde agua",
       "cisterna no para",
       "arreglar cisterna",
-      "reparar cisterna"
+      "reparar cisterna",
+      "cisterna no para de echar agua",
+      "cisterna no cierra bien",
+      "reparar cisterna bano"
     ],
     "pasos": [
       "Si la cisterna no cierra, revisa flotador y válvula de entrada.",
@@ -1312,7 +1358,15 @@
       "Verificamos que el desagüe tenga sifón para evitar olores.",
       "Comprobamos que no haya fugas en las conexiones.",
       "💰 Instalación estimada: 35-60€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
+    ],
+    "materiales_estimados": [
+      "2 latiguillos de alimentación 3/4\" M-H (si no incluye)",
+      "1 manguera de desagüe flexible 22mm (1.5-2m)",
+      "1 toma de corriente con tierra (si necesita nueva)",
+      "1 llave de corte para alimentación (recomendado)",
+      "Abrazaderas para fijar mangueras"
+    ],
+    "nota_instalacion": "Desagüe debe tener sifón para evitar olores. Altura máxima de desagüe: 1m desde suelo."
   },
   "lavavajillas_instalacion": {
     "alias": [
@@ -1420,7 +1474,17 @@
       "Ofrecemos platos de resina, cerámica o acrílico en varios tamaños.",
       "La mampara se instala a medida con perfiles de aluminio y cristal templado.",
       "💰 Instalación plato: 250-500€ | Con mampara: 450-800€. Consulta catálogo: https://fontaneriaeduardoquiroz.webador.es"
-    ]
+    ],
+    "materiales_estimados": [
+      "1 plato de ducha (resina/acrílico/cerámica)",
+      "1 sifón de plato de ducha 90mm con acceso",
+      "Manguera de desagüe flexible 40mm (1-2m)",
+      "Silicona sanitaria antimoho (1 cartucho)",
+      "Base niveladora o mortero de apoyo",
+      "Perfil de acabado si es empotrar",
+      "Mampara (opcional): cristal templado 8mm + perfiles aluminio"
+    ],
+    "nota_instalacion": "Verificar que desagüe existente esté alineado con nuevo plato. Pendiente mínima 2% para evacuación."
   },
   "caldera_no_enciende": {
     "alias": [
@@ -1452,5 +1516,406 @@
       "Trabajo con técnicos certificados de climatización.",
       "💰 Conexión desagüe AC: 40-80€ | Derivación a técnico: gratuita. WhatsApp 📸"
     ]
+  },
+  "junkers_ea": {
+    "alias": [
+      "junkers ea",
+      "codigo ea junkers",
+      "ea caldera",
+      "junkers no hay llama",
+      "error ea",
+      "ea error"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "marca": "Junkers",
+    "modelos_afectados": [
+      "Cerapur",
+      "Ceraclass",
+      "Condens 2000/3000/5000",
+      "HydroPower"
+    ],
+    "pasos": [
+      "Código EA: No hay señal de llama.",
+      "1. Verificar suministro de gas (llave abierta, contador con saldo).",
+      "2. Comprobar electroválvula de gas: ¿se oye clic al encender?",
+      "3. Limpiar electrodo de ionización con lija fina.",
+      "4. Verificar cableado del electrodo (sin roturas, bien conectado).",
+      "5. Resetear caldera: apagar 30 seg y encender.",
+      "Si persiste: posible fallo de placa electrónica.",
+      "💰 Diagnóstico: desde 70€ | Reparación: 70-250€ según pieza. WhatsApp 📸"
+    ],
+    "valores_tecnicos": {
+      "tension_electrodo": "2-4 kV",
+      "corriente_ionizacion_minima": "2 µA",
+      "tiempo_seguridad_llama": "3-5 seg"
+    },
+    "materiales_estimados": [
+      "Electrodo de ionización (si necesita cambio)",
+      "Cable de alta tensión (si está dañado)",
+      "Electroválvula de gas (si no abre)",
+      "Placa electrónica (si falla control)"
+    ]
+  },
+  "junkers_e9": {
+    "alias": [
+      "junkers e9",
+      "codigo e9",
+      "sobrecalentamiento junkers",
+      "e9 caldera",
+      "limite seguridad"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "marca": "Junkers",
+    "pasos": [
+      "Código E9: Límite de seguridad por sobrecalentamiento activado.",
+      "1. Verificar circulación de agua: ¿bomba funciona? ¿radiadores abiertos?",
+      "2. Comprobar sensor NTC de temperatura (resistencia ~10kΩ a 25°C).",
+      "3. Purgar radiadores si hay aire atrapado.",
+      "4. Verificar presión del circuito: 1.2-1.5 bar en frío.",
+      "5. Resetear tras enfriar (esperar 10-15 min).",
+      "💰 Diagnóstico: desde 70€ | Reparación: 70-180€. WhatsApp 📸"
+    ],
+    "valores_tecnicos": {
+      "temperatura_limite_seguridad": "90-95°C",
+      "presion_normal_operacion": "1.2-1.5 bar",
+      "resistencia_ntc_25c": "10 kΩ"
+    }
+  },
+  "junkers_f7": {
+    "alias": [
+      "junkers f7",
+      "fallo ionizacion",
+      "f7 caldera",
+      "electrodo junkers"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "marca": "Junkers",
+    "pasos": [
+      "Código F7: Fallo de detección de llama (ionización).",
+      "1. Limpiar electrodo de ionización con lija de grano fino.",
+      "2. Verificar distancia electrodo-llama: 3-4 mm.",
+      "3. Comprobar cable de alta tensión (sin grietas, bien aislado).",
+      "4. Medir corriente de ionización: mínimo 2 µA.",
+      "5. Si todo correcto: posible fallo de placa de control.",
+      "💰 Limpieza electrodo: 40-70€ | Placa nueva: 150-300€. WhatsApp 📸"
+    ]
+  },
+  "junkers_ce": {
+    "alias": [
+      "junkers ce",
+      "presion baja junkers",
+      "ce caldera",
+      "rellenar circuito"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "marca": "Junkers",
+    "pasos": [
+      "Código CE: Presión de agua demasiado baja (<0.8 bar).",
+      "1. Localizar llave de llenado (normalmente debajo de caldera).",
+      "2. Abrir lentamente hasta ver 1.2-1.5 bar en manómetro.",
+      "3. Cerrar bien la llave de llenado (¡importante!).",
+      "4. Si la presión baja rápido: posible fuga en circuito.",
+      "5. Resetear caldera si no se quita el código.",
+      "💰 Revisión de fugas: 60-120€. WhatsApp 📸"
+    ],
+    "valores_tecnicos": {
+      "presion_minima": "0.8 bar",
+      "presion_optima": "1.2-1.5 bar",
+      "presion_maxima": "2.5 bar"
+    }
+  },
+  "ariston_101": {
+    "alias": [
+      "ariston 101",
+      "codigo 101",
+      "sobrecalentamiento ariston",
+      "101 caldera"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "marca": "Ariston",
+    "modelos_afectados": [
+      "Genus",
+      "Clas",
+      "Egis",
+      "Alteas"
+    ],
+    "pasos": [
+      "Código 101: Sobrecalentamiento del intercambiador.",
+      "1. Verificar que todos los radiadores estén abiertos.",
+      "2. Comprobar funcionamiento de bomba de circulación.",
+      "3. Purgar radiadores para eliminar aire.",
+      "4. Verificar que el termostato ambiente no esté en mínimo.",
+      "5. Resetear tras enfriar 10 min.",
+      "💰 Diagnóstico: desde 70€ | Reparación: 70-200€. WhatsApp 📸"
+    ]
+  },
+  "ariston_103": {
+    "alias": [
+      "ariston 103",
+      "circulacion bloqueada",
+      "103 caldera",
+      "bomba ariston"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "marca": "Ariston",
+    "pasos": [
+      "Código 103: Circulación de agua bloqueada o insuficiente.",
+      "1. Purgar radiadores (aire bloquea circulación).",
+      "2. Verificar que válvulas de radiadores estén abiertas.",
+      "3. Comprobar bomba: ¿gira? ¿hace ruido? ¿calienta?",
+      "4. Si bomba atascada: golpear suavemente con mango de destornillador.",
+      "5. Si persiste: posible fallo de condensador o bomba.",
+      "💰 Cambio bomba: 120-250€ (incluye mano de obra). WhatsApp 📸"
+    ]
+  },
+  "ariston_501": {
+    "alias": [
+      "ariston 501",
+      "falta gas ariston",
+      "501 caldera",
+      "no enciende ariston"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "marca": "Ariston",
+    "pasos": [
+      "Código 501: Falta de gas o fallo de encendido.",
+      "1. Verificar que llave de gas esté abierta.",
+      "2. Comprobar contador: ¿tiene saldo? ¿está bloqueado?",
+      "3. Purgar línea de gas si es instalación nueva o tras corte.",
+      "4. Escuchar: ¿se oye clic de electroválvula al encender?",
+      "5. Resetear 2-3 veces. Si persiste: fallo de electrodo o placa.",
+      "💰 Diagnóstico: desde 70€ | Reparación: 70-220€. WhatsApp 📸"
+    ]
+  },
+  "saunier_a01": {
+    "alias": [
+      "saunier a01",
+      "baxi a01",
+      "a01 caldera",
+      "falta llama saunier"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "marca": "Saunier Duval / Baxi",
+    "pasos": [
+      "Código A01: Fallo de encendido (equivalente a EA en Junkers).",
+      "Diagnóstico y solución idénticos a Junkers EA.",
+      "Verificar gas, electroválvula, electrodo de ionización.",
+      "💰 Mismos rangos que Junkers: 70-250€. WhatsApp 📸"
+    ]
+  },
+  "aerotermia_no_calienta": {
+    "alias": [
+      "aerotermia no calienta",
+      "bomba calor no funciona",
+      "aerotermia error",
+      "daikin error",
+      "mitsubishi aerotermia"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "pasos": [
+      "Aerotermia no calienta: verificar en orden:",
+      "1. Termostato: ¿está en modo calor y temperatura > ambiente?",
+      "2. Unidad exterior: ¿ventilador gira? ¿compresor suena?",
+      "3. Filtros de unidad interior: ¿limpios? (obstrucción reduce flujo).",
+      "4. Presión de refrigerante: baja = fuga, alta = obstrucción.",
+      "5. Código de error en display: anotar para diagnóstico.",
+      "💰 Diagnóstico: desde 80€ | Reparación: 80-400€ según avería. WhatsApp 📸"
+    ],
+    "valores_tecnicos": {
+      "presion_r410a_baja": "110-130 PSI",
+      "presion_r410a_alta": "350-400 PSI",
+      "temperatura_impulsion_recomendada": "35-45°C (suelo radiante)"
+    }
+  },
+  "aerotermia_gotea_interior": {
+    "alias": [
+      "aerotermia gotea",
+      "bomba calor agua",
+      "desagüe aerotermia"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "pasos": [
+      "Goteo en unidad interior: normalmente por desagüe obstruido.",
+      "1. Localizar bandeja de condensados y manguera de desagüe.",
+      "2. Soplar con aire comprimido o usar limpiador de desagües.",
+      "3. Verificar que manguera tenga pendiente hacia exterior.",
+      "4. Si hay bomba de condensados: comprobar funcionamiento.",
+      "💰 Limpieza desagüe: 40-70€ | Cambio bomba: 80-150€. WhatsApp 📸"
+    ]
+  },
+  "solar_presion_baja": {
+    "alias": [
+      "solar presion baja",
+      "circuito primario baja presion",
+      "vaso expansion solar pinchado"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "pasos": [
+      "Presión baja en circuito solar (<2 bar en frío):",
+      "1. Verificar manómetro del grupo de impulso.",
+      "2. Comprobar vaso de expansión: presión pre-carga 2.5 bar.",
+      "3. Si vaso pinchado: reemplazar y recargar circuito.",
+      "4. Verificar fugas en uniones, válvulas, placas.",
+      "5. Recargar con anticongelante propilenglicol 30-40%.",
+      "💰 Recarga circuito (10L): 120-200€ | Vaso nuevo: 150-300€. WhatsApp 📸"
+    ],
+    "valores_tecnicos": {
+      "presion_pre_carga_vaso": "2.5 bar",
+      "presion_trabajo_frio": "2.5-3.0 bar",
+      "presion_trabajo_caliente": "3.5-4.5 bar",
+      "anticongelante": "Propilenglicol 30-40% (protege hasta -15°C/-20°C)"
+    }
+  },
+  "solar_sobrecalentamiento": {
+    "alias": [
+      "solar sobrecalentamiento",
+      "stagnation solar",
+      "placas muy calientes"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "pasos": [
+      "Sobrecalentamiento solar (stagnation):",
+      "1. Normal en verano si acumulador está lleno.",
+      "2. Verificar que válvula de seguridad 6 bar no haya abierto.",
+      "3. Si abrió: recargar circuito y revisar vaso de expansión.",
+      "4. Instalar disipador o sombreado si es recurrente.",
+      "5. Nunca tapar válvula de seguridad: es crítica.",
+      "💰 Revisión post-stagnation: 80-150€. WhatsApp 📸"
+    ]
+  },
+  "ac_no_enfria": {
+    "alias": [
+      "aire acondicionado no enfria",
+      "split no enfria",
+      "ac sin gas",
+      "fuga gas ac"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "pasos": [
+      "AC no enfría: diagnóstico por pasos:",
+      "1. Filtros: ¿limpios? (obstrucción reduce flujo de aire).",
+      "2. Unidad exterior: ¿ventilador gira? ¿compresor arranca?",
+      "3. Presión de refrigerante: conectar manómetros.",
+      "   • R410A baja: 110-130 PSI | alta: 350-400 PSI",
+      "   • R32 baja: 90-110 PSI | alta: 300-350 PSI",
+      "4. Si presión baja: buscar fuga con detector electrónico.",
+      "5. Si compresor no arranca: verificar condensador, contacto.",
+      "💰 Carga gas (R410A): 120-250€ | Reparación fuga: 80-200€. WhatsApp 📸"
+    ],
+    "valores_tecnicos": {
+      "r410a_baja": "110-130 PSI",
+      "r410a_alta": "350-400 PSI",
+      "r32_baja": "90-110 PSI",
+      "r32_alta": "300-350 PSI",
+      "supercalentamiento_recomendado": "5-8 K",
+      "subenfriamiento_recomendado": "5-7 K"
+    }
+  },
+  "ac_gotea_interior": {
+    "alias": [
+      "ac gotea",
+      "split gotea agua",
+      "desagüe aire acondicionado"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "pasos": [
+      "Goteo en unidad interior de AC:",
+      "1. Desagüe obstruido: soplar con aire comprimido.",
+      "2. Bandeja de condensados agrietada: reemplazar.",
+      "3. Unidad no nivelada: ajustar soportes (pendiente hacia desagüe).",
+      "4. Bomba de condensados averiada (si lleva): reemplazar.",
+      "💰 Limpieza desagüe: 40-70€ | Cambio bomba: 80-120€. WhatsApp 📸"
+    ]
+  },
+  "calentador_no_enciende": {
+    "alias": [
+      "calentador no enciende",
+      "calentador gas no funciona",
+      "calentador chispa no salta"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "pasos": [
+      "Calentador de gas no enciende:",
+      "1. Verificar suministro de gas (llave abierta, contador con saldo).",
+      "2. Piloto/encendido: ¿salta chispa? ¿se oye clic?",
+      "3. Termopar: si está sucio o mal posicionado, corta gas por seguridad.",
+      "4. Limpiar inyector con aire comprimido (obstrucción por polvo).",
+      "5. Verificar salida de humos: obstrucción = no enciende por seguridad.",
+      "💰 Limpieza termopar/inyector: 40-70€ | Cambio pieza: 60-120€. WhatsApp 📸"
+    ]
+  },
+  "calentador_agua_no_caliente": {
+    "alias": [
+      "calentador agua tibia",
+      "calentador no calienta bien",
+      "caudal bajo calentador"
+    ],
+    "pro": true,
+    "source": "manufacturer",
+    "pasos": [
+      "Agua no suficientemente caliente en calentador:",
+      "1. Caudal demasiado alto: reducir grifo para que active quemador.",
+      "2. Intercambiador calcificado: descalcificar con producto específico.",
+      "3. Presión de gas baja: verificar regulador, tubería.",
+      "4. Sensor de temperatura averiado: reemplazar.",
+      "💰 Descalcificación: 60-100€ | Cambio sensor: 50-90€. WhatsApp 📸"
+    ]
+  },
+  "cisterna_materiales": {
+    "pasos": [
+      "1. Adquiere una cisterna adecuada para tu inodoro.",
+      "2. Consigue un kit de instalación con válvula de llenado y flotador.",
+      "3. Compra tubería de PVC o polietileno para conexión de agua.",
+      "4. Asegúrate de tener juntas de estanqueidad y tornillería.",
+      "5. Herramientas: llave inglesa, destornillador y nivel.",
+      "💰 Presupuesto orientativo: 50-150€ (materiales + mano de obra)",
+      "Para valoración exacta, envíame foto por WhatsApp 📸",
+      "🔗 Consulta en: https://fontaneriaeduardoquiroz.webador.es"
+    ],
+    "alias": [
+      "¿Qué materiales necesito para instalar cisterna?",
+      "materiales cisterna",
+      "instalar cisterna"
+    ],
+    "pro": false,
+    "source": "manual"
+  },
+  "llave_paso_gotea": {
+    "pasos": [
+      "La llave de paso general controla el agua de toda la vivienda.",
+      "Si gotea, suele ser por junta desgastada o válvula defectuosa.",
+      "Cerrar la llave antes de trabajar para evitar inundaciones.",
+      "💰 Reparación/cambio estimado: 50-90€ (mano de obra + pieza).",
+      "Para valoración exacta, envíame foto por WhatsApp 📸"
+    ],
+    "alias": [
+      "llave de paso gotea",
+      "llave general gotea",
+      "llave paso pierde agua",
+      "cambiar llave de paso",
+      "llave paso no cierra",
+      "llave de paso",
+      "llave general",
+      "llave paso general",
+      "llave de corte"
+    ],
+    "pro": false,
+    "source": "manual",
+    "category": "repair"
   }
 }
