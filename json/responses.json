@@ -784,5 +784,110 @@
     "pasos": [
       "Cierra la llave de paso. Si el grifo gotea o no funciona, envía una foto por WhatsApp 📸 y nuestro fontanero te indicará la solución."
     ]
+  },
+  "termo_catalogo": {
+    "alias": [
+      "termo 50 litros",
+      "termo 80 litros",
+      "termo 100 litros",
+      "precio termo",
+      "catálogo termos",
+      "qué termo me recomiendas",
+      "termo para 2 personas",
+      "termo familia",
+      "cambiar termo torrevieja",
+      "termo económico",
+      "termo eficiente",
+      "termo wifi",
+      "water heater 50 litres",
+      "water heater 80 litres",
+      "water heater price",
+      "ariston termo",
+      "replace water heater torrevieja",
+      "best water heater",
+      "water heater for 2 people",
+      "electric water heater installation"
+    ],
+    "pasos": [
+      "💧 **Catálogo Ariston - Precios con instalación en Torrevieja**:",
+      "🔹 SIMAT (básico): 50L €195 | 80L €260 | 100L €320 +IVA",
+      "🔹 PRO R (blindada): 50L €260 | 80L €290 | 100L €340 +IVA",
+      "🔹 LYDOS PRO ECO (clase B): 50L €280 | 80L €330 | 100L €390 +IVA",
+      "🔹 LYDOS Wi‑Fi: 50L €330 | 80L €359 | 100L €420 +IVA",
+      "🔹 VELIS PRO Wi‑Fi (plano): 50L €420 | 80L €499 | 100L €669 +IVA",
+      "🔹 PRO ECO Drive Multis (aguas duras): 50L €370 | 80L €399 | 100L €459 +IVA",
+      "🔹 HÍBRIDO Wi‑Fi (aerotermia): 80L €840 | 100L €890 +IVA",
+      "⚡ **Recomendación Torrevieja**: Para aguas duras, elige PRO ECO Drive Multis o PRO R.",
+      "📏 **Guía capacidad**: 1-2 personas → 50L | 3-4 personas → 80L | 5+ → 100L+",
+      "📸 Envía foto del espacio por WhatsApp para asesoramiento personalizado."
+    ]
+  },
+  "termo_recomendacion": {
+    "alias": [
+      "qué termo necesito",
+      "termo recomendado",
+      "mejor termo torrevieja",
+      "termo para agua dura",
+      "termo ahorro energía",
+      "termo cal torrevieja",
+      "which water heater do i need",
+      "best water heater hard water",
+      "energy saving termo"
+    ],
+    "pasos": [
+      "🔍 **Asistente de selección**:",
+      "1️⃣ ¿Cuántas personas en casa? → 1-2: 50L | 3-4: 80L | 5+: 100L+",
+      "2️⃣ ¿Agua con mucha cal? → Elige PRO ECO Drive Multis o PRO R (resistencia seca/blindada).",
+      "3️⃣ ¿Quieres ahorrar energía? → LYDOS PRO ECO o superior (clase B + ECO EVO).",
+      "4️⃣ ¿Espacio reducido? → PRO 1 ECO SLIM (formato compacto) o VELIS PRO (plano).",
+      "5️⃣ ¿Tecnología smart? → Modelos Wi‑Fi con app Ariston Net.",
+      "💡 **Top para Torrevieja**: PRO ECO Drive Multis 80L (€399+IVA) - resistente a cal + eficiente.",
+      "📸 ¿Dudas? Envía foto por WhatsApp y te ayudo a elegir."
+    ]
+  },
+  "termo_english": {
+    "alias": [
+      "water heater installation torrevieja",
+      "replace electric water heater",
+      "ariston water heater price",
+      "water heater for hard water",
+      "urgent plumber water heater",
+      "english service water heater"
+    ],
+    "pasos": [
+      "🇬🇧 **Water Heater Catalogue - Installation Included in Torrevieja**:",
+      "🔹 SIMAT (basic): 50L €195 | 80L €260 | 100L €320 +VAT",
+      "🔹 PRO R (shielded resistance): 50L €260 | 80L €290 | 100L €340 +VAT",
+      "🔹 LYDOS PRO ECO (class B): 50L €280 | 80L €330 | 100L €390 +VAT",
+      "🔹 PRO ECO Drive Multis (hard water): 50L €370 | 80L €399 | 100L €459 +VAT",
+      "⚡ **Recommended for Costa Blanca**: PRO ECO Drive Multis - dry resistance protects against limescale.",
+      "📏 **Capacity guide**: 1-2 people → 50L | 3-4 → 80L | 5+ → 100L+",
+      "🔧 All installations include: safety valve, pressure check, professional setup.",
+      "📸 Send a photo via WhatsApp for personalized advice (English service available)."
+    ]
+  },
+  "termo_agua_dura": {
+    "alias": [
+      "termo agua dura torrevieja",
+      "termo cal",
+      "termo resistente cal",
+      "aguas duras vega baja",
+      "termo no se estropee cal",
+      "water heater limescale protection",
+      "hard water water heater torrevieja"
+    ],
+    "pasos": [
+      "🔧 **Solución para aguas duras (Torrevieja, Guardamar, La Zenia)**:",
+      "✅ **Modelos recomendados**:",
+      "   • PRO ECO Drive Multis: Resistencia seca (no toca el agua) + doble anti-cal.",
+      "   • PRO R: Resistencia blindada + tanque con titanio.",
+      "⚠️ Evita modelos con resistencia sumergida estándar en zonas de alta cal.",
+      "🛡️ **Protección extra**:",
+      "   • Instala válvula reductora de presión en la entrada.",
+      "   • Revisa ánodo de magnesio cada 1-2 años.",
+      "   • Programa mantenimiento anual de descalcificación.",
+      "💰 **Inversión**: PRO ECO Drive Multis 80L €399+IVA (instalación incluida) = durabilidad + ahorro.",
+      "📸 Envía foto de tu instalación por WhatsApp para recomendación exacta."
+    ]
   }
 }
