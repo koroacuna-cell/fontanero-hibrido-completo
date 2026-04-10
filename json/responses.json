@@ -1,29 +1,27 @@
 {
   "termo": {
     "pasos": [
-      "Disponemos de termos de 50L y termos digitales con control de temperatura.",
-      "💰 Presupuesto orientativo: 60-120€ estimado (según capacidad y modelo). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para problemas con termos, indica si es eléctrico o de gas.",
+      "Envía una foto por WhatsApp 📸 para valoración y presupuesto."
     ]
   },
   "fuga": {
     "pasos": [
-      "Identifica el origen de la fuga (tubería, grifo, junta).",
-      "Cierra el paso de agua si es necesario.",
-      "💰 Presupuesto orientativo: 70-160€ estimado (según ubicación y gravedad). Envía foto por WhatsApp 📸"
+      "Cierra la llave de paso.",
+      "Revisa juntas, válvulas y tuberías.",
+      "Si es PVC, asegúrate de que la unión esté limpia y seca antes de aplicar adhesivo."
     ]
   },
   "grifo": {
     "pasos": [
-      "Los grifos pueden ser monomando (una palanca) o bimando (dos mandos).",
-      "Para instalación, usa cinta de teflón en las roscas.",
-      "💰 Presupuesto orientativo: 40-70€ estimado. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Los grifos de cocina incluyen monomando y bimando.",
+      "Para instalación, usa cinta de teflón en roscas y aprieta con llave ajustable sin dañar la pieza."
     ]
   },
   "bañera": {
     "pasos": [
       "Disponemos de bañeras y duchas modernas.",
-      "Para instalación, verifica que la salida de desagüe esté alineada y que la pendiente permita evacuación correcta del agua.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para instalación, verifica que la salida de desagüe esté alineada y que la pendiente permita evacuación correcta del agua."
     ]
   },
   "precio": {
@@ -34,1888 +32,757 @@
   },
   "reparación": {
     "pasos": [
-      "Ofrecemos servicios de reparación de fontanería a domicilio, incluyendo grifos, termos, duchas y desagües.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Ofrecemos servicios de reparación de fontanería a domicilio, incluyendo grifos, termos, duchas y desagües."
     ]
   },
   "calefacción": {
     "pasos": [
       "Podemos instalar y reparar sistemas de calefacción central y radiadores.",
-      "Verifica la presión de agua y purga los radiadores antes de ponerlo en marcha.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Verifica la presión de agua y purga los radiadores antes de ponerlo en marcha."
     ]
   },
   "cisterna": {
     "pasos": [
-      "Si la cisterna no cierra, revisa flotador y válvula de entrada.",
-      "Sustituye piezas desgastadas y prueba el mecanismo.",
-      "💰 Presupuesto orientativo: 60-140€ estimado (IVA no incluido). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para problemas con cisternas, revisa el mecanismo de flotador y la válvula de entrada.",
+      "Sustituye piezas desgastadas si el agua no para de correr."
     ]
   },
   "desagüe": {
     "pasos": [
       "Si el desagüe está atascado, utiliza un desatascador manual o químico adecuado.",
-      "Evita introducir objetos sólidos que puedan causar bloqueo permanente.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Evita introducir objetos sólidos que puedan causar bloqueo permanente."
     ]
   },
   "mantenimiento": {
     "pasos": [
-      "Recomendamos mantenimiento preventivo anual: revisión de juntas, limpieza de filtros, purga de radiadores y comprobación de válvulas y grifos.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Recomendamos mantenimiento preventivo anual: revisión de juntas, limpieza de filtros, purga de radiadores y comprobación de válvulas y grifos."
     ]
   },
   "agua caliente": {
     "pasos": [
       "Si el agua caliente falla, verifica la resistencia del termo, la presión de entrada y el termostato.",
-      "Asegúrate de que el enchufe esté conectado correctamente.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Asegúrate de que el enchufe esté conectado correctamente."
     ]
   },
   "instalación": {
     "pasos": [
       "Para instalación de cualquier equipo, sigue las instrucciones del fabricante.",
-      "Utiliza herramientas adecuadas y precaución con la presión de agua.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Utiliza herramientas adecuadas y precaución con la presión de agua."
     ]
   },
   "tubería": {
     "pasos": [
       "Para tuberías de cobre, utiliza soldadura con estaño y flux.",
-      "Para PVC, usa adhesivo especial y respeta el tiempo de secado antes de llenar con agua.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para PVC, usa adhesivo especial y respeta el tiempo de secado antes de llenar con agua."
     ]
   },
   "manguera": {
     "pasos": [
-      "Al instalar mangueras flexibles, evita torsiones y asegúrate de que los racores estén bien apretados para evitar fugas.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Al instalar mangueras flexibles, evita torsiones y asegúrate de que los racores estén bien apretados para evitar fugas."
     ]
   },
   "problema": {
     "pasos": [
-      "Explícanos tu problema con detalle y te indicaremos la mejor solución técnica.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Explícanos tu problema con detalle y te indicaremos la mejor solución técnica."
     ]
   },
   "ayuda": {
     "pasos": [
-      "Puedes contactarnos por WhatsApp para recibir soporte en tiempo real y resolver cualquier incidencia.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Puedes contactarnos por WhatsApp para recibir soporte en tiempo real y resolver cualquier incidencia."
     ]
   },
   "tuberiasObstruidas": {
     "pasos": [
       "Si las tuberías están obstruidas, utiliza un desatascador o un limpiador químico seguro.",
-      "Si el problema persiste, contacta con nuestro fontanero vía WhatsApp para una intervención profesional.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el problema persiste, contacta con nuestro fontanero vía WhatsApp para una intervención profesional."
     ]
   },
   "grifoGotea": {
     "pasos": [
       "Un grifo que gotea suele necesitar cambiar la arandela o el cartucho.",
-      "Si no estás seguro de cómo hacerlo, llámanos para recibir asistencia técnica.",
-      "💰 Presupuesto orientativo: 40-70€ (reparación) | 45-200€ (producto nuevo). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si no estás seguro de cómo hacerlo, llámanos para recibir asistencia técnica."
     ]
   },
   "calefaccionNoCalienta": {
     "pasos": [
       "Verifica que el sistema de calefacción tenga agua y presión suficiente.",
-      "Si sigue sin funcionar, un fontanero profesional puede revisar válvulas y radiadores. Contacta por WhatsApp.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si sigue sin funcionar, un fontanero profesional puede revisar válvulas y radiadores. Contacta por WhatsApp."
     ]
   },
   "termoNoEnciende": {
     "pasos": [
       "Comprueba que el termo esté enchufado y que el interruptor esté activo.",
-      "Para problemas eléctricos o de resistencia, contacta con nuestro fontanero especializado.",
-      "💰 Presupuesto orientativo: 60-120€ estimado (IVA no incluido). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para problemas eléctricos o de resistencia, contacta con nuestro fontanero especializado."
     ]
   },
   "fugaAguaSotano": {
     "pasos": [
       "Cierra la llave de paso principal inmediatamente.",
-      "Evita usar aparatos eléctricos en la zona y contacta con nuestro fontanero para una revisión urgente.",
-      "💰 Presupuesto orientativo: 70-160€ (según gravedad y acceso). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Evita usar aparatos eléctricos en la zona y contacta con nuestro fontanero para una revisión urgente."
     ]
   },
   "bañeraAtascada": {
     "pasos": [
       "Usa un desatascador o serpiente de fontanero para eliminar obstrucciones.",
-      "Si no se resuelve, llama a nuestro fontanero para evitar daños mayores.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si no se resuelve, llama a nuestro fontanero para evitar daños mayores."
     ]
   },
   "cisternaGotea": {
     "pasos": [
       "Revisa el mecanismo de flotador y la válvula de entrada.",
-      "Sustituye piezas desgastadas si el agua no para de correr.",
-      "💰 Presupuesto orientativo: 60-140€ estimado. Envía foto por WhatsApp 📸"
+      "Si persiste la fuga, contacta con nuestro fontanero vía WhatsApp para reparación profesional."
     ]
   },
   "instalacionGrifo": {
     "pasos": [
       "Sigue las instrucciones del fabricante y usa cinta de teflón en roscas.",
-      "Para instalación segura y evitar fugas, un fontanero profesional puede ayudarte.",
-      "💰 Presupuesto orientativo: 40-70€ (reparación) | 45-200€ (producto nuevo). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para instalación segura y evitar fugas, un fontanero profesional puede ayudarte."
     ]
   },
   "mantenimientoAnual": {
     "pasos": [
       "Realiza revisión de juntas, limpieza de filtros, purga de radiadores y comprobación de válvulas y grifos cada año.",
-      "Si necesitas asistencia, contacta con nuestro equipo especializado.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si necesitas asistencia, contacta con nuestro equipo especializado."
     ]
   },
   "problemaGeneral": {
     "pasos": [
       "Explícanos tu problema con detalle.",
-      "Nuestro fontanero te indicará la mejor solución técnica y te guiará a través de WhatsApp.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Nuestro fontanero te indicará la mejor solución técnica y te guiará a través de WhatsApp."
     ]
   },
   "fugaCaldera": {
     "pasos": [
       "Si detectas una fuga en la caldera, cierra la llave de paso del agua y apaga el aparato.",
-      "Contacta inmediatamente con nuestro fontanero certificado para revisión y reparación.",
-      "💰 Presupuesto orientativo: 70-160€ (según gravedad y acceso). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacta inmediatamente con nuestro fontanero certificado para revisión y reparación."
     ]
   },
   "grifoFrio": {
     "pasos": [
       "Si el agua sale fría, verifica la temperatura del termo o calentador.",
-      "Para ajustes seguros y revisiones técnicas, nuestro fontanero puede ayudarte vía WhatsApp.",
-      "💰 Presupuesto orientativo: 40-70€ (reparación) | 45-200€ (producto nuevo). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para ajustes seguros y revisiones técnicas, nuestro fontanero puede ayudarte vía WhatsApp."
     ]
   },
   "duchaNoSaleAgua": {
     "pasos": [
       "Comprueba que la llave de paso de la ducha esté abierta y que no haya obstrucciones.",
-      "Si el problema persiste, contacta con nuestro fontanero profesional.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el problema persiste, contacta con nuestro fontanero profesional."
     ]
   },
   "radiadorFrio": {
     "pasos": [
       "Purgar los radiadores puede eliminar aire atrapado y mejorar el calor.",
-      "Si no mejora, nuestro fontanero puede revisar válvulas y el sistema de calefacción central.",
-      "💰 Presupuesto orientativo: 40-70€ purga (hasta 4 radiadores). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si no mejora, nuestro fontanero puede revisar válvulas y el sistema de calefacción central."
     ]
   },
   "tuberiaRota": {
     "pasos": [
       "Cierra la llave de paso y seca la zona afectada para evitar daños mayores.",
-      "Contacta con nuestro fontanero urgente para reparación profesional.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacta con nuestro fontanero urgente para reparación profesional."
     ]
   },
   "termoGotea": {
     "pasos": [
       "Si el termo tiene fugas, revisa conexiones y válvula de seguridad.",
-      "Si persiste, llama a nuestro fontanero especializado para una solución segura.",
-      "💰 Presupuesto orientativo: 60-120€ (reparación) | 195-1000€+ (producto nuevo). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si persiste, llama a nuestro fontanero especializado para una solución segura."
     ]
   },
   "desagueLento": {
     "pasos": [
-      "Usa un desatascador manual o producto específico.",
-      "Si persiste, puede haber obstrucción en las tuberías.",
-      "💰 Presupuesto orientativo: 50-100€ estimado. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Limpia el sifón y usa un desatascador manual.",
+      "Para desagües rebeldes, nuestro fontanero puede intervenir y evitar problemas mayores."
     ]
   },
   "grifoNoCierra": {
     "pasos": [
       "Suele requerir cambio de arandela o cartucho.",
-      "Para evitar daños y fugas, contacta con nuestro fontanero vía WhatsApp.",
-      "💰 Presupuesto orientativo: 40-70€ (reparación) | 45-200€ (producto nuevo). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para evitar daños y fugas, contacta con nuestro fontanero vía WhatsApp."
     ]
   },
   "duchaAtascada": {
     "pasos": [
       "Retira la alcachofa y limpia posibles residuos de cal o sedimentos.",
-      "Si no mejora, llama a nuestro fontanero para mantenimiento especializado.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si no mejora, llama a nuestro fontanero para mantenimiento especializado."
     ]
   },
   "calefaccionFugas": {
     "pasos": [
       "Localiza la fuga y cierra la llave de paso del circuito.",
-      "Contacta con nuestro fontanero profesional para reparación segura y rápida.",
-      "💰 Presupuesto orientativo: 70-160€ (según gravedad y acceso). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacta con nuestro fontanero profesional para reparación segura y rápida."
     ]
   },
   "filtro": {
     "pasos": [
       "Si el filtro está obstruido, límpialo o sustitúyelo según el tipo de instalación.",
-      "Para casos complejos, contacta con nuestro fontanero a domicilio.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para casos complejos, contacta con nuestro fontanero a domicilio."
     ]
   },
   "caldera": {
     "pasos": [
       "Verifica el encendido y la presión del agua.",
-      "Si persiste el fallo, no manipules la caldera y llama a un profesional.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si persiste el fallo, no manipules la caldera y llama a un profesional."
     ]
   },
   "radiador": {
     "pasos": [
       "Purgar radiadores puede mejorar el flujo de agua y el calor.",
-      "Si el radiador sigue frío, revisa la válvula de entrada y contacta a un fontanero.",
-      "💰 Presupuesto orientativo: 40-70€ purga (hasta 4 radiadores). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el radiador sigue frío, revisa la válvula de entrada y contacta a un fontanero."
     ]
   },
   "tubo roto": {
     "pasos": [
       "Cierra la llave de paso inmediatamente.",
-      "Evita usar la instalación hasta que un técnico lo repare.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Evita usar la instalación hasta que un técnico lo repare."
     ]
   },
   "inodoro": {
     "pasos": [
       "Si el inodoro no descarga, revisa que la cisterna esté llena y que el mecanismo funcione correctamente.",
-      "Para problemas persistentes, llama a nuestro servicio de fontanería.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para problemas persistentes, llama a nuestro servicio de fontanería."
     ]
   },
   "descalcificador": {
     "pasos": [
       "Revisa el nivel de sal y la configuración del descalcificador.",
-      "Si el equipo no funciona, nuestro fontanero puede ayudarte a calibrarlo.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el equipo no funciona, nuestro fontanero puede ayudarte a calibrarlo."
     ]
   },
   "reparar fuga": {
     "pasos": [
       "Localiza la fuga y cierra la llave de paso.",
-      "Aplica cinta de reparación temporal y contacta a un profesional para una solución definitiva.",
-      "💰 Presupuesto orientativo: 70-160€ (según gravedad y acceso). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Aplica cinta de reparación temporal y contacta a un profesional para una solución definitiva."
     ]
   },
   "tapa wc": {
     "pasos": [
       "Para reemplazar la tapa, asegúrate de que los tornillos coincidan con el modelo.",
-      "Si hay dudas, nuestro fontanero puede instalarla de manera segura.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si hay dudas, nuestro fontanero puede instalarla de manera segura."
     ]
   },
   "lavabo": {
     "pasos": [
       "Si el lavabo gotea, revisa la arandela del grifo o junta de sellado.",
-      "Para reparaciones complejas, llama a nuestro fontanero para evitar daños mayores.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para reparaciones complejas, llama a nuestro fontanero para evitar daños mayores."
     ]
   },
   "ducha": {
     "pasos": [
       "Si la ducha pierde presión, revisa el cabezal y el filtro.",
-      "Si el problema persiste, llama a un fontanero para una inspección profesional.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el problema persiste, llama a un fontanero para una inspección profesional."
     ]
   },
   "lavadora": {
     "pasos": [
       "Si la lavadora no desagua, revisa la manguera de desagüe y el filtro.",
-      "Si el problema persiste, nuestro fontanero puede revisarla y evitar daños mayores.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el problema persiste, nuestro fontanero puede revisarla y evitar daños mayores."
     ]
   },
   "secadora": {
     "pasos": [
       "Verifica que el conducto de salida de aire no esté obstruido.",
-      "Para problemas internos, contacta a un técnico especializado.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para problemas internos, contacta a un técnico especializado."
     ]
   },
   "tubería goteando": {
     "pasos": [
       "Cierra la llave de paso inmediatamente.",
       "Identifica la fuga y aplica una reparación temporal si es posible.",
-      "Llama a un fontanero para la reparación definitiva.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Llama a un fontanero para la reparación definitiva."
     ]
   },
   "agua turbia": {
     "pasos": [
       "Comprueba la fuente del suministro y los filtros.",
-      "Si el agua sigue turbia, contacta con nuestro fontanero para inspección profesional.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el agua sigue turbia, contacta con nuestro fontanero para inspección profesional."
     ]
   },
   "fregadero": {
     "pasos": [
-      "Si el fregadero se atasca, usa un desatascador o limpia el sifón.",
-      "Para bloqueos persistentes, nuestro fontanero puede resolverlo de manera segura.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el fregadero está atascado, usa un desatascador o limpia el sifón.",
+      "Para bloqueos persistentes, contacta con un profesional."
     ]
   },
   "llave rota": {
     "pasos": [
       "Cierra la llave de paso antes de intentar cualquier reparación.",
-      "Para reemplazo seguro, contacta a un fontanero.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para reemplazo seguro, contacta a un fontanero."
     ]
   },
   "tubería congelada": {
     "pasos": [
       "Descongela la tubería con precaución usando agua tibia o calefactor.",
-      "Evita usar llamas directas y llama a un profesional si hay riesgo de rotura.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Evita usar llamas directas y llama a un profesional si hay riesgo de rotura."
     ]
   },
   "agua con mal olor": {
     "pasos": [
       "Limpia filtros y desagües.",
-      "Si el olor persiste, nuestro fontanero puede inspeccionar la instalación y resolverlo.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el olor persiste, nuestro fontanero puede inspeccionar la instalación y resolverlo."
     ]
   },
   "instalación nueva": {
     "pasos": [
       "Sigue las instrucciones del fabricante y utiliza herramientas adecuadas.",
-      "Para instalaciones complejas, es recomendable contar con un fontanero profesional.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para instalaciones complejas, es recomendable contar con un fontanero profesional."
     ]
   },
   "emergencia 24h": {
     "pasos": [
       "Si ocurre una emergencia de fontanería, cierra la llave general de paso.",
-      "Contacta inmediatamente a nuestro servicio de fontanería 24 horas para asistencia rápida.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacta inmediatamente a nuestro servicio de fontanería 24 horas para asistencia rápida."
     ]
   },
   "reparación termo": {
     "pasos": [
       "Si el termo eléctrico no calienta correctamente, revisa la resistencia y el termostato.",
-      "Para seguridad y reparación definitiva, contacta a un fontanero especializado.",
-      "💰 Presupuesto orientativo: 60-120€ (reparación) | 195-1000€+ (producto nuevo). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para seguridad y reparación definitiva, contacta a un fontanero especializado."
     ]
   },
   "grifos que gotean": {
     "pasos": [
       "Cierra la llave de paso y revisa arandelas y juntas.",
-      "Si el goteo continúa, nuestro fontanero puede reemplazar las piezas correctamente.",
-      "💰 Presupuesto orientativo: 40-70€ (reparación) | 45-200€ (producto nuevo). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el goteo continúa, nuestro fontanero puede reemplazar las piezas correctamente."
     ]
   },
   "tubería rota": {
     "pasos": [
       "Cierra inmediatamente la llave de paso.",
-      "Llama a un fontanero para reemplazo seguro y evitar daños mayores.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Llama a un fontanero para reemplazo seguro y evitar daños mayores."
     ]
   },
   "cisterna fugas": {
     "pasos": [
       "Revisa el mecanismo del flotador y la válvula de entrada.",
-      "Si el problema persiste, contacta a un fontanero para reparación definitiva.",
-      "💰 Presupuesto orientativo: 60-140€ (reparación) | 25-80€ (repuestos). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el problema persiste, contacta a un fontanero para reparación definitiva."
     ]
   },
   "desagüe lento": {
     "pasos": [
       "Utiliza un desatascador o limpiador químico seguro.",
-      "Para bloqueos recurrentes, un fontanero puede limpiar y prevenir futuros problemas.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para bloqueos recurrentes, un fontanero puede limpiar y prevenir futuros problemas."
     ]
   },
   "problema calefacción": {
     "pasos": [
       "Verifica la presión de agua y purga los radiadores.",
-      "Si no funciona correctamente, contacta a un fontanero especializado en calefacción.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si no funciona correctamente, contacta a un fontanero especializado en calefacción."
     ]
   },
   "mantenimiento anual": {
     "pasos": [
       "Revisa juntas, limpieza de filtros, purga de radiadores y válvulas.",
-      "Nuestro fontanero puede realizar un mantenimiento preventivo completo.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Nuestro fontanero puede realizar un mantenimiento preventivo completo."
     ]
   },
   "fuga gas": {
     "pasos": [
       "Si detectas olor a gas, ventila el área inmediatamente y no enciendas llamas.",
-      "Contacta a un técnico autorizado y a un fontanero de confianza para revisión.",
-      "💰 Presupuesto orientativo: 70-160€ (según gravedad y acceso). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacta a un técnico autorizado y a un fontanero de confianza para revisión."
     ]
   },
   "emergencia agua": {
     "pasos": [
       "Cierra la llave general de paso inmediatamente.",
-      "Llama a nuestro servicio de fontanería 24h para asistencia urgente.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Llama a nuestro servicio de fontanería 24h para asistencia urgente."
     ]
   },
   "shower": {
     "steps": [
       "If the shower pressure is low, check the showerhead and filter.",
-      "If the problem persists, call a plumber for a professional inspection.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "pasos": [
-      "If the shower pressure is low, check the showerhead and filter.",
-      "If the problem persists, call a plumber for a professional inspection.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "If the problem persists, call a plumber for a professional inspection."
     ]
   },
   "water heater repair": {
     "steps": [
       "If the electric water heater isn't heating properly, check the heating element and thermostat.",
-      "For safety and proper repair, contact a specialized plumber.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "pasos": [
-      "If the electric water heater isn't heating properly, check the heating element and thermostat.",
-      "For safety and proper repair, contact a specialized plumber.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "For safety and proper repair, contact a specialized plumber."
     ]
   },
   "leaky faucets": {
     "steps": [
       "Turn off the main valve and check washers and seals.",
-      "If dripping continues, our plumber can replace the parts correctly.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "pasos": [
-      "Turn off the main valve and check washers and seals.",
-      "If dripping continues, our plumber can replace the parts correctly.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "If dripping continues, our plumber can replace the parts correctly."
     ]
   },
   "broken pipe": {
     "steps": [
       "Immediately turn off the main valve.",
-      "Call a plumber for a safe replacement and to prevent further damage.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "pasos": [
-      "Immediately turn off the main valve.",
-      "Call a plumber for a safe replacement and to prevent further damage.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Call a plumber for a safe replacement and to prevent further damage."
     ]
   },
   "toilet leaks": {
     "steps": [
       "Check the float mechanism and inlet valve.",
-      "If the issue continues, contact a plumber for a permanent fix.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "pasos": [
-      "Check the float mechanism and inlet valve.",
-      "If the issue continues, contact a plumber for a permanent fix.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "If the issue continues, contact a plumber for a permanent fix."
     ]
   },
   "slow drain": {
     "steps": [
       "Use a plunger or safe chemical cleaner.",
-      "For recurring clogs, a plumber can clean and prevent future issues.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "pasos": [
-      "Use a plunger or safe chemical cleaner.",
-      "For recurring clogs, a plumber can clean and prevent future issues.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "For recurring clogs, a plumber can clean and prevent future issues."
     ]
   },
   "heating problem": {
     "steps": [
       "Check water pressure and bleed radiators.",
-      "If it still doesn’t work properly, contact a heating-specialized plumber.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "pasos": [
-      "Check water pressure and bleed radiators.",
-      "If it still doesn’t work properly, contact a heating-specialized plumber.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "If it still doesn’t work properly, contact a heating-specialized plumber."
     ]
   },
   "annual maintenance": {
     "steps": [
       "Check seals, clean filters, bleed radiators and valves.",
-      "Our plumber can perform a complete preventive maintenance.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "pasos": [
-      "Check seals, clean filters, bleed radiators and valves.",
-      "Our plumber can perform a complete preventive maintenance.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Our plumber can perform a complete preventive maintenance."
     ]
   },
   "gas leak": {
     "steps": [
       "If you smell gas, ventilate the area immediately and do not ignite flames.",
-      "Contact a certified technician and a trusted plumber for inspection.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "pasos": [
-      "If you smell gas, ventilate the area immediately and do not ignite flames.",
-      "Contact a certified technician and a trusted plumber for inspection.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contact a certified technician and a trusted plumber for inspection."
     ]
   },
   "water emergency": {
     "steps": [
       "Turn off the main water valve immediately.",
-      "Call our 24-hour plumbing service for urgent assistance.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "pasos": [
-      "Turn off the main water valve immediately.",
-      "Call our 24-hour plumbing service for urgent assistance.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Call our 24-hour plumbing service for urgent assistance."
     ]
   },
   "calentador de agua averiado": {
     "pasos": [
       "Si el agua caliente no funciona, revisa la alimentación eléctrica y los fusibles.",
-      "Para una reparación segura y rápida, contacta a un fontanero certificado.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para una reparación segura y rápida, contacta a un fontanero certificado."
     ]
   },
   "filtro de agua obstruido": {
     "pasos": [
       "Revisa y limpia los filtros del sistema de agua.",
-      "Si el flujo no mejora, un fontanero puede reemplazar filtros de forma profesional.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el flujo no mejora, un fontanero puede reemplazar filtros de forma profesional."
     ]
   },
   "ruptura de válvula": {
     "pasos": [
       "Cierra la llave general de agua inmediatamente.",
-      "Un fontanero puede instalar una nueva válvula sin riesgos.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Un fontanero puede instalar una nueva válvula sin riesgos."
     ]
   },
   "revisión de bomba": {
     "pasos": [
       "Si la presión de agua es baja, verifica la bomba de presión.",
-      "Para ajustar o reemplazar la bomba, llama a un fontanero especializado.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para ajustar o reemplazar la bomba, llama a un fontanero especializado."
     ]
   },
   "humedad en tuberías": {
     "pasos": [
       "Si notas humedad alrededor de tuberías visibles, revisa posibles fugas.",
-      "Un fontanero puede localizar y reparar fugas ocultas.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Un fontanero puede localizar y reparar fugas ocultas."
     ]
   },
   "grifo bloqueado": {
     "pasos": [
       "Si el grifo no abre o cierra correctamente, revisa el cartucho o la maneta.",
-      "Si persiste, un fontanero puede hacer un reemplazo seguro.",
-      "💰 Presupuesto orientativo: 40-70€ (reparación) | 45-200€ (producto nuevo). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si persiste, un fontanero puede hacer un reemplazo seguro."
     ]
   },
   "cisterna con goteo": {
     "pasos": [
       "Verifica que el mecanismo de llenado y la válvula funcionen.",
-      "Si el goteo continúa, contacta a un fontanero para evitar desperdicio de agua.",
-      "💰 Presupuesto orientativo: 60-140€ (reparación) | 25-80€ (repuestos). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el goteo continúa, contacta a un fontanero para evitar desperdicio de agua."
     ]
   },
   "radiador frío": {
     "pasos": [
       "Purge el radiador para liberar aire atrapado.",
-      "Si sigue frío, llama a un fontanero especializado en calefacción.",
-      "💰 Presupuesto orientativo: 40-70€ purga (hasta 4 radiadores). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si sigue frío, llama a un fontanero especializado en calefacción."
     ]
   },
   "atasco de fregadero": {
     "pasos": [
       "Usa un desatascador o un limpiador seguro.",
-      "Para problemas persistentes, un fontanero puede desatascar y limpiar la tubería completamente.",
-      "💰 Presupuesto orientativo: 50-100€ (desatasco profesional). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para problemas persistentes, un fontanero puede desatascar y limpiar la tubería completamente."
     ]
   },
   "tubería corroída": {
     "pasos": [
       "Si observas corrosión, evita usar la tubería intensamente.",
-      "Un fontanero puede reemplazar la sección afectada y prevenir fugas futuras.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Un fontanero puede reemplazar la sección afectada y prevenir fugas futuras."
     ]
   },
   "aerotermia": {
     "pasos": [
       "Si tu sistema de aerotermia no calienta o enfría correctamente, revisa la alimentación eléctrica y la presión del circuito.",
-      "Para un diagnóstico preciso y seguro, contacta a un fontanero o técnico certificado en aerotermia.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para un diagnóstico preciso y seguro, contacta a un fontanero o técnico certificado en aerotermia."
     ]
   },
   "aerotermia_ariston_A2": {
     "pasos": [
       "Código A2: fallo en el sensor de temperatura del evaporador.",
       "Verifica conexiones y que no haya obstrucciones en la unidad exterior.",
-      "Si persiste, contacta a un técnico certificado de Ariston.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si persiste, contacta a un técnico certificado de Ariston."
     ]
   },
   "aerotermia_ariston_A3": {
     "pasos": [
       "Código A3: fallo en la presión del refrigerante.",
       "Comprueba fugas y carga correcta de refrigerante.",
-      "Contacta a un profesional especializado en aerotermia.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacta a un profesional especializado en aerotermia."
     ]
   },
   "caldera_junkers_F0": {
     "pasos": [
       "Código F0: fallo en la llama o encendido.",
       "Asegúrese de que la alimentación de gas esté abierta y conductos libres.",
-      "Llame a un instalador autorizado de Junkers.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Llame a un instalador autorizado de Junkers."
     ]
   },
   "caldera_junkers_F3": {
     "pasos": [
       "Código F3: fallo en el termostato de seguridad.",
       "Verifique conexiones y termostato.",
-      "Para seguridad y reparación, contacte a un técnico certificado.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Para seguridad y reparación, contacte a un técnico certificado."
     ]
   },
   "aerotermia_ariston_A4": {
     "pasos": [
       "Código A4: fallo en el compresor.",
       "No intente reparar el compresor usted mismo.",
-      "Llame a un técnico certificado inmediatamente.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Llame a un técnico certificado inmediatamente."
     ]
   },
   "aerotermia_ariston_A5": {
     "pasos": [
       "Código A5: sobrecalentamiento de la unidad interior.",
       "Revise que los filtros estén limpios y la ventilación libre.",
-      "Si continúa, contacte a un técnico.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si continúa, contacte a un técnico."
     ]
   },
   "aerotermia_ariston_A6": {
     "pasos": [
       "Código A6: fallo de comunicación entre unidad interior y exterior.",
       "Verifique los cables y conexiones.",
-      "Llame a un técnico si el problema persiste.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Llame a un técnico si el problema persiste."
     ]
   },
   "aerotermia_ariston_A7": {
     "pasos": [
       "Código A7: detección de hielo en el evaporador.",
       "Espere a que el ciclo de deshielo termine.",
-      "Si el error sigue apareciendo, contacte a un especialista.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el error sigue apareciendo, contacte a un especialista."
     ]
   },
   "caldera_junkers_F1": {
     "pasos": [
       "Código F1: fallo en el encendido de la bomba.",
       "Revise la alimentación eléctrica y la bomba.",
-      "Contacte a un técnico certificado si persiste.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacte a un técnico certificado si persiste."
     ]
   },
   "caldera_junkers_F2": {
     "pasos": [
       "Código F2: fallo de presión de agua.",
       "Compruebe la presión en el manómetro y rellene si es necesario.",
-      "Si el problema continúa, llame a un profesional.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el problema continúa, llame a un profesional."
     ]
   },
   "caldera_junkers_F4": {
     "pasos": [
       "Código F4: fallo en el sensor de temperatura de ida.",
       "Compruebe cableado y sensores.",
-      "Contacte a un técnico para reemplazo si es necesario.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacte a un técnico para reemplazo si es necesario."
     ]
   },
   "caldera_junkers_F5": {
     "pasos": [
       "Código F5: bloqueo por falta de circulación.",
       "Verifique que la bomba circule correctamente y no haya aire en el circuito.",
-      "Llame a un especialista si no se resuelve.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Llame a un especialista si no se resuelve."
     ]
   },
   "caldera_junkers_F6": {
     "pasos": [
       "Código F6: fallo en la válvula de gas.",
       "No intente abrirla usted mismo.",
-      "Contacte a un técnico certificado de inmediato.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacte a un técnico certificado de inmediato."
     ]
   },
   "caldera_junkers_F7": {
     "pasos": [
       "Código F7: sobrecalentamiento por acumulación de cal.",
       "Revise limpieza y mantenimiento del intercambiador.",
-      "Llame a un profesional si el error continúa.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Llame a un profesional si el error continúa."
     ]
   },
   "caldera_junkers_F8": {
     "pasos": [
       "Código F8: fallo en el sensor de humos.",
       "Verifique que la salida de gases esté libre.",
-      "Contacte a un técnico si persiste.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacte a un técnico si persiste."
     ]
   },
   "caldera_junkers_F9": {
     "pasos": [
       "Código F9: fallo de comunicación interna.",
       "Reinicie la caldera y revise conexiones.",
-      "Si continúa, llame a un especialista.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si continúa, llame a un especialista."
     ]
   },
   "aerotermia_ariston_E1": {
     "pasos": [
       "Código E1: fallo en la alimentación eléctrica.",
       "Compruebe fusibles y tensión de red.",
-      "Contacte a un técnico si el error sigue.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacte a un técnico si el error sigue."
     ]
   },
   "aerotermia_ariston_E2": {
     "pasos": [
       "Código E2: fallo del ventilador exterior.",
       "Verifique que no haya obstrucciones y que el ventilador gire libremente.",
-      "Llame a un profesional si persiste.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Llame a un profesional si persiste."
     ]
   },
   "aerotermia_ariston_E3": {
     "pasos": [
       "Código E3: detección de fuga de refrigerante.",
       "No manipule el refrigerante usted mismo.",
-      "Contacte a un técnico certificado para recarga o reparación.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Contacte a un técnico certificado para recarga o reparación."
     ]
   },
   "aerotermia_ariston_E4": {
     "pasos": [
       "Código E4: error en el sensor de temperatura de la unidad interior.",
       "Revise conexiones y cableado.",
-      "Si el problema continúa, contacte a un técnico.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si el problema continúa, contacte a un técnico."
     ]
   },
   "pregunta_novia": {
     "pasos": [
       "Pablo, ¿eres tú?",
-      "Sí, cariño. Sí, Candela. Soy yo. Y te puedo hacer el la la la la.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Sí, cariño. Sí, Candela. Soy yo. Y te puedo hacer el la la la la."
     ]
   },
   "cómeme": {
     "pasos": [
       "😏 Vaya… veo que alguien tiene hambre de atención.",
       "Si quieres que te 'coma', primero tendrás que invitarme a un café ☕😉",
-      "Recuerda: ¡el Fontanero Virtual solo arregla tuberías, pero puede arreglar tu humor también! 😎",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Recuerda: ¡el Fontanero Virtual solo arregla tuberías, pero puede arreglar tu humor también! 😎"
     ]
   },
   "pablo": {
     "pasos": [
       "Sí, cariño. Sí, Candela. Soy yo.",
-      "Y te puedo hacer la la la la 🎵😉",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Y te puedo hacer la la la la 🎵😉"
     ]
   },
   "atrevido": {
     "pasos": [
       "Vaya, alguien está probando límites… 😏",
-      "Recuerda que el Fontanero Virtual solo repara tuberías… y tal vez corazones 💌",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Recuerda que el Fontanero Virtual solo repara tuberías… y tal vez corazones 💌"
     ]
   },
   "cariño": {
     "pasos": [
       "Siempre aquí para ti ❤️",
-      "Con un abrazo virtual que vale por mil reales 🤗",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Con un abrazo virtual que vale por mil reales 🤗"
     ]
   },
   "coquetería": {
     "pasos": [
       "😉 Vaya, parece que hoy toca coquetear un poco…",
-      "Si sigues así, voy a tener que pasar al modo enamorado 💌",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Si sigues así, voy a tener que pasar al modo enamorado 💌"
     ]
   },
   "travieso": {
     "pasos": [
       "😏 Alguien está de travesuras hoy…",
-      "El Fontanero Virtual aprueba, pero con moderación 😎",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "El Fontanero Virtual aprueba, pero con moderación 😎"
     ]
   },
   "bañador": {
     "pasos": [
       "😏 Vaya, alguien quiere presumir su bañador…",
       "Fontanero Virtual dice: Me encanta tu culo gordo 🍑🔥",
-      "Recuerda, siempre con humor y respeto 😉",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Recuerda, siempre con humor y respeto 😉"
     ]
   },
   "aerotermia_A4": {
     "pasos": [
       "Error A4 en aerotermia NUOS/EVO: fallo en el ventilador interno.",
-      "Apaga el sistema, comprueba que no haya obstrucciones y reinicia. Si persiste, contacta con servicio técnico.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Apaga el sistema, comprueba que no haya obstrucciones y reinicia. Si persiste, contacta con servicio técnico."
     ]
   },
   "aerotermia_A5": {
     "pasos": [
       "Error A5: sobretemperatura del acumulador.",
-      "Comprueba la válvula de seguridad y el termostato. Llama a un técnico si no se soluciona.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Comprueba la válvula de seguridad y el termostato. Llama a un técnico si no se soluciona."
     ]
   },
   "caldera_Junkers_E2": {
     "pasos": [
       "Error E2: fallo en el encendido de llama piloto.",
-      "Asegúrate de que hay gas y la válvula esté abierta. Contacta con técnico autorizado si el error persiste.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Asegúrate de que hay gas y la válvula esté abierta. Contacta con técnico autorizado si el error persiste."
     ]
   },
   "caldera_Junkers_E3": {
     "pasos": [
       "Error E3: fallo en el encendido del quemador principal.",
-      "Revisa la presión de gas y las conexiones eléctricas. Llama a un profesional certificado.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Revisa la presión de gas y las conexiones eléctricas. Llama a un profesional certificado."
     ]
   },
   "placa_solar_baja_producción": {
     "pasos": [
       "Si la placa solar genera poca energía, revisa la orientación y limpieza de los paneles.",
-      "Comprueba el regulador y los cables de conexión. Contacta con un instalador certificado si el problema continúa.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Comprueba el regulador y los cables de conexión. Contacta con un instalador certificado si el problema continúa."
     ]
   },
   "termo_fuga_agua": {
     "pasos": [
       "Si el termo presenta fuga de agua, cierra la llave de paso inmediatamente.",
-      "Verifica juntas, racores y válvula de seguridad. Para reparaciones internas, llama a un técnico.",
-      "💰 Presupuesto orientativo: 60-120€ (reparación) | 195-1000€+ (producto nuevo). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Verifica juntas, racores y válvula de seguridad. Para reparaciones internas, llama a un técnico."
     ]
   },
   "tuberia_obstruida": {
     "pasos": [
       "Para tuberías obstruidas, utiliza desatascador o productos adecuados.",
-      "Evita usar objetos sólidos que puedan dañar la tubería. Si el problema persiste, consulta con un fontanero.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Evita usar objetos sólidos que puedan dañar la tubería. Si el problema persiste, consulta con un fontanero."
     ]
   },
   "grifo_gotea": {
     "pasos": [
-      "Un grifo que gotea suele necesitar cambiar la arandela o el cartucho.",
-      "Si no estás seguro de cómo hacerlo, llámanos para recibir asistencia técnica.",
-      "💰 Presupuesto orientativo: 40-70€ estimado (IVA no incluido). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "🔧 Diagnóstico: Junta tórica desgastada o cartucho cerámico dañado.",
+      "1. Cierra la llave de paso general y abre el grifo para vaciar la tubería.",
+      "2. Desmonta el pomo: busca tornillo oculto bajo tapa decorativa (usa llave Allen si es necesario).",
+      "3. Extrae el cartucho o la junta: revisa si está agrietado, deformado o con sedimentos.",
+      "4. Limpia la carcasa con vinagre blanco para eliminar cal y monta repuesto nuevo con cinta de teflón en roscas.",
+      "5. Abre el paso de agua gradualmente y prueba: si persiste el goteo, verifica asentamiento del cartucho.",
+      "⚠️ Si el grifo es antiguo (>10 años) o la fuga continúa, considera reemplazo completo para evitar daños mayores.",
+      "🛠️ Herramientas: Llave Allen, alicates de presión, cinta de teflón, repuesto compatible (medida estándar: 35mm o 40mm).",
+      "💰 Presupuesto: 40-70€ (reparación con mano de obra) | 45-200€ (grifo nuevo + instalación). Para valoración exacta, envíame foto por WhatsApp 📸"
     ]
   },
   "cisterna_no_cierra": {
     "pasos": [
       "Si la cisterna no cierra, revisa flotador y válvula de entrada.",
-      "Sustituye piezas desgastadas y prueba el mecanismo. Si no se soluciona, contacta a un fontanero.",
-      "💰 Presupuesto orientativo: 60-140€ (reparación) | 25-80€ (repuestos). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Sustituye piezas desgastadas y prueba el mecanismo. Si no se soluciona, contacta a un fontanero."
     ]
   },
   "calefaccion_no_calienta": {
     "pasos": [
       "Si la calefacción no calienta, revisa presión y purga de radiadores.",
-      "Comprueba termostatos y conexiones. Llama a un profesional si sigue sin funcionar.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
-  },
-  "hola": {
-    "pasos": [
-      "¡Hola! 👋 Soy tu Fontanero Virtual. ¿En qué puedo ayudarte hoy?",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
-  },
-  "presupuesto": {
-    "pasos": [
-      "Para darte un presupuesto exacto, por favor envíame una foto del trabajo o equipo a revisar."
-    ]
-  },
-  "necesito un presupuesto": {
-    "pasos": [
-      "Perfecto, envíame una foto del trabajo o equipo y te daré un presupuesto estimado."
-    ]
-  },
-  "necesito una valoración": {
-    "pasos": [
-      "Claro, envíame una foto para que pueda valorar el trabajo correctamente.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
-  },
-  "necesito el precio": {
-    "pasos": [
-      "Para indicarte el precio, necesito que me envíes una foto del material o instalación.",
-      "💰 Presupuesto orientativo: desde 35€. Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Comprueba termostatos y conexiones. Llama a un profesional si sigue sin funcionar."
     ]
   },
   "filtro_caldera_sucio": {
     "pasos": [
-      "Limpia o sustituye el filtro de la caldera según el manual. Si el flujo de agua sigue bajo, llama a un técnico.",
-      "💰 Presupuesto orientativo: 70-120€ revisión | 150€+ reparación. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
-  },
-  "grifos": {
-    "alias": [
-      "grifo",
-      "grifería",
-      "grifos de cocina",
-      "grifos de baño"
-    ],
-    "pasos": [
-      "Los grifos pueden ser monomando (una palanca) o bimando (dos mandos).",
-      "Para instalación, usa cinta de teflón en las roscas.",
-      "Aprieta con llave ajustable sin dañar el acabado.",
-      "Si gotea, probablemente necesite cambiar la arandela o cartucho.",
-      "Para una valoración exacta, envíame una foto por WhatsApp 📸",
-      "💰 Presupuesto orientativo: 40-70€ (reparación) | 45-200€ (producto nuevo). Para valoración exacta, envíame foto por WhatsApp 📸"
+      "Limpia o sustituye el filtro de la caldera según el manual. Si el flujo de agua sigue bajo, llama a un técnico."
     ]
   },
   "fontanero": {
-    "alias": [
-      "necesito fontanero",
-      "buscar fontanero",
-      "fontanero urgente",
-      "fontanero cerca"
-    ],
     "pasos": [
-      "¡Hola! Soy Eduardo Quiroz, fontanero profesional en Torrevieja.",
-      "Atiendo urgencias y trabajos programados.",
-      "Para darte presupuesto exacto, necesito ver el trabajo.",
-      "Envíame una foto por WhatsApp y te respondo rápido 📸",
-      "📱 WhatsApp: +34 603 39 89 60",
-      "💰 Presupuesto orientativo: desde 35€ visita diagnóstica"
+      "Si necesitas un fontanero, envía una foto por WhatsApp 📸.",
+      "Te indicaré si puedo solucionarlo o si hace falta enviar un técnico."
     ]
   },
-  "atasco_cocina": {
-    "alias": [
-      "atasco cocina",
-      "atasco fregadero",
-      "cocina atascada",
-      "fregadero atascado cocina"
-    ],
+  "grifos": {
     "pasos": [
-      "Retira los restos de comida visibles del fregadero.",
-      "Usa un desatascador manual o producto específico.",
-      "Si el agua no baja, puede haber grasa acumulada en las tuberías.",
-      "Para desatascos profesionales, contáctanos por WhatsApp 📸",
-      "💰 Presupuesto orientativo: 60-100€ estimado"
+      "Cierra la llave de paso. Si el grifo gotea o no funciona, envía una foto por WhatsApp 📸 y nuestro fontanero te indicará la solución."
     ]
-  },
-  "termo_producto": {
-    "alias": [
-      "comprar termo",
-      "termo nuevo",
-      "precio termo",
-      "cuánto cuesta un termo",
-      "quiero un termo",
-      "termo 50 litros",
-      "termo 80 litros",
-      "termo 100 litros",
-      "termo digital",
-      "termo híbrido",
-      "catálogo termos",
-      "modelos de termos",
-      "termo de 50l",
-      "termo de 80l",
-      "precio termo 50 litros",
-      "quiero termo nuevo"
-    ],
-    "pasos": [
-      "Disponemos de termos eléctricos de 50L, 80L, 100L y termos digitales con control de temperatura.",
-      "También termos híbridos de alta eficiencia energética.",
-      "🛒 Precios de productos: desde 195€ (básico 50L) hasta 700€+ (digitales) y 1000€+ (híbridos).",
-      "🔗 Consulta modelos, fotos y disponibilidad en nuestro catálogo: https://fontaneriaeduardoquiroz.webador.es",
-      "💰 Para instalación + producto, presupuesto combinado desde 250€. Envía foto por WhatsApp 📸"
-    ],
-    "materiales_estimados": [
-      "1 termo eléctrico (50L/80L/100L según necesidad)",
-      "1 válvula de seguridad 3/4\" (6-8 bar)",
-      "2 latiguillos flexibles 3/4\" M-H (30-50 cm)",
-      "1 grupo de seguridad con desagüe visible",
-      "Teflón o pasta selladora para roscas",
-      "Soportes de fijación a pared (incluidos o según pared)",
-      "Cable eléctrico 3x2.5mm² si necesita nueva línea",
-      "Diferencial 30mA si no hay en cuadro"
-    ],
-    "nota_instalacion": "Instalación requiere electricista certificado si necesita nueva línea. Siempre conectar a tierra."
-  },
-  "grifo_producto": {
-    "alias": [
-      "grifo nuevo",
-      "comprar grifo",
-      "precio grifo",
-      "quiero grifo",
-      "catálogo grifería",
-      "grifos cocina",
-      "grifos baño",
-      "grifo de cocina",
-      "grifo de bano",
-      "grifo de lavabo",
-      "grifo de fregadero",
-      "grifo para cocina",
-      "grifo para bano",
-      "cuanto vale un grifo",
-      "precio grifo cocina",
-      "quiero grifo nuevo",
-      "necesito grifo"
-    ],
-    "pasos": [
-      "Grifos monomando y bimando para cocina y baño. Marcas profesionales con garantía.",
-      "🛒 Precios de grifería: desde 45€ (básico) hasta 200€+ (diseño premium).",
-      "🔗 Consulta catálogo completo con fotos en: https://fontaneriaeduardoquiroz.webador.es",
-      "💰 Para instalación + producto, presupuesto desde 80€. Envía foto por WhatsApp 📸"
-    ],
-    "materiales_estimados": [
-      "1 grifo nuevo (monomando/bimando/termostático)",
-      "2 latiguillos flexibles 3/8\" M-H (30-50 cm) si no incluye",
-      "Arandela de goma o silicona para sellado",
-      "Cinta de teflón para roscas si son rígidas",
-      "Llave ajustable 200mm para tuercas"
-    ],
-    "nota_instalacion": "Verificar presión de agua antes de instalar. Cerrar llave de paso general antes de trabajar."
-  },
-  "cisterna_producto": {
-    "alias": [
-      "cisterna nueva",
-      "comprar cisterna",
-      "mecanismo cisterna",
-      "repuestos cisterna"
-    ],
-    "pasos": [
-      "Mecanismos de cisterna universales y específicos por marca. Repuestos originales.",
-      "🛒 Precios de mecanismos: desde 25€ hasta 80€ según modelo.",
-      "🔗 Consulta repuestos en: https://fontaneriaeduardoquiroz.webador.es",
-      "💰 Para sustitución + pieza, presupuesto desde 55€. Envía foto por WhatsApp 📸"
-    ]
-  },
-  "termo_reparacion": {
-    "alias": [
-      "termo no calienta",
-      "termo roto",
-      "reparar termo",
-      "termo averiado",
-      "termo no funciona",
-      "arreglar termo",
-      "termo pierde agua",
-      "termo no calienta agua",
-      "termo agua fria",
-      "termo gotea",
-      "reparar termo electrico"
-    ],
-    "pasos": [
-      "Comprueba que el termo esté enchufado y que el interruptor esté activo.",
-      "Para problemas eléctricos o de resistencia, contacta con nuestro fontanero especializado.",
-      "💰 Reparación estimada: 60-120€ (mano de obra, sin piezas). Para valoración exacta, envíame foto por WhatsApp 📸",
-      "🔁 Si el termo es muy antiguo, puede ser más rentable comprar uno nuevo. Consulta catálogo: https://fontaneriaeduardoquiroz.webador.es"
-    ]
-  },
-  "grifo_reparacion": {
-    "alias": [
-      "grifo gotea",
-      "grifo pierde agua",
-      "grifo no cierra",
-      "arreglar grifo",
-      "reparar grifo",
-      "grifo gotea cocina",
-      "grifo gotea bano",
-      "grifo pierde agua cocina",
-      "arreglar grifo cocina",
-      "reparar grifo bano"
-    ],
-    "pasos": [
-      "Un grifo que gotea suele necesitar cambiar la arandela o el cartucho.",
-      "Si no estás seguro de cómo hacerlo, llámanos para recibir asistencia técnica.",
-      "💰 Reparación estimada: 40-70€ (mano de obra). Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
-  },
-  "cisterna_reparacion": {
-    "alias": [
-      "cisterna gotea",
-      "cisterna pierde agua",
-      "cisterna no para",
-      "arreglar cisterna",
-      "reparar cisterna",
-      "cisterna no para de echar agua",
-      "cisterna no cierra bien",
-      "reparar cisterna bano"
-    ],
-    "pasos": [
-      "Si la cisterna no cierra, revisa flotador y válvula de entrada.",
-      "Sustituye piezas desgastadas y prueba el mecanismo.",
-      "💰 Reparación estimada: 60-140€ (mano de obra). Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
-  },
-  "fuga_reparacion": {
-    "alias": [
-      "fuga agua",
-      "tuberia goteando",
-      "fuga oculta",
-      "pierde agua",
-      "arreglar fuga",
-      "malos olores",
-      "olor desagüe",
-      "baño huele mal",
-      "olores tuberías"
-    ],
-    "pasos": [
-      "Identifica el origen de la fuga (tubería, grifo, junta).",
-      "Cierra el paso de agua si es necesario para evitar daños.",
-      "💰 Reparación estimada: 70-160€ (según ubicación y gravedad). Envía foto por WhatsApp 📸"
-    ]
-  },
-  "atasco_reparacion": {
-    "alias": [
-      "atasco cocina",
-      "desague atascado",
-      "fregadero no desagua",
-      "desatasco"
-    ],
-    "pasos": [
-      "Retira los restos de comida visibles del fregadero.",
-      "Usa un desatascador manual o producto específico.",
-      "💰 Desatasco estimado: 60-100€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
-  },
-  "urgencia_fontanero": {
-    "alias": [
-      "fontanero urgente",
-      "urgencia fontanero",
-      "necesito fontanero ya",
-      "emergencia fontanería",
-      "fontanero ahora"
-    ],
-    "pasos": [
-      "🚨 Entiendo que es una urgencia. Estoy disponible para atenderte.",
-      "Para llegar lo antes posible, necesito saber tu ubicación en Torrevieja.",
-      "📱 Envíame AHORA una foto y tu dirección por WhatsApp:",
-      "👉 https://wa.me/34603398960?text=🚨%20URGENTE:%20Necesito%20fontanero%20en%20Torrevieja",
-      "💰 Visita de urgencia: desde 50€ (prioridad máxima)"
-    ]
-  },
-  "multicapa_reparacion": {
-    "alias": [
-      "tuberia multicapa",
-      "multicapa gotea",
-      "multicapa fuga",
-      "multicapa rota",
-      "canalización multicapa",
-      "multicapa prensada",
-      "junta multicapa"
-    ],
-    "pasos": [
-      "Las tuberías de multicapa son muy comunes en instalaciones modernas.",
-      "Si hay fuga en una unión, puede ser por mala prensada o junta defectuosa.",
-      "Se necesita herramienta de prensado específica para reparar.",
-      "💰 Reparación estimada: 80-150€ (según acceso y número de puntos). Envía foto por WhatsApp 📸"
-    ]
-  },
-  "pvc_reparacion": {
-    "alias": [
-      "tuberia pvc",
-      "pvc roto",
-      "pvc fuga",
-      "adhesivo pvc",
-      "unión pvc",
-      "codo pvc"
-    ],
-    "pasos": [
-      "El PVC se repara cortando la sección dañada y pegando nueva pieza con adhesivo especial.",
-      "Es importante respetar el tiempo de secado (24h) antes de usar.",
-      "Para tuberías de desagüe, usar PVC de mayor grosor.",
-      "💰 Reparación estimada: 60-120€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
-  },
-  "sifon_cocina": {
-    "alias": [
-      "sifon roto",
-      "sifon cocina",
-      "sifon baño",
-      "sifon gotea",
-      "cambiar sifon",
-      "sifon desagüe"
-    ],
-    "pasos": [
-      "El sifón es la pieza curva bajo el fregadero que evita malos olores.",
-      "Si gotea, suele ser por junta vieja o mal enroscado.",
-      "Los sifones modernos son desenroscables para fácil limpieza.",
-      "💰 Reparación/cambio estimado: 45-85€ (incluye pieza). Envía foto por WhatsApp 📸"
-    ]
-  },
-  "latiguillo": {
-    "alias": [
-      "latiguillo roto",
-      "latiguillo gotea",
-      "latiguillo oxidado",
-      "cambiar latiguillo",
-      "latiguillo grifo",
-      "latiguillo termo"
-    ],
-    "pasos": [
-      "Los latiguillos son mangueras flexibles que conectan grifos y termos.",
-      "Con el tiempo se oxidan y pueden reventar, causando inundaciones.",
-      "Se recomienda cambiarlos cada 5-7 años preventivamente.",
-      "💰 Cambio estimado: 35-65€ por latiguillo (incluye pieza). Envía foto por WhatsApp 📸"
-    ]
-  },
-  "llave_paso": {
-    "alias": [
-      "llave de paso",
-      "llave general",
-      "cortar agua",
-      "llave no cierra",
-      "llave paso atascada"
-    ],
-    "pasos": [
-      "La llave de paso general corta el agua de toda la vivienda.",
-      "Es importante mantenerla en buen estado para emergencias.",
-      "Si no cierra bien, necesita cambio urgente para evitar problemas.",
-      "💰 Cambio estimado: 50-90€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
-  },
-  "plato_ducha": {
-    "alias": [
-      "plato de ducha",
-      "plato ducha gotea",
-      "plato ducha roto",
-      "cambiar plato ducha",
-      "reforma ducha",
-      "mampara ducha"
-    ],
-    "pasos": [
-      "Los platos de ducha pueden ser de resina, cerámica o acrílico.",
-      "Si hay grietas o fugas, puede necesitar sellado o cambio completo.",
-      "La instalación incluye nivelación, desagüe y sellado perimetral.",
-      "💰 Instalación estimada: 250-500€ (sin plato). Con plato desde 400€. Consulta Webador 🛒"
-    ]
-  },
-  "mampara": {
-    "alias": [
-      "mampara ducha",
-      "mampara gotea",
-      "mampara rota",
-      "cambiar mampara",
-      "puerta ducha",
-      "cristal ducha"
-    ],
-    "pasos": [
-      "Las mamparas llevan perfiles de aluminio y cristales templados.",
-      "Si gotea por los perfiles, necesita cambio de burletes o sellado.",
-      "Para cambio completo, medimos hueco y instalamos a medida.",
-      "💰 Reparación: 40-80€ | Cambio completo: 200-450€. Consulta catálogo Webador 🛒"
-    ]
-  },
-  "mueble_bano": {
-    "alias": [
-      "mueble baño",
-      "lavabo mueble",
-      "grifo mueble",
-      "sifon mueble"
-    ],
-    "pasos": [
-      "Instalación de muebles de baño incluye nivelación y fijación a pared.",
-      "Conexión de grifo y desagüe al lavabo integrado.",
-      "Silicona perimetral para evitar filtraciones.",
-      "💰 Instalación estimada: 80-150€ (sin mueble). Envía foto por WhatsApp 📸"
-    ]
-  },
-  "reforma_bano": {
-    "alias": [
-      "reforma baño",
-      "reforma completa",
-      "albañilería baño",
-      "baño nuevo"
-    ],
-    "pasos": [
-      "Reforma completa de baño incluye: demolición, fontanería, alicatado, sanitarios.",
-      "Trabajamos con albañiles de confianza para obra completa.",
-      "Plazo estimado: 7-15 días según complejidad.",
-      "💰 Presupuesto orientativo: desde 2500€ (básico) hasta 6000€+ (completo). Solicita visita gratuita 📸"
-    ]
-  },
-  "lavadora_instalacion": {
-    "alias": [
-      "instalar lavadora",
-      "lavadora nueva",
-      "conexion lavadora",
-      "lavadora desague",
-      "lavadora agua"
-    ],
-    "pasos": [
-      "La instalación incluye: conexión de agua fría, desagüe y nivelación.",
-      "Verificamos que el desagüe tenga sifón para evitar olores.",
-      "Comprobamos que no haya fugas en las conexiones.",
-      "💰 Instalación estimada: 35-60€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "materiales_estimados": [
-      "2 latiguillos de alimentación 3/4\" M-H (si no incluye)",
-      "1 manguera de desagüe flexible 22mm (1.5-2m)",
-      "1 toma de corriente con tierra (si necesita nueva)",
-      "1 llave de corte para alimentación (recomendado)",
-      "Abrazaderas para fijar mangueras"
-    ],
-    "nota_instalacion": "Desagüe debe tener sifón para evitar olores. Altura máxima de desagüe: 1m desde suelo."
-  },
-  "lavavajillas_instalacion": {
-    "alias": [
-      "instalar lavavajillas",
-      "lavavajillas nuevo",
-      "conexion lavavajillas",
-      "lavavajillas desague"
-    ],
-    "pasos": [
-      "Similar a lavadora: conexión agua, desagüe y nivelación.",
-      "Algunos modelos necesitan conexión a agua caliente también.",
-      "Verificamos presión de agua correcta para buen funcionamiento.",
-      "💰 Instalación estimada: 40-70€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
-  },
-  "caldera_mantenimiento": {
-    "alias": [
-      "mantenimiento caldera",
-      "revision caldera",
-      "caldera revision",
-      "caldera gas"
-    ],
-    "pasos": [
-      "La revisión anual de caldera es obligatoria por ley.",
-      "Incluye: limpieza de quemador, comprobación de gases, seguridad.",
-      "Trabajamos con técnicos certificados para calderas de gas.",
-      "💰 Revisión estimada: 70-120€. Para cita, contacta por WhatsApp 📸"
-    ]
-  },
-  "radiador_purga": {
-    "alias": [
-      "purga radiadores",
-      "radiador frio",
-      "radiador no calienta",
-      "aire radiador"
-    ],
-    "pasos": [
-      "Los radiadores necesitan purga anual para eliminar aire acumulado.",
-      "Si están fríos por arriba y calientes por abajo, necesitan purga.",
-      "También verificamos presión de la caldera (1.2-1.5 bar).",
-      "💰 Purga estimada: 40-70€ (hasta 4 radiadores). Envía foto por WhatsApp 📸"
-    ]
-  },
-  "inundacion": {
-    "alias": [
-      "inundacion",
-      "agua por todos lados",
-      "reventon tuberia",
-      "emergencia agua"
-    ],
-    "pasos": [
-      "🚨 PRIMERO: Cierra la llave de paso general inmediatamente.",
-      "Si no cierra, llama YA al 112 o a tu compañía de aguas.",
-      "Después contacta conmigo para reparación de emergencia.",
-      "📱 WhatsApp urgencias: https://wa.me/34603398960?text=🚨%20INUNDACION:%20Necesito%20fontanero%20URGENTE",
-      "💰 Visita urgencia: desde 60€ + reparación"
-    ]
-  },
-  "llave_paso_reparacion": {
-    "alias": [
-      "llave de paso gotea",
-      "llave general gotea",
-      "llave paso pierde",
-      "llave paso no cierra",
-      "llave general no corta",
-      "main valve leak",
-      "shut off valve dripping"
-    ],
-    "pasos": [
-      "La llave de paso general controla el agua de toda la vivienda.",
-      "Si gotea, puede ser por junta desgastada o válvula defectuosa.",
-      "Si no corta el agua, necesita cambio urgente para emergencias.",
-      "💰 Reparación/cambio estimado: 50-90€. Para valoración exacta, envíame foto por WhatsApp 📸"
-    ]
-  },
-  "humedades_bano": {
-    "alias": [
-      "humedades baño",
-      "humedad baño",
-      "pared mojada baño",
-      "moho baño",
-      "baño huele mal",
-      "mal olor baño",
-      "bathroom damp",
-      "bathroom smell"
-    ],
-    "pasos": [
-      "Las humedades en baño suelen venir de fugas ocultas o ventilación insuficiente.",
-      "Los malos olores pueden ser por sifón seco o fuga en desagüe.",
-      "Revisamos tuberías, sellado y sistema de ventilación.",
-      "💰 Diagnóstico + reparación estimado: 60-150€. Envía foto por WhatsApp 📸"
-    ]
-  },
-  "plato_ducha_instalacion": {
-    "alias": [
-      "quitar bañera poner plato",
-      "cambiar bañera por ducha",
-      "instalar plato ducha",
-      "reforma ducha",
-      "bañera a plato ducha",
-      "bathtub to shower conversion"
-    ],
-    "pasos": [
-      "Cambiar bañera por plato de ducha incluye: demolición, nueva base, desagüe alineado, sellado.",
-      "Ofrecemos platos de resina, cerámica o acrílico en varios tamaños.",
-      "La mampara se instala a medida con perfiles de aluminio y cristal templado.",
-      "💰 Instalación plato: 250-500€ | Con mampara: 450-800€. Consulta catálogo: https://fontaneriaeduardoquiroz.webador.es"
-    ],
-    "materiales_estimados": [
-      "1 plato de ducha (resina/acrílico/cerámica)",
-      "1 sifón de plato de ducha 90mm con acceso",
-      "Manguera de desagüe flexible 40mm (1-2m)",
-      "Silicona sanitaria antimoho (1 cartucho)",
-      "Base niveladora o mortero de apoyo",
-      "Perfil de acabado si es empotrar",
-      "Mampara (opcional): cristal templado 8mm + perfiles aluminio"
-    ],
-    "nota_instalacion": "Verificar que desagüe existente esté alineado con nuevo plato. Pendiente mínima 2% para evacuación."
-  },
-  "caldera_no_enciende": {
-    "alias": [
-      "caldera no enciende",
-      "caldera no funciona",
-      "caldera apagada",
-      "boiler not working",
-      "water heater not starting"
-    ],
-    "pasos": [
-      "Verifica: 1) Suministro de gas/elektricidad, 2) Presión de agua (1.2-1.5 bar), 3) Termostato encendido.",
-      "Si muestra código de error, anótalo para diagnóstico rápido.",
-      "No manipules la caldera si hueles a gas: llama al 112.",
-      "💰 Diagnóstico: desde 70€ | Reparación: 70-200€ según avería. WhatsApp 📸"
-    ]
-  },
-  "aire_acondicionado": {
-    "alias": [
-      "aire acondicionado",
-      "ac no funciona",
-      "split no enfría",
-      "aire no enfría",
-      "air conditioning",
-      "ac repair"
-    ],
-    "pasos": [
-      "Aunque no es fontanería pura, ayudo con conexiones de desagüe de aire acondicionado.",
-      "Si el AC no enfría, puede necesitar carga de gas o limpieza de filtros.",
-      "Trabajo con técnicos certificados de climatización.",
-      "💰 Conexión desagüe AC: 40-80€ | Derivación a técnico: gratuita. WhatsApp 📸"
-    ]
-  },
-  "junkers_ea": {
-    "alias": [
-      "junkers ea",
-      "codigo ea junkers",
-      "ea caldera",
-      "junkers no hay llama",
-      "error ea",
-      "ea error"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "marca": "Junkers",
-    "modelos_afectados": [
-      "Cerapur",
-      "Ceraclass",
-      "Condens 2000/3000/5000",
-      "HydroPower"
-    ],
-    "pasos": [
-      "Código EA: No hay señal de llama.",
-      "1. Verificar suministro de gas (llave abierta, contador con saldo).",
-      "2. Comprobar electroválvula de gas: ¿se oye clic al encender?",
-      "3. Limpiar electrodo de ionización con lija fina.",
-      "4. Verificar cableado del electrodo (sin roturas, bien conectado).",
-      "5. Resetear caldera: apagar 30 seg y encender.",
-      "Si persiste: posible fallo de placa electrónica.",
-      "💰 Diagnóstico: desde 70€ | Reparación: 70-250€ según pieza. WhatsApp 📸"
-    ],
-    "valores_tecnicos": {
-      "tension_electrodo": "2-4 kV",
-      "corriente_ionizacion_minima": "2 µA",
-      "tiempo_seguridad_llama": "3-5 seg"
-    },
-    "materiales_estimados": [
-      "Electrodo de ionización (si necesita cambio)",
-      "Cable de alta tensión (si está dañado)",
-      "Electroválvula de gas (si no abre)",
-      "Placa electrónica (si falla control)"
-    ]
-  },
-  "junkers_e9": {
-    "alias": [
-      "junkers e9",
-      "codigo e9",
-      "sobrecalentamiento junkers",
-      "e9 caldera",
-      "limite seguridad"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "marca": "Junkers",
-    "pasos": [
-      "Código E9: Límite de seguridad por sobrecalentamiento activado.",
-      "1. Verificar circulación de agua: ¿bomba funciona? ¿radiadores abiertos?",
-      "2. Comprobar sensor NTC de temperatura (resistencia ~10kΩ a 25°C).",
-      "3. Purgar radiadores si hay aire atrapado.",
-      "4. Verificar presión del circuito: 1.2-1.5 bar en frío.",
-      "5. Resetear tras enfriar (esperar 10-15 min).",
-      "💰 Diagnóstico: desde 70€ | Reparación: 70-180€. WhatsApp 📸"
-    ],
-    "valores_tecnicos": {
-      "temperatura_limite_seguridad": "90-95°C",
-      "presion_normal_operacion": "1.2-1.5 bar",
-      "resistencia_ntc_25c": "10 kΩ"
-    }
-  },
-  "junkers_f7": {
-    "alias": [
-      "junkers f7",
-      "fallo ionizacion",
-      "f7 caldera",
-      "electrodo junkers"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "marca": "Junkers",
-    "pasos": [
-      "Código F7: Fallo de detección de llama (ionización).",
-      "1. Limpiar electrodo de ionización con lija de grano fino.",
-      "2. Verificar distancia electrodo-llama: 3-4 mm.",
-      "3. Comprobar cable de alta tensión (sin grietas, bien aislado).",
-      "4. Medir corriente de ionización: mínimo 2 µA.",
-      "5. Si todo correcto: posible fallo de placa de control.",
-      "💰 Limpieza electrodo: 40-70€ | Placa nueva: 150-300€. WhatsApp 📸"
-    ]
-  },
-  "junkers_ce": {
-    "alias": [
-      "junkers ce",
-      "presion baja junkers",
-      "ce caldera",
-      "rellenar circuito"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "marca": "Junkers",
-    "pasos": [
-      "Código CE: Presión de agua demasiado baja (<0.8 bar).",
-      "1. Localizar llave de llenado (normalmente debajo de caldera).",
-      "2. Abrir lentamente hasta ver 1.2-1.5 bar en manómetro.",
-      "3. Cerrar bien la llave de llenado (¡importante!).",
-      "4. Si la presión baja rápido: posible fuga en circuito.",
-      "5. Resetear caldera si no se quita el código.",
-      "💰 Revisión de fugas: 60-120€. WhatsApp 📸"
-    ],
-    "valores_tecnicos": {
-      "presion_minima": "0.8 bar",
-      "presion_optima": "1.2-1.5 bar",
-      "presion_maxima": "2.5 bar"
-    }
-  },
-  "ariston_101": {
-    "alias": [
-      "ariston 101",
-      "codigo 101",
-      "sobrecalentamiento ariston",
-      "101 caldera"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "marca": "Ariston",
-    "modelos_afectados": [
-      "Genus",
-      "Clas",
-      "Egis",
-      "Alteas"
-    ],
-    "pasos": [
-      "Código 101: Sobrecalentamiento del intercambiador.",
-      "1. Verificar que todos los radiadores estén abiertos.",
-      "2. Comprobar funcionamiento de bomba de circulación.",
-      "3. Purgar radiadores para eliminar aire.",
-      "4. Verificar que el termostato ambiente no esté en mínimo.",
-      "5. Resetear tras enfriar 10 min.",
-      "💰 Diagnóstico: desde 70€ | Reparación: 70-200€. WhatsApp 📸"
-    ]
-  },
-  "ariston_103": {
-    "alias": [
-      "ariston 103",
-      "circulacion bloqueada",
-      "103 caldera",
-      "bomba ariston"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "marca": "Ariston",
-    "pasos": [
-      "Código 103: Circulación de agua bloqueada o insuficiente.",
-      "1. Purgar radiadores (aire bloquea circulación).",
-      "2. Verificar que válvulas de radiadores estén abiertas.",
-      "3. Comprobar bomba: ¿gira? ¿hace ruido? ¿calienta?",
-      "4. Si bomba atascada: golpear suavemente con mango de destornillador.",
-      "5. Si persiste: posible fallo de condensador o bomba.",
-      "💰 Cambio bomba: 120-250€ (incluye mano de obra). WhatsApp 📸"
-    ]
-  },
-  "ariston_501": {
-    "alias": [
-      "ariston 501",
-      "falta gas ariston",
-      "501 caldera",
-      "no enciende ariston"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "marca": "Ariston",
-    "pasos": [
-      "Código 501: Falta de gas o fallo de encendido.",
-      "1. Verificar que llave de gas esté abierta.",
-      "2. Comprobar contador: ¿tiene saldo? ¿está bloqueado?",
-      "3. Purgar línea de gas si es instalación nueva o tras corte.",
-      "4. Escuchar: ¿se oye clic de electroválvula al encender?",
-      "5. Resetear 2-3 veces. Si persiste: fallo de electrodo o placa.",
-      "💰 Diagnóstico: desde 70€ | Reparación: 70-220€. WhatsApp 📸"
-    ]
-  },
-  "saunier_a01": {
-    "alias": [
-      "saunier a01",
-      "baxi a01",
-      "a01 caldera",
-      "falta llama saunier"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "marca": "Saunier Duval / Baxi",
-    "pasos": [
-      "Código A01: Fallo de encendido (equivalente a EA en Junkers).",
-      "Diagnóstico y solución idénticos a Junkers EA.",
-      "Verificar gas, electroválvula, electrodo de ionización.",
-      "💰 Mismos rangos que Junkers: 70-250€. WhatsApp 📸"
-    ]
-  },
-  "aerotermia_no_calienta": {
-    "alias": [
-      "aerotermia no calienta",
-      "bomba calor no funciona",
-      "aerotermia error",
-      "daikin error",
-      "mitsubishi aerotermia"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "pasos": [
-      "Aerotermia no calienta: verificar en orden:",
-      "1. Termostato: ¿está en modo calor y temperatura > ambiente?",
-      "2. Unidad exterior: ¿ventilador gira? ¿compresor suena?",
-      "3. Filtros de unidad interior: ¿limpios? (obstrucción reduce flujo).",
-      "4. Presión de refrigerante: baja = fuga, alta = obstrucción.",
-      "5. Código de error en display: anotar para diagnóstico.",
-      "💰 Diagnóstico: desde 80€ | Reparación: 80-400€ según avería. WhatsApp 📸"
-    ],
-    "valores_tecnicos": {
-      "presion_r410a_baja": "110-130 PSI",
-      "presion_r410a_alta": "350-400 PSI",
-      "temperatura_impulsion_recomendada": "35-45°C (suelo radiante)"
-    }
-  },
-  "aerotermia_gotea_interior": {
-    "alias": [
-      "aerotermia gotea",
-      "bomba calor agua",
-      "desagüe aerotermia"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "pasos": [
-      "Goteo en unidad interior: normalmente por desagüe obstruido.",
-      "1. Localizar bandeja de condensados y manguera de desagüe.",
-      "2. Soplar con aire comprimido o usar limpiador de desagües.",
-      "3. Verificar que manguera tenga pendiente hacia exterior.",
-      "4. Si hay bomba de condensados: comprobar funcionamiento.",
-      "💰 Limpieza desagüe: 40-70€ | Cambio bomba: 80-150€. WhatsApp 📸"
-    ]
-  },
-  "solar_presion_baja": {
-    "alias": [
-      "solar presion baja",
-      "circuito primario baja presion",
-      "vaso expansion solar pinchado"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "pasos": [
-      "Presión baja en circuito solar (<2 bar en frío):",
-      "1. Verificar manómetro del grupo de impulso.",
-      "2. Comprobar vaso de expansión: presión pre-carga 2.5 bar.",
-      "3. Si vaso pinchado: reemplazar y recargar circuito.",
-      "4. Verificar fugas en uniones, válvulas, placas.",
-      "5. Recargar con anticongelante propilenglicol 30-40%.",
-      "💰 Recarga circuito (10L): 120-200€ | Vaso nuevo: 150-300€. WhatsApp 📸"
-    ],
-    "valores_tecnicos": {
-      "presion_pre_carga_vaso": "2.5 bar",
-      "presion_trabajo_frio": "2.5-3.0 bar",
-      "presion_trabajo_caliente": "3.5-4.5 bar",
-      "anticongelante": "Propilenglicol 30-40% (protege hasta -15°C/-20°C)"
-    }
-  },
-  "solar_sobrecalentamiento": {
-    "alias": [
-      "solar sobrecalentamiento",
-      "stagnation solar",
-      "placas muy calientes"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "pasos": [
-      "Sobrecalentamiento solar (stagnation):",
-      "1. Normal en verano si acumulador está lleno.",
-      "2. Verificar que válvula de seguridad 6 bar no haya abierto.",
-      "3. Si abrió: recargar circuito y revisar vaso de expansión.",
-      "4. Instalar disipador o sombreado si es recurrente.",
-      "5. Nunca tapar válvula de seguridad: es crítica.",
-      "💰 Revisión post-stagnation: 80-150€. WhatsApp 📸"
-    ]
-  },
-  "ac_no_enfria": {
-    "alias": [
-      "aire acondicionado no enfria",
-      "split no enfria",
-      "ac sin gas",
-      "fuga gas ac"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "pasos": [
-      "AC no enfría: diagnóstico por pasos:",
-      "1. Filtros: ¿limpios? (obstrucción reduce flujo de aire).",
-      "2. Unidad exterior: ¿ventilador gira? ¿compresor arranca?",
-      "3. Presión de refrigerante: conectar manómetros.",
-      "   • R410A baja: 110-130 PSI | alta: 350-400 PSI",
-      "   • R32 baja: 90-110 PSI | alta: 300-350 PSI",
-      "4. Si presión baja: buscar fuga con detector electrónico.",
-      "5. Si compresor no arranca: verificar condensador, contacto.",
-      "💰 Carga gas (R410A): 120-250€ | Reparación fuga: 80-200€. WhatsApp 📸"
-    ],
-    "valores_tecnicos": {
-      "r410a_baja": "110-130 PSI",
-      "r410a_alta": "350-400 PSI",
-      "r32_baja": "90-110 PSI",
-      "r32_alta": "300-350 PSI",
-      "supercalentamiento_recomendado": "5-8 K",
-      "subenfriamiento_recomendado": "5-7 K"
-    }
-  },
-  "ac_gotea_interior": {
-    "alias": [
-      "ac gotea",
-      "split gotea agua",
-      "desagüe aire acondicionado"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "pasos": [
-      "Goteo en unidad interior de AC:",
-      "1. Desagüe obstruido: soplar con aire comprimido.",
-      "2. Bandeja de condensados agrietada: reemplazar.",
-      "3. Unidad no nivelada: ajustar soportes (pendiente hacia desagüe).",
-      "4. Bomba de condensados averiada (si lleva): reemplazar.",
-      "💰 Limpieza desagüe: 40-70€ | Cambio bomba: 80-120€. WhatsApp 📸"
-    ]
-  },
-  "calentador_no_enciende": {
-    "alias": [
-      "calentador no enciende",
-      "calentador gas no funciona",
-      "calentador chispa no salta"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "pasos": [
-      "Calentador de gas no enciende:",
-      "1. Verificar suministro de gas (llave abierta, contador con saldo).",
-      "2. Piloto/encendido: ¿salta chispa? ¿se oye clic?",
-      "3. Termopar: si está sucio o mal posicionado, corta gas por seguridad.",
-      "4. Limpiar inyector con aire comprimido (obstrucción por polvo).",
-      "5. Verificar salida de humos: obstrucción = no enciende por seguridad.",
-      "💰 Limpieza termopar/inyector: 40-70€ | Cambio pieza: 60-120€. WhatsApp 📸"
-    ]
-  },
-  "calentador_agua_no_caliente": {
-    "alias": [
-      "calentador agua tibia",
-      "calentador no calienta bien",
-      "caudal bajo calentador"
-    ],
-    "pro": true,
-    "source": "manufacturer",
-    "pasos": [
-      "Agua no suficientemente caliente en calentador:",
-      "1. Caudal demasiado alto: reducir grifo para que active quemador.",
-      "2. Intercambiador calcificado: descalcificar con producto específico.",
-      "3. Presión de gas baja: verificar regulador, tubería.",
-      "4. Sensor de temperatura averiado: reemplazar.",
-      "💰 Descalcificación: 60-100€ | Cambio sensor: 50-90€. WhatsApp 📸"
-    ]
-  },
-  "cisterna_materiales": {
-    "pasos": [
-      "1. Adquiere una cisterna adecuada para tu inodoro.",
-      "2. Consigue un kit de instalación con válvula de llenado y flotador.",
-      "3. Compra tubería de PVC o polietileno para conexión de agua.",
-      "4. Asegúrate de tener juntas de estanqueidad y tornillería.",
-      "5. Herramientas: llave inglesa, destornillador y nivel.",
-      "💰 Presupuesto orientativo: 50-150€ (materiales + mano de obra)",
-      "Para valoración exacta, envíame foto por WhatsApp 📸",
-      "🔗 Consulta en: https://fontaneriaeduardoquiroz.webador.es"
-    ],
-    "alias": [
-      "¿Qué materiales necesito para instalar cisterna?",
-      "materiales cisterna",
-      "instalar cisterna"
-    ],
-    "pro": false,
-    "source": "manual"
-  },
-  "llave_paso_gotea": {
-    "pasos": [
-      "La llave de paso general controla el agua de toda la vivienda.",
-      "Si gotea, suele ser por junta desgastada o válvula defectuosa.",
-      "Cerrar la llave antes de trabajar para evitar inundaciones.",
-      "💰 Reparación/cambio estimado: 50-90€ (mano de obra + pieza).",
-      "Para valoración exacta, envíame foto por WhatsApp 📸"
-    ],
-    "alias": [
-      "llave de paso gotea",
-      "llave general gotea",
-      "llave paso pierde agua",
-      "cambiar llave de paso",
-      "llave paso no cierra",
-      "llave de paso",
-      "llave general",
-      "llave paso general",
-      "llave de corte"
-    ],
-    "pro": false,
-    "source": "manual",
-    "category": "repair"
   }
 }
