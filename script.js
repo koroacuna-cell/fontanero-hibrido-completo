@@ -411,7 +411,61 @@ document.addEventListener('DOMContentLoaded', function() {
     if (input) {
         input.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') { e.preventDefault(); sendMessage(); }
-        });
+        })
+
+
+// 🔤 Normaliza texto para matching tolerante (typos, mayúsculas, acentos)
+function normalizarTexto(texto) {
+    return texto.toLowerCase()
+        .normalize("NFD").replace(/[̀-ͯ]/g, "") // quitar acentos
+        .replace(/[^\w\s]/g, " ") // quitar puntuación
+        .replace(/\s+/g, " ").trim(); // espacios múltiples
+}
+
+// 🔍 Matching tolerante: busca coincidencias parciales y con typos leves
+function buscarCoincidenciaTolerante(consulta, data) {
+    const consultaNorm = normalizarTexto(consulta);
+    const palabras = consultaNorm.split(' ').filter(p => p.length > 2);
+    
+    // 1. Búsqueda directa por clave
+    if (data[consultaNorm]) return data[consultaNorm];
+    
+    // 2. Búsqueda por aliases con coincidencia parcial
+    for (const [clave, entrada] of Object.entries(data)) {
+        const aliases = Array.isArray(entrada.alias) ? entrada.alias : 
+                       Array.isArray(entrada.aliases) ? entrada.aliases : [];
+        for (const alias of aliases) {
+            const aliasNorm = normalizarTexto(alias);
+            // Coincidencia exacta, contenida o que contiene
+            if (consultaNorm === aliasNorm || 
+                consultaNorm.includes(aliasNorm) || 
+                aliasNorm.includes(consultaNorm)) {
+                return entrada;
+            }
+            // Coincidencia por palabras clave (2+ palabras en común)
+            const aliasPalabras = aliasNorm.split(' ');
+            const comunes = palabras.filter(p => aliasPalabras.includes(p));
+            if (comunes.length >= 2 && palabras.length >= 2) {
+                return entrada;
+            }
+        }
+    }
+    
+    // 3. Fallback por categoría si la consulta menciona "termo" o "water heater"
+    if (consultaNorm.includes('termo') || consultaNorm.includes('water') && consultaNorm.includes('heater')) {
+        if (consultaNorm.includes('precio') || consultaNorm.includes('cuanto') || consultaNorm.includes('cost')) {
+            return data['termo_pregunta_precio'] || data['termo_catalogo'];
+        }
+        if (consultaNorm.includes('mejor') || consultaNorm.includes('recomienda') || consultaNorm.includes('best')) {
+            return data['termo_recomendacion'] || data['termo_catalogo'];
+        }
+        return data['termo_catalogo'];
+    }
+    
+    // 4. Fallback genérico
+    return data['ayuda'] || data['problemaGeneral'] || null;
+}
+;
     }
 });
 
