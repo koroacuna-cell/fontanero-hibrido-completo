@@ -3,7 +3,7 @@ import json, os, re, datetime
 
 app = Flask(__name__, static_folder='.', static_url_path='')
 
-RESPONSES_FILE = 'json/responses.json'
+RESPONSES_FILE = 'json/Fontanero_Virtual_J_JSON_2.json'
 AUDIT_FILE = 'logs/audit.json'
 VISITS_FILE = 'data/visits.json'
 
